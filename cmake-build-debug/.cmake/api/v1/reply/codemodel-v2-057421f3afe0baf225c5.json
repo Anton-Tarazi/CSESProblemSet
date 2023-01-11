@@ -1,0 +1,1214 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "IntroductoryProblems",
+					"jsonFile" : "directory-IntroductoryProblems-Debug-1698821e135c450b3ca9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "IntroductoryProblems",
+					"targetIndexes" : 
+					[
+						1,
+						6,
+						13,
+						17,
+						26,
+						31,
+						47,
+						48,
+						53,
+						67,
+						74,
+						75,
+						76,
+						83,
+						103,
+						106,
+						107,
+						108,
+						110
+					]
+				},
+				{
+					"build" : "SortingAndSearching",
+					"jsonFile" : "directory-SortingAndSearching-Debug-0e0d3bdaf887994db920.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "SortingAndSearching",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						18,
+						19,
+						21,
+						32,
+						39,
+						40,
+						56,
+						57,
+						61,
+						62,
+						66,
+						70,
+						71,
+						72,
+						73,
+						77,
+						84,
+						87,
+						92,
+						93,
+						94,
+						95,
+						96,
+						98,
+						99,
+						100,
+						101,
+						104,
+						105
+					]
+				},
+				{
+					"build" : "DynamicProgramming",
+					"jsonFile" : "directory-DynamicProgramming-Debug-a5d2ca3d3815f2d7b4cc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "DynamicProgramming",
+					"targetIndexes" : 
+					[
+						2,
+						7,
+						15,
+						16,
+						24,
+						29,
+						35,
+						36,
+						49,
+						54,
+						65,
+						68,
+						79,
+						80,
+						81,
+						82,
+						109
+					]
+				},
+				{
+					"build" : "GraphAlgorithms",
+					"jsonFile" : "directory-GraphAlgorithms-Debug-00328ed85c65abe2d3a9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "GraphAlgorithms",
+					"targetIndexes" : 
+					[
+						10,
+						11,
+						23,
+						25,
+						28,
+						42,
+						43,
+						44,
+						50,
+						52,
+						55,
+						58,
+						59,
+						60,
+						64,
+						69,
+						85,
+						86,
+						88,
+						89,
+						90,
+						91
+					]
+				},
+				{
+					"build" : "RangeQueries",
+					"jsonFile" : "directory-RangeQueries-Debug-5400a6195fe29253221b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "RangeQueries"
+				},
+				{
+					"build" : "TreeAlgorithms",
+					"jsonFile" : "directory-TreeAlgorithms-Debug-892c7fa460f26a66a4ab.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "TreeAlgorithms"
+				},
+				{
+					"build" : "Mathematics",
+					"jsonFile" : "directory-Mathematics-Debug-97b4d4960f76cdc6ae76.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Mathematics",
+					"targetIndexes" : 
+					[
+						5,
+						8,
+						9,
+						14,
+						20,
+						22,
+						27,
+						30,
+						33,
+						34,
+						37,
+						38,
+						41,
+						45,
+						46,
+						78,
+						97,
+						102
+					]
+				},
+				{
+					"build" : "StringAlgorithms",
+					"jsonFile" : "directory-StringAlgorithms-Debug-14a5271ea3ed404a817c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "StringAlgorithms"
+				},
+				{
+					"build" : "Geometry",
+					"jsonFile" : "directory-Geometry-Debug-00f88cd9c4844e4a6542.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Geometry"
+				},
+				{
+					"build" : "AdvancedTechniques",
+					"jsonFile" : "directory-AdvancedTechniques-Debug-4dae6397b806b1fe570a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "AdvancedTechniques",
+					"targetIndexes" : 
+					[
+						4,
+						51,
+						63
+					]
+				},
+				{
+					"build" : "AdditionalProblems",
+					"jsonFile" : "directory-AdditionalProblems-Debug-8aafee0cd7e52efbe9f9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "AdditionalProblems"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					],
+					"name" : "CSESProblemSet",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78,
+						79,
+						80,
+						81,
+						82,
+						83,
+						84,
+						85,
+						86,
+						87,
+						88,
+						89,
+						90,
+						91,
+						92,
+						93,
+						94,
+						95,
+						96,
+						97,
+						98,
+						99,
+						100,
+						101,
+						102,
+						103,
+						104,
+						105,
+						106,
+						107,
+						108,
+						109,
+						110
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "Apartments::@562e2fd774ac00d24643",
+					"jsonFile" : "target-Apartments-Debug-ed49ffd2181eb6017ceb.json",
+					"name" : "Apartments",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "AppleDivision::@b5e9731b6403f810daa7",
+					"jsonFile" : "target-AppleDivision-Debug-a372cc285f90c97669d5.json",
+					"name" : "AppleDivision",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ArrayDescription::@b8d54b4f4e597bcd7529",
+					"jsonFile" : "target-ArrayDescription-Debug-a2d18609044acdd8de1d.json",
+					"name" : "ArrayDescription",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ArrayDivision::@562e2fd774ac00d24643",
+					"jsonFile" : "target-ArrayDivision-Debug-e6678f74dff38fe408da.json",
+					"name" : "ArrayDivision",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "BeautifulSubgrids::@7ea6558cf69107934537",
+					"jsonFile" : "target-BeautifulSubgrids-Debug-8e87f4e91045c1a805bb.json",
+					"name" : "BeautifulSubgrids",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "BinomialCoefficients::@4e772df258b4f6a83104",
+					"jsonFile" : "target-BinomialCoefficients-Debug-92f215bea472895f3b6f.json",
+					"name" : "BinomialCoefficients",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "BitStrings::@b5e9731b6403f810daa7",
+					"jsonFile" : "target-BitStrings-Debug-e2a5e2b2919c3f15821f.json",
+					"name" : "BitStrings",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "BookShop::@b8d54b4f4e597bcd7529",
+					"jsonFile" : "target-BookShop-Debug-d54c7e74486cc3f2b346.json",
+					"name" : "BookShop",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "BracketSequencesI::@4e772df258b4f6a83104",
+					"jsonFile" : "target-BracketSequencesI-Debug-44541426cfa294245d28.json",
+					"name" : "BracketSequencesI",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "BracketSequencesII::@4e772df258b4f6a83104",
+					"jsonFile" : "target-BracketSequencesII-Debug-1559c1014f9ee833425a.json",
+					"name" : "BracketSequencesII",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "BuildingRoads::@464a9dfc1427249317ed",
+					"jsonFile" : "target-BuildingRoads-Debug-96a7b3bb3487212986d0.json",
+					"name" : "BuildingRoads",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "BuildingTeams::@464a9dfc1427249317ed",
+					"jsonFile" : "target-BuildingTeams-Debug-578fe8b468d87cd4f530.json",
+					"name" : "BuildingTeams",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CSESProblemSet::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CSESProblemSet-Debug-d6532a4dc3631ccce6c0.json",
+					"name" : "CSESProblemSet",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ChessboardAndQueens::@b5e9731b6403f810daa7",
+					"jsonFile" : "target-ChessboardAndQueens-Debug-8ff2a4829cb8297ac560.json",
+					"name" : "ChessboardAndQueens",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ChristmasParty::@4e772df258b4f6a83104",
+					"jsonFile" : "target-ChristmasParty-Debug-34c29703da3cb1291b73.json",
+					"name" : "ChristmasParty",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "CoinCombinationsI::@b8d54b4f4e597bcd7529",
+					"jsonFile" : "target-CoinCombinationsI-Debug-f8a968875d03c6fcd2bf.json",
+					"name" : "CoinCombinationsI",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "CoinCombinationsII::@b8d54b4f4e597bcd7529",
+					"jsonFile" : "target-CoinCombinationsII-Debug-602e89e2913a2c9d963e.json",
+					"name" : "CoinCombinationsII",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CoinPiles::@b5e9731b6403f810daa7",
+					"jsonFile" : "target-CoinPiles-Debug-39c8a5126c69c63add4d.json",
+					"name" : "CoinPiles",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "CollectingNumbers::@562e2fd774ac00d24643",
+					"jsonFile" : "target-CollectingNumbers-Debug-08ea8ae89157ad7ed2ba.json",
+					"name" : "CollectingNumbers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "CollectingNumbersII::@562e2fd774ac00d24643",
+					"jsonFile" : "target-CollectingNumbersII-Debug-090a35ddccc415fb85ae.json",
+					"name" : "CollectingNumbersII",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "CommonDivisors::@4e772df258b4f6a83104",
+					"jsonFile" : "target-CommonDivisors-Debug-bcf29574090e679dbe8b.json",
+					"name" : "CommonDivisors",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ConcertTickets::@562e2fd774ac00d24643",
+					"jsonFile" : "target-ConcertTickets-Debug-3ff8473bb9119cd45a2a.json",
+					"name" : "ConcertTickets",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "CountingDivisors::@4e772df258b4f6a83104",
+					"jsonFile" : "target-CountingDivisors-Debug-af6f5ab862639581df53.json",
+					"name" : "CountingDivisors",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "CountingRooms::@464a9dfc1427249317ed",
+					"jsonFile" : "target-CountingRooms-Debug-67e2b1651830674943e6.json",
+					"name" : "CountingRooms",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "CountingTowers::@b8d54b4f4e597bcd7529",
+					"jsonFile" : "target-CountingTowers-Debug-41c6a60e8cbd0aa59098.json",
+					"name" : "CountingTowers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "CourseSchedule::@464a9dfc1427249317ed",
+					"jsonFile" : "target-CourseSchedule-Debug-f87c444956b261381a7c.json",
+					"name" : "CourseSchedule",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CreatingStrings::@b5e9731b6403f810daa7",
+					"jsonFile" : "target-CreatingStrings-Debug-7337822d13a9401cbfaf.json",
+					"name" : "CreatingStrings",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "CreatingStringsII::@4e772df258b4f6a83104",
+					"jsonFile" : "target-CreatingStringsII-Debug-2bf7de66132ff481e072.json",
+					"name" : "CreatingStringsII",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "CycleFinding::@464a9dfc1427249317ed",
+					"jsonFile" : "target-CycleFinding-Debug-c64443bdcb7131ed28f7.json",
+					"name" : "CycleFinding",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "DiceCombinations::@b8d54b4f4e597bcd7529",
+					"jsonFile" : "target-DiceCombinations-Debug-1fc4dfa150eacbd3489d.json",
+					"name" : "DiceCombinations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "DiceProbability::@4e772df258b4f6a83104",
+					"jsonFile" : "target-DiceProbability-Debug-d8e175fdfcae13d80b45.json",
+					"name" : "DiceProbability",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "DigitQueries::@b5e9731b6403f810daa7",
+					"jsonFile" : "target-DigitQueries-Debug-4f8e5a67c0fe3ed44c09.json",
+					"name" : "DigitQueries",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "DistinctNumbers::@562e2fd774ac00d24643",
+					"jsonFile" : "target-DistinctNumbers-Debug-ca26f571956dd7e657b4.json",
+					"name" : "DistinctNumbers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "DistributingApples::@4e772df258b4f6a83104",
+					"jsonFile" : "target-DistributingApples-Debug-96b39f10c5da00d25ddb.json",
+					"name" : "DistributingApples",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "DivisorAnalysis::@4e772df258b4f6a83104",
+					"jsonFile" : "target-DivisorAnalysis-Debug-371b970722b9fd28247c.json",
+					"name" : "DivisorAnalysis",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "EditDistance::@b8d54b4f4e597bcd7529",
+					"jsonFile" : "target-EditDistance-Debug-6df23ec26539e6d41dd4.json",
+					"name" : "EditDistance",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ElevatorRides::@b8d54b4f4e597bcd7529",
+					"jsonFile" : "target-ElevatorRides-Debug-9a27d7f1fb0b067da428.json",
+					"name" : "ElevatorRides",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "Exponentiation::@4e772df258b4f6a83104",
+					"jsonFile" : "target-Exponentiation-Debug-94fdd49c19d29d23091a.json",
+					"name" : "Exponentiation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ExponentiationII::@4e772df258b4f6a83104",
+					"jsonFile" : "target-ExponentiationII-Debug-00d9fcf6e7f7324229e9.json",
+					"name" : "ExponentiationII",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "FactoryMachines::@562e2fd774ac00d24643",
+					"jsonFile" : "target-FactoryMachines-Debug-5b515bd760c4152b9db6.json",
+					"name" : "FactoryMachines",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "FerrisWheel::@562e2fd774ac00d24643",
+					"jsonFile" : "target-FerrisWheel-Debug-1af1acdcd5a2df1b907f.json",
+					"name" : "FerrisWheel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "FibonacciNumbers::@4e772df258b4f6a83104",
+					"jsonFile" : "target-FibonacciNumbers-Debug-20c0f298fdbc2c319bd0.json",
+					"name" : "FibonacciNumbers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "FlightDiscount::@464a9dfc1427249317ed",
+					"jsonFile" : "target-FlightDiscount-Debug-8205fc094cd164105ae8.json",
+					"name" : "FlightDiscount",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "FlightRoutes::@464a9dfc1427249317ed",
+					"jsonFile" : "target-FlightRoutes-Debug-eaf993d1a980eba4ca4f.json",
+					"name" : "FlightRoutes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "GameRoutes::@464a9dfc1427249317ed",
+					"jsonFile" : "target-GameRoutes-Debug-7ec2688f5810f75ca15a.json",
+					"name" : "GameRoutes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "GraphPathsI::@4e772df258b4f6a83104",
+					"jsonFile" : "target-GraphPathsI-Debug-d504f02d9d86bb22899e.json",
+					"name" : "GraphPathsI",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "GraphPathsII::@4e772df258b4f6a83104",
+					"jsonFile" : "target-GraphPathsII-Debug-cfe1e80635cfca4f7f7d.json",
+					"name" : "GraphPathsII",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "GrayCode::@b5e9731b6403f810daa7",
+					"jsonFile" : "target-GrayCode-Debug-0b5de7222367a8bd161b.json",
+					"name" : "GrayCode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "GridPaths::@b5e9731b6403f810daa7",
+					"jsonFile" : "target-GridPaths-Debug-2621ce9dc5cf197bb77d.json",
+					"name" : "GridPaths",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "GridPathsDP::@b8d54b4f4e597bcd7529",
+					"jsonFile" : "target-GridPathsDP-Debug-daa8593ec1bc9175d76a.json",
+					"name" : "GridPathsDP",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "HamiltonianFlights::@464a9dfc1427249317ed",
+					"jsonFile" : "target-HamiltonianFlights-Debug-de8a9eb76a8613624ad7.json",
+					"name" : "HamiltonianFlights",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "HammingDistance::@7ea6558cf69107934537",
+					"jsonFile" : "target-HammingDistance-Debug-bb33f22e0daba1a6ceff.json",
+					"name" : "HammingDistance",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "HighScore::@464a9dfc1427249317ed",
+					"jsonFile" : "target-HighScore-Debug-5a64e6ebc3073cd56d85.json",
+					"name" : "HighScore",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "IncreasingArray::@b5e9731b6403f810daa7",
+					"jsonFile" : "target-IncreasingArray-Debug-6bacb1b8fa9dbed63508.json",
+					"name" : "IncreasingArray",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "IncreasingSubsequence::@b8d54b4f4e597bcd7529",
+					"jsonFile" : "target-IncreasingSubsequence-Debug-f03916fe1419168b9d1b.json",
+					"name" : "IncreasingSubsequence",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Investigation::@464a9dfc1427249317ed",
+					"jsonFile" : "target-Investigation-Debug-066516e63e6baa98f888.json",
+					"name" : "Investigation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "JosephusProblemI::@562e2fd774ac00d24643",
+					"jsonFile" : "target-JosephusProblemI-Debug-1d332154d02eec4d107a.json",
+					"name" : "JosephusProblemI",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "JosephusProblemII::@562e2fd774ac00d24643",
+					"jsonFile" : "target-JosephusProblemII-Debug-e142dee4fad1c4552a88.json",
+					"name" : "JosephusProblemII",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "KnightsTour::@464a9dfc1427249317ed",
+					"jsonFile" : "target-KnightsTour-Debug-322f087cfabf93e4d46a.json",
+					"name" : "KnightsTour",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Labyrinth.cpp::@464a9dfc1427249317ed",
+					"jsonFile" : "target-Labyrinth.cpp-Debug-73aea8d5eba3862f8a29.json",
+					"name" : "Labyrinth.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "LongestFlightRoute::@464a9dfc1427249317ed",
+					"jsonFile" : "target-LongestFlightRoute-Debug-ef91f08b552c10c71de9.json",
+					"name" : "LongestFlightRoute",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "MaximumSubarraySum::@562e2fd774ac00d24643",
+					"jsonFile" : "target-MaximumSubarraySum-Debug-7d02a7194227e3fc7110.json",
+					"name" : "MaximumSubarraySum",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "MaximumSubarraySumII::@562e2fd774ac00d24643",
+					"jsonFile" : "target-MaximumSubarraySumII-Debug-475c3a3599eaa3353eff.json",
+					"name" : "MaximumSubarraySumII",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "MeetInTheMiddle::@7ea6558cf69107934537",
+					"jsonFile" : "target-MeetInTheMiddle-Debug-f0ad8346be176c2bce2f.json",
+					"name" : "MeetInTheMiddle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "MessageRoute::@464a9dfc1427249317ed",
+					"jsonFile" : "target-MessageRoute-Debug-a4982e7865442a5824e3.json",
+					"name" : "MessageRoute",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "MinimizingCoins::@b8d54b4f4e597bcd7529",
+					"jsonFile" : "target-MinimizingCoins-Debug-d87b0882f028831630ed.json",
+					"name" : "MinimizingCoins",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "MissingCoinSum::@562e2fd774ac00d24643",
+					"jsonFile" : "target-MissingCoinSum-Debug-dba2e40a058a5fb047b1.json",
+					"name" : "MissingCoinSum",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "MissingNumber::@b5e9731b6403f810daa7",
+					"jsonFile" : "target-MissingNumber-Debug-b94fd225e6fae25e4a75.json",
+					"name" : "MissingNumber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "MoneySums::@b8d54b4f4e597bcd7529",
+					"jsonFile" : "target-MoneySums-Debug-30c19ad4c7160d337e8b.json",
+					"name" : "MoneySums",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Monsters::@464a9dfc1427249317ed",
+					"jsonFile" : "target-Monsters-Debug-3f3faa1a3b47c2324a5c.json",
+					"name" : "Monsters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "MovieFestival::@562e2fd774ac00d24643",
+					"jsonFile" : "target-MovieFestival-Debug-cab060149613f276c848.json",
+					"name" : "MovieFestival",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "MovieFestivalII::@562e2fd774ac00d24643",
+					"jsonFile" : "target-MovieFestivalII-Debug-b9695fb0d7c5efc7b951.json",
+					"name" : "MovieFestivalII",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NearestSmallerValues::@562e2fd774ac00d24643",
+					"jsonFile" : "target-NearestSmallerValues-Debug-a5ecf9e7ce2ce97e9eda.json",
+					"name" : "NearestSmallerValues",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NestedRangesCheck::@562e2fd774ac00d24643",
+					"jsonFile" : "target-NestedRangesCheck-Debug-594f7e08466e7b8a247c.json",
+					"name" : "NestedRangesCheck",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NumberSpiral::@b5e9731b6403f810daa7",
+					"jsonFile" : "target-NumberSpiral-Debug-997441c93a06061429c6.json",
+					"name" : "NumberSpiral",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "PalindromeReorder::@b5e9731b6403f810daa7",
+					"jsonFile" : "target-PalindromeReorder-Debug-7487e9ebc9c246bfef3f.json",
+					"name" : "PalindromeReorder",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Permutations::@b5e9731b6403f810daa7",
+					"jsonFile" : "target-Permutations-Debug-8b337038802ddb154e6c.json",
+					"name" : "Permutations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Playlist::@562e2fd774ac00d24643",
+					"jsonFile" : "target-Playlist-Debug-9f75890529d3986bc2e6.json",
+					"name" : "Playlist",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "PrimeMultiples::@4e772df258b4f6a83104",
+					"jsonFile" : "target-PrimeMultiples-Debug-6a97dd0f00b5e8c2450a.json",
+					"name" : "PrimeMultiples",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "Projects::@b8d54b4f4e597bcd7529",
+					"jsonFile" : "target-Projects-Debug-7323674903acced1f234.json",
+					"name" : "Projects",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "RectangleCutting::@b8d54b4f4e597bcd7529",
+					"jsonFile" : "target-RectangleCutting-Debug-2c83f4385f2714608f7e.json",
+					"name" : "RectangleCutting",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "RemovalGame::@b8d54b4f4e597bcd7529",
+					"jsonFile" : "target-RemovalGame-Debug-7caa06b28c80ba3478cc.json",
+					"name" : "RemovalGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "RemoveDigits::@b8d54b4f4e597bcd7529",
+					"jsonFile" : "target-RemoveDigits-Debug-449a0e0595da32036f2e.json",
+					"name" : "RemoveDigits",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Repetitions::@b5e9731b6403f810daa7",
+					"jsonFile" : "target-Repetitions-Debug-f726d88e0fdc37c92478.json",
+					"name" : "Repetitions",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "RestaurantCustomers::@562e2fd774ac00d24643",
+					"jsonFile" : "target-RestaurantCustomers-Debug-b7a0f99d04159e333bee.json",
+					"name" : "RestaurantCustomers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "RoadConstruction::@464a9dfc1427249317ed",
+					"jsonFile" : "target-RoadConstruction-Debug-1cc989fb5cd5e4f6dd93.json",
+					"name" : "RoadConstruction",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "RoadReparation::@464a9dfc1427249317ed",
+					"jsonFile" : "target-RoadReparation-Debug-f77907154566ec0a305e.json",
+					"name" : "RoadReparation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "RoomAllocation::@562e2fd774ac00d24643",
+					"jsonFile" : "target-RoomAllocation-Debug-b098b61deba2f17e20f3.json",
+					"name" : "RoomAllocation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "RoundTrip::@464a9dfc1427249317ed",
+					"jsonFile" : "target-RoundTrip-Debug-e0f3364e299d018d5074.json",
+					"name" : "RoundTrip",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "RoundTripII::@464a9dfc1427249317ed",
+					"jsonFile" : "target-RoundTripII-Debug-c052e327bdef7913de12.json",
+					"name" : "RoundTripII",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ShortestRoutesI::@464a9dfc1427249317ed",
+					"jsonFile" : "target-ShortestRoutesI-Debug-2803681aab41c2aefada.json",
+					"name" : "ShortestRoutesI",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ShortestRoutesII::@464a9dfc1427249317ed",
+					"jsonFile" : "target-ShortestRoutesII-Debug-6533ff046bd5893f3eed.json",
+					"name" : "ShortestRoutesII",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "StickLengths::@562e2fd774ac00d24643",
+					"jsonFile" : "target-StickLengths-Debug-ec999e7b7e649f8e0a3a.json",
+					"name" : "StickLengths",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "SubarrayDistinctValues::@562e2fd774ac00d24643",
+					"jsonFile" : "target-SubarrayDistinctValues-Debug-60d801cf21961290e37c.json",
+					"name" : "SubarrayDistinctValues",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "SubarrayDivisibility::@562e2fd774ac00d24643",
+					"jsonFile" : "target-SubarrayDivisibility-Debug-68fdcaf75389a2386cea.json",
+					"name" : "SubarrayDivisibility",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "SubarraySumsI::@562e2fd774ac00d24643",
+					"jsonFile" : "target-SubarraySumsI-Debug-d3c20ca3156a23131943.json",
+					"name" : "SubarraySumsI",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "SubarraySumsII::@562e2fd774ac00d24643",
+					"jsonFile" : "target-SubarraySumsII-Debug-8ab66b1f5446359f60de.json",
+					"name" : "SubarraySumsII",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "SumOfDivisors::@4e772df258b4f6a83104",
+					"jsonFile" : "target-SumOfDivisors-Debug-744cf22c7e526541a1a8.json",
+					"name" : "SumOfDivisors",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "SumOfFourValues::@562e2fd774ac00d24643",
+					"jsonFile" : "target-SumOfFourValues-Debug-653f4f0e8fbdb0c9bda1.json",
+					"name" : "SumOfFourValues",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "SumOfThreeValues::@562e2fd774ac00d24643",
+					"jsonFile" : "target-SumOfThreeValues-Debug-43795c70ddbcbf5e05a4.json",
+					"name" : "SumOfThreeValues",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "SumOfTwoValues::@562e2fd774ac00d24643",
+					"jsonFile" : "target-SumOfTwoValues-Debug-a588e8eb21448903c9a8.json",
+					"name" : "SumOfTwoValues",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "TasksAndDeadlines::@562e2fd774ac00d24643",
+					"jsonFile" : "target-TasksAndDeadlines-Debug-cfa7e833d041fe14b13e.json",
+					"name" : "TasksAndDeadlines",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ThrowingDice::@4e772df258b4f6a83104",
+					"jsonFile" : "target-ThrowingDice-Debug-a6d9a0f971485a660a23.json",
+					"name" : "ThrowingDice",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "TowerOfHanoi::@b5e9731b6403f810daa7",
+					"jsonFile" : "target-TowerOfHanoi-Debug-c49ccc1ba58872e27e74.json",
+					"name" : "TowerOfHanoi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Towers::@562e2fd774ac00d24643",
+					"jsonFile" : "target-Towers-Debug-a1eebc47ba3fdd940089.json",
+					"name" : "Towers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "TrafficLights::@562e2fd774ac00d24643",
+					"jsonFile" : "target-TrafficLights-Debug-ae6f048fe71b3df75bd4.json",
+					"name" : "TrafficLights",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "TrailingZeroes::@b5e9731b6403f810daa7",
+					"jsonFile" : "target-TrailingZeroes-Debug-91412c4b77a46adb6112.json",
+					"name" : "TrailingZeroes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "TwoKnights::@b5e9731b6403f810daa7",
+					"jsonFile" : "target-TwoKnights-Debug-942c17995e628276b1c7.json",
+					"name" : "TwoKnights",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "TwoSets::@b5e9731b6403f810daa7",
+					"jsonFile" : "target-TwoSets-Debug-e707e95dd3f891b96e18.json",
+					"name" : "TwoSets",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "TwoSetsII::@b8d54b4f4e597bcd7529",
+					"jsonFile" : "target-TwoSetsII-Debug-013035193e532f0132b4.json",
+					"name" : "TwoSetsII",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "WeirdAlgorithm::@b5e9731b6403f810daa7",
+					"jsonFile" : "target-WeirdAlgorithm-Debug-3e0cb51d76a410f46ff7.json",
+					"name" : "WeirdAlgorithm",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug",
+		"source" : "C:/Users/anton/CLionProjects/CSESProblemSet"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

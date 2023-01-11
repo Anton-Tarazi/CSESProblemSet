@@ -1,0 +1,3 @@
+add_executable(MeetInTheMiddle MeetInTheMiddle.cpp)
+add_executable(BeautifulSubgrids BeautifulSubgrids.cpp)
+add_executable(HammingDistance HammingDistance.cpp)
