@@ -53,6 +53,9 @@ C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/SortingAndSearchin
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/SortingAndSearching/CMakeFiles/SubarrayDistinctValues.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/SortingAndSearching/CMakeFiles/ArrayDivision.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/SortingAndSearching/CMakeFiles/MovieFestivalII.dir
+C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/SortingAndSearching/CMakeFiles/SlidingMedian.dir
+C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/SortingAndSearching/CMakeFiles/SlidingCost.dir
+C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/SortingAndSearching/CMakeFiles/ReadingBooks.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/SortingAndSearching/CMakeFiles/edit_cache.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/SortingAndSearching/CMakeFiles/rebuild_cache.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/DynamicProgramming/CMakeFiles/ArrayDescription.dir
@@ -72,6 +75,7 @@ C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/DynamicProgramming
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/DynamicProgramming/CMakeFiles/IncreasingSubsequence.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/DynamicProgramming/CMakeFiles/RemovalGame.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/DynamicProgramming/CMakeFiles/CountingTowers.dir
+C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/DynamicProgramming/CMakeFiles/CountingTilings.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/DynamicProgramming/CMakeFiles/edit_cache.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/DynamicProgramming/CMakeFiles/rebuild_cache.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/GraphAlgorithms/CMakeFiles/CountingRooms.dir
@@ -96,8 +100,11 @@ C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/GraphAlgorithms/CM
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/GraphAlgorithms/CMakeFiles/CourseSchedule.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/GraphAlgorithms/CMakeFiles/FlightRoutes.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/GraphAlgorithms/CMakeFiles/HamiltonianFlights.dir
+C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/GraphAlgorithms/CMakeFiles/PlanetsQueriesI.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/GraphAlgorithms/CMakeFiles/edit_cache.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/GraphAlgorithms/CMakeFiles/rebuild_cache.dir
+C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/RangeQueries/CMakeFiles/RangeXorQueries.dir
+C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/RangeQueries/CMakeFiles/StaticRangeSumQueries.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/RangeQueries/CMakeFiles/edit_cache.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/RangeQueries/CMakeFiles/rebuild_cache.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/TreeAlgorithms/CMakeFiles/edit_cache.dir
@@ -120,6 +127,7 @@ C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/Mathematics/CMakeF
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/Mathematics/CMakeFiles/GraphPathsII.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/Mathematics/CMakeFiles/DistributingApples.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/Mathematics/CMakeFiles/BracketSequencesII.dir
+C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/Mathematics/CMakeFiles/CountingNecklaces.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/Mathematics/CMakeFiles/edit_cache.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/Mathematics/CMakeFiles/rebuild_cache.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/StringAlgorithms/CMakeFiles/edit_cache.dir
@@ -131,5 +139,7 @@ C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/AdvancedTechniques
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/AdvancedTechniques/CMakeFiles/HammingDistance.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/AdvancedTechniques/CMakeFiles/edit_cache.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/AdvancedTechniques/CMakeFiles/rebuild_cache.dir
+C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/AdditionalProblems/CMakeFiles/StickDivisions.dir
+C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/AdditionalProblems/CMakeFiles/ProgrammersAndArtists.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/AdditionalProblems/CMakeFiles/edit_cache.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/AdditionalProblems/CMakeFiles/rebuild_cache.dir

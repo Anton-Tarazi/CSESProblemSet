@@ -1779,6 +1779,105 @@ build SortingAndSearching/MovieFestivalII.exe: CXX_EXECUTABLE_LINKER__MovieFesti
   TARGET_IMPLIB = SortingAndSearching\libMovieFestivalII.dll.a
   TARGET_PDB = MovieFestivalII.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target SlidingMedian
+
+
+#############################################
+# Order-only phony target for SlidingMedian
+
+build cmake_object_order_depends_target_SlidingMedian: phony || SortingAndSearching/CMakeFiles/SlidingMedian.dir
+
+build SortingAndSearching/CMakeFiles/SlidingMedian.dir/SlidingMedian.cpp.obj: CXX_COMPILER__SlidingMedian_Debug C$:/Users/anton/CLionProjects/CSESProblemSet/SortingAndSearching/SlidingMedian.cpp || cmake_object_order_depends_target_SlidingMedian
+  DEP_FILE = SortingAndSearching\CMakeFiles\SlidingMedian.dir\SlidingMedian.cpp.obj.d
+  FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
+  OBJECT_DIR = SortingAndSearching\CMakeFiles\SlidingMedian.dir
+  OBJECT_FILE_DIR = SortingAndSearching\CMakeFiles\SlidingMedian.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SlidingMedian
+
+
+#############################################
+# Link the executable SortingAndSearching\SlidingMedian.exe
+
+build SortingAndSearching/SlidingMedian.exe: CXX_EXECUTABLE_LINKER__SlidingMedian_Debug SortingAndSearching/CMakeFiles/SlidingMedian.dir/SlidingMedian.cpp.obj
+  FLAGS = -O2 -Wall -Wextra -DLOCAL -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = SortingAndSearching\CMakeFiles\SlidingMedian.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = SortingAndSearching\SlidingMedian.exe
+  TARGET_IMPLIB = SortingAndSearching\libSlidingMedian.dll.a
+  TARGET_PDB = SlidingMedian.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target SlidingCost
+
+
+#############################################
+# Order-only phony target for SlidingCost
+
+build cmake_object_order_depends_target_SlidingCost: phony || SortingAndSearching/CMakeFiles/SlidingCost.dir
+
+build SortingAndSearching/CMakeFiles/SlidingCost.dir/SlidingCost.cpp.obj: CXX_COMPILER__SlidingCost_Debug C$:/Users/anton/CLionProjects/CSESProblemSet/SortingAndSearching/SlidingCost.cpp || cmake_object_order_depends_target_SlidingCost
+  DEP_FILE = SortingAndSearching\CMakeFiles\SlidingCost.dir\SlidingCost.cpp.obj.d
+  FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
+  OBJECT_DIR = SortingAndSearching\CMakeFiles\SlidingCost.dir
+  OBJECT_FILE_DIR = SortingAndSearching\CMakeFiles\SlidingCost.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SlidingCost
+
+
+#############################################
+# Link the executable SortingAndSearching\SlidingCost.exe
+
+build SortingAndSearching/SlidingCost.exe: CXX_EXECUTABLE_LINKER__SlidingCost_Debug SortingAndSearching/CMakeFiles/SlidingCost.dir/SlidingCost.cpp.obj
+  FLAGS = -O2 -Wall -Wextra -DLOCAL -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = SortingAndSearching\CMakeFiles\SlidingCost.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = SortingAndSearching\SlidingCost.exe
+  TARGET_IMPLIB = SortingAndSearching\libSlidingCost.dll.a
+  TARGET_PDB = SlidingCost.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ReadingBooks
+
+
+#############################################
+# Order-only phony target for ReadingBooks
+
+build cmake_object_order_depends_target_ReadingBooks: phony || SortingAndSearching/CMakeFiles/ReadingBooks.dir
+
+build SortingAndSearching/CMakeFiles/ReadingBooks.dir/ReadingBooks.cpp.obj: CXX_COMPILER__ReadingBooks_Debug C$:/Users/anton/CLionProjects/CSESProblemSet/SortingAndSearching/ReadingBooks.cpp || cmake_object_order_depends_target_ReadingBooks
+  DEP_FILE = SortingAndSearching\CMakeFiles\ReadingBooks.dir\ReadingBooks.cpp.obj.d
+  FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
+  OBJECT_DIR = SortingAndSearching\CMakeFiles\ReadingBooks.dir
+  OBJECT_FILE_DIR = SortingAndSearching\CMakeFiles\ReadingBooks.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ReadingBooks
+
+
+#############################################
+# Link the executable SortingAndSearching\ReadingBooks.exe
+
+build SortingAndSearching/ReadingBooks.exe: CXX_EXECUTABLE_LINKER__ReadingBooks_Debug SortingAndSearching/CMakeFiles/ReadingBooks.dir/ReadingBooks.cpp.obj
+  FLAGS = -O2 -Wall -Wextra -DLOCAL -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = SortingAndSearching\CMakeFiles\ReadingBooks.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = SortingAndSearching\ReadingBooks.exe
+  TARGET_IMPLIB = SortingAndSearching\libReadingBooks.dll.a
+  TARGET_PDB = ReadingBooks.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -2367,6 +2466,39 @@ build DynamicProgramming/CountingTowers.exe: CXX_EXECUTABLE_LINKER__CountingTowe
   TARGET_FILE = DynamicProgramming\CountingTowers.exe
   TARGET_IMPLIB = DynamicProgramming\libCountingTowers.dll.a
   TARGET_PDB = CountingTowers.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CountingTilings
+
+
+#############################################
+# Order-only phony target for CountingTilings
+
+build cmake_object_order_depends_target_CountingTilings: phony || DynamicProgramming/CMakeFiles/CountingTilings.dir
+
+build DynamicProgramming/CMakeFiles/CountingTilings.dir/CountingTilings.cpp.obj: CXX_COMPILER__CountingTilings_Debug C$:/Users/anton/CLionProjects/CSESProblemSet/DynamicProgramming/CountingTilings.cpp || cmake_object_order_depends_target_CountingTilings
+  DEP_FILE = DynamicProgramming\CMakeFiles\CountingTilings.dir\CountingTilings.cpp.obj.d
+  FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
+  OBJECT_DIR = DynamicProgramming\CMakeFiles\CountingTilings.dir
+  OBJECT_FILE_DIR = DynamicProgramming\CMakeFiles\CountingTilings.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CountingTilings
+
+
+#############################################
+# Link the executable DynamicProgramming\CountingTilings.exe
+
+build DynamicProgramming/CountingTilings.exe: CXX_EXECUTABLE_LINKER__CountingTilings_Debug DynamicProgramming/CMakeFiles/CountingTilings.dir/CountingTilings.cpp.obj
+  FLAGS = -O2 -Wall -Wextra -DLOCAL -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = DynamicProgramming\CMakeFiles\CountingTilings.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = DynamicProgramming\CountingTilings.exe
+  TARGET_IMPLIB = DynamicProgramming\libCountingTilings.dll.a
+  TARGET_PDB = CountingTilings.exe.dbg
 
 
 #############################################
@@ -3122,6 +3254,39 @@ build GraphAlgorithms/HamiltonianFlights.exe: CXX_EXECUTABLE_LINKER__Hamiltonian
   TARGET_IMPLIB = GraphAlgorithms\libHamiltonianFlights.dll.a
   TARGET_PDB = HamiltonianFlights.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target PlanetsQueriesI
+
+
+#############################################
+# Order-only phony target for PlanetsQueriesI
+
+build cmake_object_order_depends_target_PlanetsQueriesI: phony || GraphAlgorithms/CMakeFiles/PlanetsQueriesI.dir
+
+build GraphAlgorithms/CMakeFiles/PlanetsQueriesI.dir/PlanetsQueriesI.cpp.obj: CXX_COMPILER__PlanetsQueriesI_Debug C$:/Users/anton/CLionProjects/CSESProblemSet/GraphAlgorithms/PlanetsQueriesI.cpp || cmake_object_order_depends_target_PlanetsQueriesI
+  DEP_FILE = GraphAlgorithms\CMakeFiles\PlanetsQueriesI.dir\PlanetsQueriesI.cpp.obj.d
+  FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
+  OBJECT_DIR = GraphAlgorithms\CMakeFiles\PlanetsQueriesI.dir
+  OBJECT_FILE_DIR = GraphAlgorithms\CMakeFiles\PlanetsQueriesI.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PlanetsQueriesI
+
+
+#############################################
+# Link the executable GraphAlgorithms\PlanetsQueriesI.exe
+
+build GraphAlgorithms/PlanetsQueriesI.exe: CXX_EXECUTABLE_LINKER__PlanetsQueriesI_Debug GraphAlgorithms/CMakeFiles/PlanetsQueriesI.dir/PlanetsQueriesI.cpp.obj
+  FLAGS = -O2 -Wall -Wextra -DLOCAL -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = GraphAlgorithms\CMakeFiles\PlanetsQueriesI.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = GraphAlgorithms\PlanetsQueriesI.exe
+  TARGET_IMPLIB = GraphAlgorithms\libPlanetsQueriesI.dll.a
+  TARGET_PDB = PlanetsQueriesI.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -3149,6 +3314,72 @@ build GraphAlgorithms/rebuild_cache: phony GraphAlgorithms/CMakeFiles/rebuild_ca
 # Write statements declared in CMakeLists.txt:
 # C:/Users/anton/CLionProjects/CSESProblemSet/CMakeLists.txt
 # =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target RangeXorQueries
+
+
+#############################################
+# Order-only phony target for RangeXorQueries
+
+build cmake_object_order_depends_target_RangeXorQueries: phony || RangeQueries/CMakeFiles/RangeXorQueries.dir
+
+build RangeQueries/CMakeFiles/RangeXorQueries.dir/RangeXorQueries.cpp.obj: CXX_COMPILER__RangeXorQueries_Debug C$:/Users/anton/CLionProjects/CSESProblemSet/RangeQueries/RangeXorQueries.cpp || cmake_object_order_depends_target_RangeXorQueries
+  DEP_FILE = RangeQueries\CMakeFiles\RangeXorQueries.dir\RangeXorQueries.cpp.obj.d
+  FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
+  OBJECT_DIR = RangeQueries\CMakeFiles\RangeXorQueries.dir
+  OBJECT_FILE_DIR = RangeQueries\CMakeFiles\RangeXorQueries.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target RangeXorQueries
+
+
+#############################################
+# Link the executable RangeQueries\RangeXorQueries.exe
+
+build RangeQueries/RangeXorQueries.exe: CXX_EXECUTABLE_LINKER__RangeXorQueries_Debug RangeQueries/CMakeFiles/RangeXorQueries.dir/RangeXorQueries.cpp.obj
+  FLAGS = -O2 -Wall -Wextra -DLOCAL -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = RangeQueries\CMakeFiles\RangeXorQueries.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = RangeQueries\RangeXorQueries.exe
+  TARGET_IMPLIB = RangeQueries\libRangeXorQueries.dll.a
+  TARGET_PDB = RangeXorQueries.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target StaticRangeSumQueries
+
+
+#############################################
+# Order-only phony target for StaticRangeSumQueries
+
+build cmake_object_order_depends_target_StaticRangeSumQueries: phony || RangeQueries/CMakeFiles/StaticRangeSumQueries.dir
+
+build RangeQueries/CMakeFiles/StaticRangeSumQueries.dir/StaticRangeSumQueries.cpp.obj: CXX_COMPILER__StaticRangeSumQueries_Debug C$:/Users/anton/CLionProjects/CSESProblemSet/RangeQueries/StaticRangeSumQueries.cpp || cmake_object_order_depends_target_StaticRangeSumQueries
+  DEP_FILE = RangeQueries\CMakeFiles\StaticRangeSumQueries.dir\StaticRangeSumQueries.cpp.obj.d
+  FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
+  OBJECT_DIR = RangeQueries\CMakeFiles\StaticRangeSumQueries.dir
+  OBJECT_FILE_DIR = RangeQueries\CMakeFiles\StaticRangeSumQueries.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target StaticRangeSumQueries
+
+
+#############################################
+# Link the executable RangeQueries\StaticRangeSumQueries.exe
+
+build RangeQueries/StaticRangeSumQueries.exe: CXX_EXECUTABLE_LINKER__StaticRangeSumQueries_Debug RangeQueries/CMakeFiles/StaticRangeSumQueries.dir/StaticRangeSumQueries.cpp.obj
+  FLAGS = -O2 -Wall -Wextra -DLOCAL -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = RangeQueries\CMakeFiles\StaticRangeSumQueries.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = RangeQueries\StaticRangeSumQueries.exe
+  TARGET_IMPLIB = RangeQueries\libStaticRangeSumQueries.dll.a
+  TARGET_PDB = StaticRangeSumQueries.exe.dbg
 
 
 #############################################
@@ -3800,6 +4031,39 @@ build Mathematics/BracketSequencesII.exe: CXX_EXECUTABLE_LINKER__BracketSequence
   TARGET_IMPLIB = Mathematics\libBracketSequencesII.dll.a
   TARGET_PDB = BracketSequencesII.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target CountingNecklaces
+
+
+#############################################
+# Order-only phony target for CountingNecklaces
+
+build cmake_object_order_depends_target_CountingNecklaces: phony || Mathematics/CMakeFiles/CountingNecklaces.dir
+
+build Mathematics/CMakeFiles/CountingNecklaces.dir/CountingNecklaces.cpp.obj: CXX_COMPILER__CountingNecklaces_Debug C$:/Users/anton/CLionProjects/CSESProblemSet/Mathematics/CountingNecklaces.cpp || cmake_object_order_depends_target_CountingNecklaces
+  DEP_FILE = Mathematics\CMakeFiles\CountingNecklaces.dir\CountingNecklaces.cpp.obj.d
+  FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
+  OBJECT_DIR = Mathematics\CMakeFiles\CountingNecklaces.dir
+  OBJECT_FILE_DIR = Mathematics\CMakeFiles\CountingNecklaces.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CountingNecklaces
+
+
+#############################################
+# Link the executable Mathematics\CountingNecklaces.exe
+
+build Mathematics/CountingNecklaces.exe: CXX_EXECUTABLE_LINKER__CountingNecklaces_Debug Mathematics/CMakeFiles/CountingNecklaces.dir/CountingNecklaces.cpp.obj
+  FLAGS = -O2 -Wall -Wextra -DLOCAL -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Mathematics\CMakeFiles\CountingNecklaces.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Mathematics\CountingNecklaces.exe
+  TARGET_IMPLIB = Mathematics\libCountingNecklaces.dll.a
+  TARGET_PDB = CountingNecklaces.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -4011,6 +4275,72 @@ build AdvancedTechniques/rebuild_cache: phony AdvancedTechniques/CMakeFiles/rebu
 # C:/Users/anton/CLionProjects/CSESProblemSet/CMakeLists.txt
 # =============================================================================
 
+# =============================================================================
+# Object build statements for EXECUTABLE target StickDivisions
+
+
+#############################################
+# Order-only phony target for StickDivisions
+
+build cmake_object_order_depends_target_StickDivisions: phony || AdditionalProblems/CMakeFiles/StickDivisions.dir
+
+build AdditionalProblems/CMakeFiles/StickDivisions.dir/StickDivisions.cpp.obj: CXX_COMPILER__StickDivisions_Debug C$:/Users/anton/CLionProjects/CSESProblemSet/AdditionalProblems/StickDivisions.cpp || cmake_object_order_depends_target_StickDivisions
+  DEP_FILE = AdditionalProblems\CMakeFiles\StickDivisions.dir\StickDivisions.cpp.obj.d
+  FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
+  OBJECT_DIR = AdditionalProblems\CMakeFiles\StickDivisions.dir
+  OBJECT_FILE_DIR = AdditionalProblems\CMakeFiles\StickDivisions.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target StickDivisions
+
+
+#############################################
+# Link the executable AdditionalProblems\StickDivisions.exe
+
+build AdditionalProblems/StickDivisions.exe: CXX_EXECUTABLE_LINKER__StickDivisions_Debug AdditionalProblems/CMakeFiles/StickDivisions.dir/StickDivisions.cpp.obj
+  FLAGS = -O2 -Wall -Wextra -DLOCAL -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = AdditionalProblems\CMakeFiles\StickDivisions.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = AdditionalProblems\StickDivisions.exe
+  TARGET_IMPLIB = AdditionalProblems\libStickDivisions.dll.a
+  TARGET_PDB = StickDivisions.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ProgrammersAndArtists
+
+
+#############################################
+# Order-only phony target for ProgrammersAndArtists
+
+build cmake_object_order_depends_target_ProgrammersAndArtists: phony || AdditionalProblems/CMakeFiles/ProgrammersAndArtists.dir
+
+build AdditionalProblems/CMakeFiles/ProgrammersAndArtists.dir/ProgrammersAndArtists.cpp.obj: CXX_COMPILER__ProgrammersAndArtists_Debug C$:/Users/anton/CLionProjects/CSESProblemSet/AdditionalProblems/ProgrammersAndArtists.cpp || cmake_object_order_depends_target_ProgrammersAndArtists
+  DEP_FILE = AdditionalProblems\CMakeFiles\ProgrammersAndArtists.dir\ProgrammersAndArtists.cpp.obj.d
+  FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
+  OBJECT_DIR = AdditionalProblems\CMakeFiles\ProgrammersAndArtists.dir
+  OBJECT_FILE_DIR = AdditionalProblems\CMakeFiles\ProgrammersAndArtists.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ProgrammersAndArtists
+
+
+#############################################
+# Link the executable AdditionalProblems\ProgrammersAndArtists.exe
+
+build AdditionalProblems/ProgrammersAndArtists.exe: CXX_EXECUTABLE_LINKER__ProgrammersAndArtists_Debug AdditionalProblems/CMakeFiles/ProgrammersAndArtists.dir/ProgrammersAndArtists.cpp.obj
+  FLAGS = -O2 -Wall -Wextra -DLOCAL -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = AdditionalProblems\CMakeFiles\ProgrammersAndArtists.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = AdditionalProblems\ProgrammersAndArtists.exe
+  TARGET_IMPLIB = AdditionalProblems\libProgrammersAndArtists.dll.a
+  TARGET_PDB = ProgrammersAndArtists.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -4127,9 +4457,17 @@ build CountingDivisors: phony Mathematics/CountingDivisors.exe
 
 build CountingDivisors.exe: phony Mathematics/CountingDivisors.exe
 
+build CountingNecklaces: phony Mathematics/CountingNecklaces.exe
+
+build CountingNecklaces.exe: phony Mathematics/CountingNecklaces.exe
+
 build CountingRooms: phony GraphAlgorithms/CountingRooms.exe
 
 build CountingRooms.exe: phony GraphAlgorithms/CountingRooms.exe
+
+build CountingTilings: phony DynamicProgramming/CountingTilings.exe
+
+build CountingTilings.exe: phony DynamicProgramming/CountingTilings.exe
 
 build CountingTowers: phony DynamicProgramming/CountingTowers.exe
 
@@ -4343,6 +4681,10 @@ build Permutations: phony IntroductoryProblems/Permutations.exe
 
 build Permutations.exe: phony IntroductoryProblems/Permutations.exe
 
+build PlanetsQueriesI: phony GraphAlgorithms/PlanetsQueriesI.exe
+
+build PlanetsQueriesI.exe: phony GraphAlgorithms/PlanetsQueriesI.exe
+
 build Playlist: phony SortingAndSearching/Playlist.exe
 
 build Playlist.exe: phony SortingAndSearching/Playlist.exe
@@ -4351,9 +4693,21 @@ build PrimeMultiples: phony Mathematics/PrimeMultiples.exe
 
 build PrimeMultiples.exe: phony Mathematics/PrimeMultiples.exe
 
+build ProgrammersAndArtists: phony AdditionalProblems/ProgrammersAndArtists.exe
+
+build ProgrammersAndArtists.exe: phony AdditionalProblems/ProgrammersAndArtists.exe
+
 build Projects: phony DynamicProgramming/Projects.exe
 
 build Projects.exe: phony DynamicProgramming/Projects.exe
+
+build RangeXorQueries: phony RangeQueries/RangeXorQueries.exe
+
+build RangeXorQueries.exe: phony RangeQueries/RangeXorQueries.exe
+
+build ReadingBooks: phony SortingAndSearching/ReadingBooks.exe
+
+build ReadingBooks.exe: phony SortingAndSearching/ReadingBooks.exe
 
 build RectangleCutting: phony DynamicProgramming/RectangleCutting.exe
 
@@ -4402,6 +4756,22 @@ build ShortestRoutesI.exe: phony GraphAlgorithms/ShortestRoutesI.exe
 build ShortestRoutesII: phony GraphAlgorithms/ShortestRoutesII.exe
 
 build ShortestRoutesII.exe: phony GraphAlgorithms/ShortestRoutesII.exe
+
+build SlidingCost: phony SortingAndSearching/SlidingCost.exe
+
+build SlidingCost.exe: phony SortingAndSearching/SlidingCost.exe
+
+build SlidingMedian: phony SortingAndSearching/SlidingMedian.exe
+
+build SlidingMedian.exe: phony SortingAndSearching/SlidingMedian.exe
+
+build StaticRangeSumQueries: phony RangeQueries/StaticRangeSumQueries.exe
+
+build StaticRangeSumQueries.exe: phony RangeQueries/StaticRangeSumQueries.exe
+
+build StickDivisions: phony AdditionalProblems/StickDivisions.exe
+
+build StickDivisions.exe: phony AdditionalProblems/StickDivisions.exe
 
 build StickLengths: phony SortingAndSearching/StickLengths.exe
 
@@ -4494,7 +4864,7 @@ build all: phony CSESProblemSet.exe IntroductoryProblems/all SortingAndSearching
 #############################################
 # Folder: C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/AdditionalProblems
 
-build AdditionalProblems/all: phony
+build AdditionalProblems/all: phony AdditionalProblems/StickDivisions.exe AdditionalProblems/ProgrammersAndArtists.exe
 
 # =============================================================================
 
@@ -4508,7 +4878,7 @@ build AdvancedTechniques/all: phony AdvancedTechniques/MeetInTheMiddle.exe Advan
 #############################################
 # Folder: C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/DynamicProgramming
 
-build DynamicProgramming/all: phony DynamicProgramming/ArrayDescription.exe DynamicProgramming/DiceCombinations.exe DynamicProgramming/MinimizingCoins.exe DynamicProgramming/MoneySums.exe DynamicProgramming/RectangleCutting.exe DynamicProgramming/EditDistance.exe DynamicProgramming/CoinCombinationsI.exe DynamicProgramming/CoinCombinationsII.exe DynamicProgramming/GridPathsDP.exe DynamicProgramming/TwoSetsII.exe DynamicProgramming/RemoveDigits.exe DynamicProgramming/BookShop.exe DynamicProgramming/Projects.exe DynamicProgramming/ElevatorRides.exe DynamicProgramming/IncreasingSubsequence.exe DynamicProgramming/RemovalGame.exe DynamicProgramming/CountingTowers.exe
+build DynamicProgramming/all: phony DynamicProgramming/ArrayDescription.exe DynamicProgramming/DiceCombinations.exe DynamicProgramming/MinimizingCoins.exe DynamicProgramming/MoneySums.exe DynamicProgramming/RectangleCutting.exe DynamicProgramming/EditDistance.exe DynamicProgramming/CoinCombinationsI.exe DynamicProgramming/CoinCombinationsII.exe DynamicProgramming/GridPathsDP.exe DynamicProgramming/TwoSetsII.exe DynamicProgramming/RemoveDigits.exe DynamicProgramming/BookShop.exe DynamicProgramming/Projects.exe DynamicProgramming/ElevatorRides.exe DynamicProgramming/IncreasingSubsequence.exe DynamicProgramming/RemovalGame.exe DynamicProgramming/CountingTowers.exe DynamicProgramming/CountingTilings.exe
 
 # =============================================================================
 
@@ -4522,7 +4892,7 @@ build Geometry/all: phony
 #############################################
 # Folder: C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/GraphAlgorithms
 
-build GraphAlgorithms/all: phony GraphAlgorithms/CountingRooms.exe GraphAlgorithms/BuildingRoads.exe GraphAlgorithms/GameRoutes.exe GraphAlgorithms/HighScore.exe GraphAlgorithms/BuildingTeams.exe GraphAlgorithms/MessageRoute.exe GraphAlgorithms/Labyrinth.cpp.exe GraphAlgorithms/RoundTrip.exe GraphAlgorithms/RoadConstruction.exe GraphAlgorithms/ShortestRoutesI.exe GraphAlgorithms/ShortestRoutesII.exe GraphAlgorithms/RoundTripII.exe GraphAlgorithms/CycleFinding.exe GraphAlgorithms/Monsters.exe GraphAlgorithms/FlightDiscount.exe GraphAlgorithms/Investigation.exe GraphAlgorithms/RoadReparation.exe GraphAlgorithms/LongestFlightRoute.exe GraphAlgorithms/KnightsTour.exe GraphAlgorithms/CourseSchedule.exe GraphAlgorithms/FlightRoutes.exe GraphAlgorithms/HamiltonianFlights.exe
+build GraphAlgorithms/all: phony GraphAlgorithms/CountingRooms.exe GraphAlgorithms/BuildingRoads.exe GraphAlgorithms/GameRoutes.exe GraphAlgorithms/HighScore.exe GraphAlgorithms/BuildingTeams.exe GraphAlgorithms/MessageRoute.exe GraphAlgorithms/Labyrinth.cpp.exe GraphAlgorithms/RoundTrip.exe GraphAlgorithms/RoadConstruction.exe GraphAlgorithms/ShortestRoutesI.exe GraphAlgorithms/ShortestRoutesII.exe GraphAlgorithms/RoundTripII.exe GraphAlgorithms/CycleFinding.exe GraphAlgorithms/Monsters.exe GraphAlgorithms/FlightDiscount.exe GraphAlgorithms/Investigation.exe GraphAlgorithms/RoadReparation.exe GraphAlgorithms/LongestFlightRoute.exe GraphAlgorithms/KnightsTour.exe GraphAlgorithms/CourseSchedule.exe GraphAlgorithms/FlightRoutes.exe GraphAlgorithms/HamiltonianFlights.exe GraphAlgorithms/PlanetsQueriesI.exe
 
 # =============================================================================
 
@@ -4536,21 +4906,21 @@ build IntroductoryProblems/all: phony IntroductoryProblems/WeirdAlgorithm.exe In
 #############################################
 # Folder: C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/Mathematics
 
-build Mathematics/all: phony Mathematics/CommonDivisors.exe Mathematics/ThrowingDice.exe Mathematics/DiceProbability.exe Mathematics/PrimeMultiples.exe Mathematics/Exponentiation.exe Mathematics/ExponentiationII.exe Mathematics/CountingDivisors.exe Mathematics/CreatingStringsII.exe Mathematics/SumOfDivisors.exe Mathematics/FibonacciNumbers.exe Mathematics/ChristmasParty.exe Mathematics/BinomialCoefficients.exe Mathematics/DivisorAnalysis.exe Mathematics/BracketSequencesI.exe Mathematics/GraphPathsI.exe Mathematics/GraphPathsII.exe Mathematics/DistributingApples.exe Mathematics/BracketSequencesII.exe
+build Mathematics/all: phony Mathematics/CommonDivisors.exe Mathematics/ThrowingDice.exe Mathematics/DiceProbability.exe Mathematics/PrimeMultiples.exe Mathematics/Exponentiation.exe Mathematics/ExponentiationII.exe Mathematics/CountingDivisors.exe Mathematics/CreatingStringsII.exe Mathematics/SumOfDivisors.exe Mathematics/FibonacciNumbers.exe Mathematics/ChristmasParty.exe Mathematics/BinomialCoefficients.exe Mathematics/DivisorAnalysis.exe Mathematics/BracketSequencesI.exe Mathematics/GraphPathsI.exe Mathematics/GraphPathsII.exe Mathematics/DistributingApples.exe Mathematics/BracketSequencesII.exe Mathematics/CountingNecklaces.exe
 
 # =============================================================================
 
 #############################################
 # Folder: C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/RangeQueries
 
-build RangeQueries/all: phony
+build RangeQueries/all: phony RangeQueries/RangeXorQueries.exe RangeQueries/StaticRangeSumQueries.exe
 
 # =============================================================================
 
 #############################################
 # Folder: C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/SortingAndSearching
 
-build SortingAndSearching/all: phony SortingAndSearching/CollectingNumbers.exe SortingAndSearching/NestedRangesCheck.exe SortingAndSearching/DistinctNumbers.exe SortingAndSearching/Apartments.exe SortingAndSearching/FerrisWheel.exe SortingAndSearching/ConcertTickets.exe SortingAndSearching/RestaurantCustomers.exe SortingAndSearching/RoomAllocation.exe SortingAndSearching/SumOfTwoValues.exe SortingAndSearching/MaximumSubarraySum.exe SortingAndSearching/FactoryMachines.exe SortingAndSearching/MissingCoinSum.exe SortingAndSearching/MovieFestival.exe SortingAndSearching/StickLengths.exe SortingAndSearching/Playlist.exe SortingAndSearching/Towers.exe SortingAndSearching/TasksAndDeadlines.exe SortingAndSearching/CollectingNumbersII.exe SortingAndSearching/TrafficLights.exe SortingAndSearching/NearestSmallerValues.exe SortingAndSearching/SumOfThreeValues.exe SortingAndSearching/SumOfFourValues.exe SortingAndSearching/JosephusProblemI.exe SortingAndSearching/JosephusProblemII.exe SortingAndSearching/MaximumSubarraySumII.exe SortingAndSearching/SubarraySumsI.exe SortingAndSearching/SubarraySumsII.exe SortingAndSearching/SubarrayDivisibility.exe SortingAndSearching/SubarrayDistinctValues.exe SortingAndSearching/ArrayDivision.exe SortingAndSearching/MovieFestivalII.exe
+build SortingAndSearching/all: phony SortingAndSearching/CollectingNumbers.exe SortingAndSearching/NestedRangesCheck.exe SortingAndSearching/DistinctNumbers.exe SortingAndSearching/Apartments.exe SortingAndSearching/FerrisWheel.exe SortingAndSearching/ConcertTickets.exe SortingAndSearching/RestaurantCustomers.exe SortingAndSearching/RoomAllocation.exe SortingAndSearching/SumOfTwoValues.exe SortingAndSearching/MaximumSubarraySum.exe SortingAndSearching/FactoryMachines.exe SortingAndSearching/MissingCoinSum.exe SortingAndSearching/MovieFestival.exe SortingAndSearching/StickLengths.exe SortingAndSearching/Playlist.exe SortingAndSearching/Towers.exe SortingAndSearching/TasksAndDeadlines.exe SortingAndSearching/CollectingNumbersII.exe SortingAndSearching/TrafficLights.exe SortingAndSearching/NearestSmallerValues.exe SortingAndSearching/SumOfThreeValues.exe SortingAndSearching/SumOfFourValues.exe SortingAndSearching/JosephusProblemI.exe SortingAndSearching/JosephusProblemII.exe SortingAndSearching/MaximumSubarraySumII.exe SortingAndSearching/SubarraySumsI.exe SortingAndSearching/SubarraySumsII.exe SortingAndSearching/SubarrayDivisibility.exe SortingAndSearching/SubarrayDistinctValues.exe SortingAndSearching/ArrayDivision.exe SortingAndSearching/MovieFestivalII.exe SortingAndSearching/SlidingMedian.exe SortingAndSearching/SlidingCost.exe SortingAndSearching/ReadingBooks.exe
 
 # =============================================================================
 

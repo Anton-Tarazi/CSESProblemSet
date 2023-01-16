@@ -103,6 +103,9 @@ answer.
 
 
 **Counting Necklaces**
+
+Use Burnside's Lemma / orbit counting theorem. Idea relies on group theory.
+
 **Counting Grids**
 **Fibonacci Numbers**
 

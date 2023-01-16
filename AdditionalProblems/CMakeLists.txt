@@ -1,0 +1,2 @@
+add_executable(StickDivisions StickDivisions.cpp)
+add_executable(ProgrammersAndArtists ProgrammersAndArtists.cpp)

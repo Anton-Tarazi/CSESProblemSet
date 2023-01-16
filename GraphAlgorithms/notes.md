@@ -112,6 +112,12 @@ is smaller than old distance, reset distance counts, min flights, and max flight
 distance is the same as the old distance, update counts, min flights, and max flights.
 
 **Planets Queries I**
+
+Binary Successor Lifting. For each node n store succ[k, n] where k is a power of 2. This allows the
+grid to be calculated in O(n log n) since for each node can calculate in constant time 
+succ[k, n] = succ[k / 2][succ[k / 2][n]]. Then for queries just look at each set bit and move to
+corresponding spot in succ grid. 
+
 **Planets Queries II**
 **Planets Cycles**
 **Road Reparation**

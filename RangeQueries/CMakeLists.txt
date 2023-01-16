@@ -1,0 +1,2 @@
+add_executable(RangeXorQueries RangeXorQueries.cpp)
+add_executable(StaticRangeSumQueries StaticRangeSumQueries.cpp)

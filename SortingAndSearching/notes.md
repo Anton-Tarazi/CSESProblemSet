@@ -52,6 +52,17 @@ value to max_value.
 Loop through numbers once. If reach n but haven't yet seen n - 1, need to do another pass.
 
 **Collecting Numbers II**
+
+Preprocess numbers using technique from part 1. Store numbers in one array, and store their 
+positions in another. Then, for each query a, b: find the left number and the right number,
+and store 4 booleans determining whether each numbers predecessor/ successor is before/ after it. 
+Swap the positions of these two numbers and check the predecessors/ successors again. The left 
+number might gain a predecessor or lose a successor when it moves to the right position. Similarly, 
+the right number might lose a predecessor or gain a successor when it moves to the left position. 
+Edge case to watch out for is when the left and right numbers are one apart, in which case 
+gains/ losses are double counted, so adjust the delta by 1 in opposite direction to take care of 
+this. 
+
 **Playlist**
 
 Two pointers. Left pointer corresponds to the left end of the subarray. Iterate through the right
@@ -99,6 +110,13 @@ the desired quantity.
 Greedily choose tasks with the shortest duration. 
 
 **Reading Books**
+
+If the maximum book is greater than the half the sum of the times of all the books, it forms a 
+bottleneck since when one person reads that book, the other person can read every other book and 
+would still have to wait. So in this case the total time is 2 * max. But if the maximum book
+is less that half the total time, there is no bottleneck, so the total time is simply the sum
+of the times. 
+
 **Sum of Three Values**
 
 Store the input numbers in a vector with their value and position. Then sort this vector by
@@ -148,7 +166,22 @@ of values in the array. Then for each value mid, greedily check whether the arra
 into k subarrays each with a sum less than mid. O(nlog(n)) runtime. 
 
 **Sliding Median**
+
+Min heap/ max heap median maintenance problem. Since need fast deletions, use multiset instead
+of priority queue. Max heap stores all elements less than the median and the min heap stores
+all elements greater than the median. Invariant is that the size of the max heap must always be
+the same size as the min heap, or at most 1 element larger. This ensures that the median is
+always the largest element within the max heap. Insertions and deletions include rebalancing 
+the two heaps to maintain this invariant. 
+
 **Sliding Cost**
+
+Exact same strategy as sliding median because the cheapest value to make all elements within a
+window is the median of those elements. In addition to the two heaps, maintain the sum of the
+elements in each heap. Update this sum as necessary when values are shifted around between the
+two heaps. The median is the top of the max heap, and the total cost can be calculated by
+(min_heap_sum - median * min_heap_size) + (median * max_heap_size - max_heap_sum).
+
 **Movie Festival II**
 
 Sort movies in increasing order of ending time and maintain a BST containing when each member

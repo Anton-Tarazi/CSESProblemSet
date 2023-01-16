@@ -35,21 +35,10 @@ int main() {
     for (int i = 1; i <= n; i++) {
         cin >> x;
         nums[i] = x;
-        if (positions[x - 1] == 0) {
-            count++;
-        }
+        if (positions[x - 1] == 0) count++;
 
         positions[x] = i;
     }
-
-//    for (int j = 1; j <= n; j++) {
-//        cout << nums[j] << " ";
-//    }
-//    cout << "\n";
-//    for (int j = 1; j <= n; j++) {
-//        cout << positions[j] << " ";
-//    }
-//    cout << "\n";
 
     for (int i = 0; i < m; i++) {
         cin >> a >> b;
@@ -57,55 +46,37 @@ int main() {
         int left_pos = min(a, b);
         int right_pos = max(a, b);
 
-        volatile int left_num = nums[left_pos];
-        volatile int right_num = nums[right_pos];
+        int left_num = nums[left_pos];
+        int right_num = nums[right_pos];
 
-        bool a_before = prev_before(left_num);
-        bool a_after = next_after(left_num);
+        bool left_before = prev_before(left_num);
+        bool left_after = next_after(left_num);
 
-        bool b_before = prev_before(right_num);
-        bool b_after = next_after(right_num);
+        bool right_before = prev_before(right_num);
+        bool right_after = next_after(right_num);
 
         swap(positions[left_num], positions[right_num]);
         swap(nums[left_pos], nums[right_pos]);
-
-//        for (int j = 1; j <= n; j++) {
-//            cout << nums[j] << " ";
-//        }
-//        cout << "\n";
-//        for (int j = 1; j <= n; j++) {
-//            cout << positions[j] << " ";
-//        }
-//        cout << "\n\n";
-
         int delta = 0;
 
-
-
-        if (!a_before && prev_before(left_num))
+        if (!left_before && prev_before(left_num))
             delta--;
-        if (a_after && !next_after(left_num))
+        if (left_after && !next_after(left_num))
             delta++;
-        if (b_before && !prev_before(right_num))
+        if (right_before && !prev_before(right_num))
             delta++;
-        if (!b_after && next_after(right_num))
+        if (!right_after && next_after(right_num))
             delta--;
 
-        if (abs(left_num - right_num) == 1) {
-            delta /= 2;
-        }
+        if (left_num == right_num - 1)
+            delta--;
+        else  if (left_num == right_num + 1)
+            delta++;
 
         count += delta;
-
-
-        cout << delta << "\n";
-
-
-
+        cout << count << "\n";
 
     }
-
-
 
 
     return 0;
