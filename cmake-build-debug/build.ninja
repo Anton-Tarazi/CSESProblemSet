@@ -3287,6 +3287,39 @@ build GraphAlgorithms/PlanetsQueriesI.exe: CXX_EXECUTABLE_LINKER__PlanetsQueries
   TARGET_IMPLIB = GraphAlgorithms\libPlanetsQueriesI.dll.a
   TARGET_PDB = PlanetsQueriesI.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target PlanetsCycles
+
+
+#############################################
+# Order-only phony target for PlanetsCycles
+
+build cmake_object_order_depends_target_PlanetsCycles: phony || GraphAlgorithms/CMakeFiles/PlanetsCycles.dir
+
+build GraphAlgorithms/CMakeFiles/PlanetsCycles.dir/PlanetsCycles.cpp.obj: CXX_COMPILER__PlanetsCycles_Debug C$:/Users/anton/CLionProjects/CSESProblemSet/GraphAlgorithms/PlanetsCycles.cpp || cmake_object_order_depends_target_PlanetsCycles
+  DEP_FILE = GraphAlgorithms\CMakeFiles\PlanetsCycles.dir\PlanetsCycles.cpp.obj.d
+  FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
+  OBJECT_DIR = GraphAlgorithms\CMakeFiles\PlanetsCycles.dir
+  OBJECT_FILE_DIR = GraphAlgorithms\CMakeFiles\PlanetsCycles.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PlanetsCycles
+
+
+#############################################
+# Link the executable GraphAlgorithms\PlanetsCycles.exe
+
+build GraphAlgorithms/PlanetsCycles.exe: CXX_EXECUTABLE_LINKER__PlanetsCycles_Debug GraphAlgorithms/CMakeFiles/PlanetsCycles.dir/PlanetsCycles.cpp.obj
+  FLAGS = -O2 -Wall -Wextra -DLOCAL -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = GraphAlgorithms\CMakeFiles\PlanetsCycles.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = GraphAlgorithms\PlanetsCycles.exe
+  TARGET_IMPLIB = GraphAlgorithms\libPlanetsCycles.dll.a
+  TARGET_PDB = PlanetsCycles.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -4681,6 +4714,10 @@ build Permutations: phony IntroductoryProblems/Permutations.exe
 
 build Permutations.exe: phony IntroductoryProblems/Permutations.exe
 
+build PlanetsCycles: phony GraphAlgorithms/PlanetsCycles.exe
+
+build PlanetsCycles.exe: phony GraphAlgorithms/PlanetsCycles.exe
+
 build PlanetsQueriesI: phony GraphAlgorithms/PlanetsQueriesI.exe
 
 build PlanetsQueriesI.exe: phony GraphAlgorithms/PlanetsQueriesI.exe
@@ -4892,7 +4929,7 @@ build Geometry/all: phony
 #############################################
 # Folder: C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/GraphAlgorithms
 
-build GraphAlgorithms/all: phony GraphAlgorithms/CountingRooms.exe GraphAlgorithms/BuildingRoads.exe GraphAlgorithms/GameRoutes.exe GraphAlgorithms/HighScore.exe GraphAlgorithms/BuildingTeams.exe GraphAlgorithms/MessageRoute.exe GraphAlgorithms/Labyrinth.cpp.exe GraphAlgorithms/RoundTrip.exe GraphAlgorithms/RoadConstruction.exe GraphAlgorithms/ShortestRoutesI.exe GraphAlgorithms/ShortestRoutesII.exe GraphAlgorithms/RoundTripII.exe GraphAlgorithms/CycleFinding.exe GraphAlgorithms/Monsters.exe GraphAlgorithms/FlightDiscount.exe GraphAlgorithms/Investigation.exe GraphAlgorithms/RoadReparation.exe GraphAlgorithms/LongestFlightRoute.exe GraphAlgorithms/KnightsTour.exe GraphAlgorithms/CourseSchedule.exe GraphAlgorithms/FlightRoutes.exe GraphAlgorithms/HamiltonianFlights.exe GraphAlgorithms/PlanetsQueriesI.exe
+build GraphAlgorithms/all: phony GraphAlgorithms/CountingRooms.exe GraphAlgorithms/BuildingRoads.exe GraphAlgorithms/GameRoutes.exe GraphAlgorithms/HighScore.exe GraphAlgorithms/BuildingTeams.exe GraphAlgorithms/MessageRoute.exe GraphAlgorithms/Labyrinth.cpp.exe GraphAlgorithms/RoundTrip.exe GraphAlgorithms/RoadConstruction.exe GraphAlgorithms/ShortestRoutesI.exe GraphAlgorithms/ShortestRoutesII.exe GraphAlgorithms/RoundTripII.exe GraphAlgorithms/CycleFinding.exe GraphAlgorithms/Monsters.exe GraphAlgorithms/FlightDiscount.exe GraphAlgorithms/Investigation.exe GraphAlgorithms/RoadReparation.exe GraphAlgorithms/LongestFlightRoute.exe GraphAlgorithms/KnightsTour.exe GraphAlgorithms/CourseSchedule.exe GraphAlgorithms/FlightRoutes.exe GraphAlgorithms/HamiltonianFlights.exe GraphAlgorithms/PlanetsQueriesI.exe GraphAlgorithms/PlanetsCycles.exe
 
 # =============================================================================
 
