@@ -28,7 +28,7 @@ problem.
 
 2D dp. dp[i][j] = number of paths from (i, j) to (n, n). Note that dp array is 1-indexed and that
 it is "initialized" with dp[0][1] = 1, because this allows the first iteration of the double for
-loops to properly set dp[1][1] = (grid[1][1] == '.'). dp[1][0] = 1 would have worked as well.
+loops to properly set dp[1][1] = (Grid[1][1] == '.'). dp[1][0] = 1 would have worked as well.
 
 
 **Book Shop**

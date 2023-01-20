@@ -4097,6 +4097,39 @@ build Mathematics/CountingNecklaces.exe: CXX_EXECUTABLE_LINKER__CountingNecklace
   TARGET_IMPLIB = Mathematics\libCountingNecklaces.dll.a
   TARGET_PDB = CountingNecklaces.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target CandyLottery
+
+
+#############################################
+# Order-only phony target for CandyLottery
+
+build cmake_object_order_depends_target_CandyLottery: phony || Mathematics/CMakeFiles/CandyLottery.dir
+
+build Mathematics/CMakeFiles/CandyLottery.dir/CandyLottery.cpp.obj: CXX_COMPILER__CandyLottery_Debug C$:/Users/anton/CLionProjects/CSESProblemSet/Mathematics/CandyLottery.cpp || cmake_object_order_depends_target_CandyLottery
+  DEP_FILE = Mathematics\CMakeFiles\CandyLottery.dir\CandyLottery.cpp.obj.d
+  FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
+  OBJECT_DIR = Mathematics\CMakeFiles\CandyLottery.dir
+  OBJECT_FILE_DIR = Mathematics\CMakeFiles\CandyLottery.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CandyLottery
+
+
+#############################################
+# Link the executable Mathematics\CandyLottery.exe
+
+build Mathematics/CandyLottery.exe: CXX_EXECUTABLE_LINKER__CandyLottery_Debug Mathematics/CMakeFiles/CandyLottery.dir/CandyLottery.cpp.obj
+  FLAGS = -O2 -Wall -Wextra -DLOCAL -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Mathematics\CMakeFiles\CandyLottery.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Mathematics\CandyLottery.exe
+  TARGET_IMPLIB = Mathematics\libCandyLottery.dll.a
+  TARGET_PDB = CandyLottery.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -4374,6 +4407,72 @@ build AdditionalProblems/ProgrammersAndArtists.exe: CXX_EXECUTABLE_LINKER__Progr
   TARGET_IMPLIB = AdditionalProblems\libProgrammersAndArtists.dll.a
   TARGET_PDB = ProgrammersAndArtists.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target SwapGame
+
+
+#############################################
+# Order-only phony target for SwapGame
+
+build cmake_object_order_depends_target_SwapGame: phony || AdditionalProblems/CMakeFiles/SwapGame.dir
+
+build AdditionalProblems/CMakeFiles/SwapGame.dir/SwapGame.cpp.obj: CXX_COMPILER__SwapGame_Debug C$:/Users/anton/CLionProjects/CSESProblemSet/AdditionalProblems/SwapGame.cpp || cmake_object_order_depends_target_SwapGame
+  DEP_FILE = AdditionalProblems\CMakeFiles\SwapGame.dir\SwapGame.cpp.obj.d
+  FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
+  OBJECT_DIR = AdditionalProblems\CMakeFiles\SwapGame.dir
+  OBJECT_FILE_DIR = AdditionalProblems\CMakeFiles\SwapGame.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SwapGame
+
+
+#############################################
+# Link the executable AdditionalProblems\SwapGame.exe
+
+build AdditionalProblems/SwapGame.exe: CXX_EXECUTABLE_LINKER__SwapGame_Debug AdditionalProblems/CMakeFiles/SwapGame.dir/SwapGame.cpp.obj
+  FLAGS = -O2 -Wall -Wextra -DLOCAL -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = AdditionalProblems\CMakeFiles\SwapGame.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = AdditionalProblems\SwapGame.exe
+  TARGET_IMPLIB = AdditionalProblems\libSwapGame.dll.a
+  TARGET_PDB = SwapGame.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target IncreasingSubsequenceII
+
+
+#############################################
+# Order-only phony target for IncreasingSubsequenceII
+
+build cmake_object_order_depends_target_IncreasingSubsequenceII: phony || AdditionalProblems/CMakeFiles/IncreasingSubsequenceII.dir
+
+build AdditionalProblems/CMakeFiles/IncreasingSubsequenceII.dir/IncreasingSubsequenceII.cpp.obj: CXX_COMPILER__IncreasingSubsequenceII_Debug C$:/Users/anton/CLionProjects/CSESProblemSet/AdditionalProblems/IncreasingSubsequenceII.cpp || cmake_object_order_depends_target_IncreasingSubsequenceII
+  DEP_FILE = AdditionalProblems\CMakeFiles\IncreasingSubsequenceII.dir\IncreasingSubsequenceII.cpp.obj.d
+  FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
+  OBJECT_DIR = AdditionalProblems\CMakeFiles\IncreasingSubsequenceII.dir
+  OBJECT_FILE_DIR = AdditionalProblems\CMakeFiles\IncreasingSubsequenceII.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target IncreasingSubsequenceII
+
+
+#############################################
+# Link the executable AdditionalProblems\IncreasingSubsequenceII.exe
+
+build AdditionalProblems/IncreasingSubsequenceII.exe: CXX_EXECUTABLE_LINKER__IncreasingSubsequenceII_Debug AdditionalProblems/CMakeFiles/IncreasingSubsequenceII.dir/IncreasingSubsequenceII.cpp.obj
+  FLAGS = -O2 -Wall -Wextra -DLOCAL -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = AdditionalProblems\CMakeFiles\IncreasingSubsequenceII.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = AdditionalProblems\IncreasingSubsequenceII.exe
+  TARGET_IMPLIB = AdditionalProblems\libIncreasingSubsequenceII.dll.a
+  TARGET_PDB = IncreasingSubsequenceII.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -4449,6 +4548,10 @@ build BuildingTeams: phony GraphAlgorithms/BuildingTeams.exe
 build BuildingTeams.exe: phony GraphAlgorithms/BuildingTeams.exe
 
 build CSESProblemSet: phony CSESProblemSet.exe
+
+build CandyLottery: phony Mathematics/CandyLottery.exe
+
+build CandyLottery.exe: phony Mathematics/CandyLottery.exe
 
 build ChessboardAndQueens: phony IntroductoryProblems/ChessboardAndQueens.exe
 
@@ -4625,6 +4728,10 @@ build IncreasingArray.exe: phony IntroductoryProblems/IncreasingArray.exe
 build IncreasingSubsequence: phony DynamicProgramming/IncreasingSubsequence.exe
 
 build IncreasingSubsequence.exe: phony DynamicProgramming/IncreasingSubsequence.exe
+
+build IncreasingSubsequenceII: phony AdditionalProblems/IncreasingSubsequenceII.exe
+
+build IncreasingSubsequenceII.exe: phony AdditionalProblems/IncreasingSubsequenceII.exe
 
 build Investigation: phony GraphAlgorithms/Investigation.exe
 
@@ -4846,6 +4953,10 @@ build SumOfTwoValues: phony SortingAndSearching/SumOfTwoValues.exe
 
 build SumOfTwoValues.exe: phony SortingAndSearching/SumOfTwoValues.exe
 
+build SwapGame: phony AdditionalProblems/SwapGame.exe
+
+build SwapGame.exe: phony AdditionalProblems/SwapGame.exe
+
 build TasksAndDeadlines: phony SortingAndSearching/TasksAndDeadlines.exe
 
 build TasksAndDeadlines.exe: phony SortingAndSearching/TasksAndDeadlines.exe
@@ -4901,7 +5012,7 @@ build all: phony CSESProblemSet.exe IntroductoryProblems/all SortingAndSearching
 #############################################
 # Folder: C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/AdditionalProblems
 
-build AdditionalProblems/all: phony AdditionalProblems/StickDivisions.exe AdditionalProblems/ProgrammersAndArtists.exe
+build AdditionalProblems/all: phony AdditionalProblems/StickDivisions.exe AdditionalProblems/ProgrammersAndArtists.exe AdditionalProblems/SwapGame.exe AdditionalProblems/IncreasingSubsequenceII.exe
 
 # =============================================================================
 
@@ -4943,7 +5054,7 @@ build IntroductoryProblems/all: phony IntroductoryProblems/WeirdAlgorithm.exe In
 #############################################
 # Folder: C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/Mathematics
 
-build Mathematics/all: phony Mathematics/CommonDivisors.exe Mathematics/ThrowingDice.exe Mathematics/DiceProbability.exe Mathematics/PrimeMultiples.exe Mathematics/Exponentiation.exe Mathematics/ExponentiationII.exe Mathematics/CountingDivisors.exe Mathematics/CreatingStringsII.exe Mathematics/SumOfDivisors.exe Mathematics/FibonacciNumbers.exe Mathematics/ChristmasParty.exe Mathematics/BinomialCoefficients.exe Mathematics/DivisorAnalysis.exe Mathematics/BracketSequencesI.exe Mathematics/GraphPathsI.exe Mathematics/GraphPathsII.exe Mathematics/DistributingApples.exe Mathematics/BracketSequencesII.exe Mathematics/CountingNecklaces.exe
+build Mathematics/all: phony Mathematics/CommonDivisors.exe Mathematics/ThrowingDice.exe Mathematics/DiceProbability.exe Mathematics/PrimeMultiples.exe Mathematics/Exponentiation.exe Mathematics/ExponentiationII.exe Mathematics/CountingDivisors.exe Mathematics/CreatingStringsII.exe Mathematics/SumOfDivisors.exe Mathematics/FibonacciNumbers.exe Mathematics/ChristmasParty.exe Mathematics/BinomialCoefficients.exe Mathematics/DivisorAnalysis.exe Mathematics/BracketSequencesI.exe Mathematics/GraphPathsI.exe Mathematics/GraphPathsII.exe Mathematics/DistributingApples.exe Mathematics/BracketSequencesII.exe Mathematics/CountingNecklaces.exe Mathematics/CandyLottery.exe
 
 # =============================================================================
 

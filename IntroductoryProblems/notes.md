@@ -99,4 +99,4 @@ digit of the number
 
 Backtrack. Key optimization is that if the path can no longer go straight but 
 both sides are free return immediately. This is because no matter which way 
-the path turns, it splits the grid into two halves.
+the path turns, it splits the Grid into two halves.

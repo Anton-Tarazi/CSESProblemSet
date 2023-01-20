@@ -1,13 +1,20 @@
 **Shortest Subsequence**
 **Counting Bits**
 **Swap Game**
+
+Bidirectional bfs. Rather than iterating through all four directions for all 
+spots in the grid to compute swaps, precompute all possible swaps. Turns out
+that there are only 12 such swaps. So for each grid position, can very quickly
+find all next possible positions. Bfs runs from the starting grid and from the
+target grid simultaneously to further speed things up. 
+
 **Prüfer Code**
 **Acyclic Graph Edges**
 **Strongly Connected Edges**
 **Even Outdegree Edges**
 **Multiplication Table**
 **Advertisement**
-**Special** Substrings
+**Special Substrings**
 **Permutation Inversions**
 **Maximum Xor Subarray**
 **Movie Festival Queries**
@@ -22,6 +29,18 @@
 **Stack Weights**
 **Pyramid Array**
 **Increasing Subsequence II**
+
+While processing array, for each number n need to know the sum subs[i] for i < n
+where subs[i] is the number of subsequences ending with the number i. From this 
+want to increment the total count and subs[n] by sum(subs[i]: i < n) + 1, the +1
+being for the subsequence of just [n]. The easiest way to do this is with a binary
+indexed tree. However, since n can be up to 10^9, cannot use n to index the tree.
+Instead, preprocess the input, storing all numbers in a map (this also eliminates
+duplicates). Then iterate through the map, assigning the first number an index of 2,
+the second number an index of 3, and so on. This compresses the values of n to a range
+that can be represented in an array. (Starting at 2 just makes things easier by 
+eliminating edge cases). 
+
 **String Removals**
 **Bit Inversions**
 **Xor Pyramid**

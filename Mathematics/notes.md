@@ -144,6 +144,13 @@ dp[i][j] = 1/6 * dp[i - 1][j - 1] + ... + 1/6 * dp[i - 1][j - 6]
 
 **Moving Robots**
 **Candy Lottery**
+
+Expected value of max of n {1...k} uniform random variables. There are n^k possible 
+combinations for the candy distributions, and for each i = 1, ..., k in precisely 
+i^n - (i - 1)^n of those combinations is the maximum candy for a child i. This can
+be thought of as the volume of the half-shell around an i x i x ... i n-dimensional
+hypercube. 
+
 **Inversion Probability**
 **Stick Game**
 **Nim Game I**

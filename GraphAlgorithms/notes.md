@@ -114,21 +114,25 @@ distance is the same as the old distance, update counts, min flights, and max fl
 **Planets Queries I**
 
 Binary Successor Lifting. For each node n store succ[k, n] where k is a power of 2. This allows 
-the grid to be calculated in O(n log n) since for each node can calculate in constant time 
+the Grid to be calculated in O(n log n) since for each node can calculate in constant time 
 succ[k, n] = succ[k / 2][succ[k / 2][n]]. Then for queries just look at each set bit and
-move to corresponding spot in succ grid. 
+move to corresponding spot in succ Grid. 
 
 **Planets Queries II**
 **Planets Cycles**
 
-In successor graph every node is either in a cycle, or a predecessor to a cycle. For a node
-in a cycle, the distance till it encounters a node twice is the length of the cycle. And
-for a node that is a predecessor to a cycle, the distance is the distance to the cycle
-plus the length of the cycle. Use dfs with fancy return values to encode whether the node
-is in a cycle, if so what is the length of the cycle, and if not what is the distance
-to the cycle plus the length of the cycle. For every recursion, either discover a node
-that has already been explored and determined to be in/ out of a cycle, or loop back
-on path and create cycle.
+In successor graph every node is either in a cycle, or a predecessor to a cycle. Therefore,
+dfs on any node will either loop back on itself, or reach a node that has already been
+processed (and that node is either in a cycle or a predecessor to one). In the first case,
+a return value of {cycle_length, -cycle_length + 1} is given. This signals that for the next
+cycle_length nodes when unwinding the recursion stack, set their distance to a repeat node to
+cycle_length. However, once unwound to the point of reaching the node that was originally
+rediscovered, need a new return value to signify the end of the cycle. Similarly, if
+instead of looping back on self path, dfs reaches a processed node, this needs to be encoded.
+The return value in this case is {-1, cycle_distance}, where cycle distance is the distance
+to the cycle, plus the length of the cycle. Then the distance for this new node is just
+cycle_distance + 1.
+
 
 **Road Reparation**
 

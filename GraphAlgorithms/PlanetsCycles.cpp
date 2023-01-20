@@ -3,42 +3,41 @@
 using namespace std;
 
 enum class status {
-    UNEXPLORED, EXPLORING, CYCLE_START, IN_CYCLE, NOT_CYCLE
+    UNEXPLORED, EXPLORING, EXPLORED
 };
 
-typedef pair<status, int>  planet_data;
-#define STATUS first
-#define DATA second
+pair<int, int> dfs(int node, int step, vector<int> &graph,
+                vector<status> &visited, vector<int> &dist) {
 
-planet_data dfs(int node, int step, vector<int> &graph,
-                vector<planet_data> &visited) {
-
-    if (visited[node].STATUS == status::EXPLORING) {
-        int cycle_length = step - visited[node].DATA;
-        visited[node].STATUS = status::CYCLE_START;
-        return {status::IN_CYCLE, cycle_length};
-
-    } else if (visited[node].STATUS == status::IN_CYCLE ||
-        visited[node].STATUS == status::NOT_CYCLE) {
-        return {status::NOT_CYCLE, visited[node].DATA};
-    }
-
-    visited[node] = {status::EXPLORING, step};
-    auto result = dfs(graph[node], step + 1, graph, visited);
-    if (result.STATUS == status::IN_CYCLE) {
-        visited[node].DATA = result.DATA;
-        if (visited[node].STATUS == status::CYCLE_START) {
-            visited[node].STATUS = status::IN_CYCLE;
-            return {status::NOT_CYCLE, result.DATA};
-        } else {
-            visited[node].STATUS = status::IN_CYCLE;
-            return {status::IN_CYCLE, result.DATA};
+    switch (visited[node]) {
+        case status::EXPLORING: {
+            int cycle_length = step - dist[node];
+            return {cycle_length, -cycle_length + 1};
         }
-    } else {
-        visited[node] = {status::NOT_CYCLE, result.DATA + 1};
-        return visited[node];
+        case status::EXPLORED:
+            return {-1, dist[node]};
+        default:
+            break;
     }
 
+    visited[node] = status::EXPLORING;
+    dist[node] = step;
+    auto [cycle_length, cycle_distance] =
+            dfs(graph[node], step + 1, graph, visited, dist);
+    visited[node] = status::EXPLORED;
+
+    if (cycle_length == -1) {
+        dist[node] = cycle_distance + 1;
+        return {-1, cycle_distance + 1};
+    } else {
+        dist[node] = cycle_length;
+        if (cycle_distance == 0) {
+            return {-1, cycle_length};
+        } else {
+            return {cycle_length, cycle_distance + 1};
+        }
+
+    }
 
 }
 
@@ -59,16 +58,17 @@ int main() {
         cin >> successor[i];
     }
 
-    vector<planet_data> visited(n + 1, {status::UNEXPLORED, -1});
+    vector<status> visited(n + 1, status::UNEXPLORED);
+    vector<int> distances(n + 1, 0);
 
     for (int i = 1; i <= n; i++) {
-        if (visited[i].STATUS == status::UNEXPLORED) {
-            dfs(i, 1, successor, visited);
+        if (visited[i] == status::UNEXPLORED) {
+            dfs(i, 1, successor, visited, distances);
         }
     }
 
     for (int i = 1; i <= n; i++) {
-        cout << visited[i].DATA << " ";
+        cout << distances[i] << " ";
     }
     cout << "\n";
 

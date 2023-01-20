@@ -129,6 +129,7 @@ C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/Mathematics/CMakeF
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/Mathematics/CMakeFiles/DistributingApples.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/Mathematics/CMakeFiles/BracketSequencesII.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/Mathematics/CMakeFiles/CountingNecklaces.dir
+C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/Mathematics/CMakeFiles/CandyLottery.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/Mathematics/CMakeFiles/edit_cache.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/Mathematics/CMakeFiles/rebuild_cache.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/StringAlgorithms/CMakeFiles/edit_cache.dir
@@ -142,5 +143,7 @@ C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/AdvancedTechniques
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/AdvancedTechniques/CMakeFiles/rebuild_cache.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/AdditionalProblems/CMakeFiles/StickDivisions.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/AdditionalProblems/CMakeFiles/ProgrammersAndArtists.dir
+C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/AdditionalProblems/CMakeFiles/SwapGame.dir
+C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/AdditionalProblems/CMakeFiles/IncreasingSubsequenceII.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/AdditionalProblems/CMakeFiles/edit_cache.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/AdditionalProblems/CMakeFiles/rebuild_cache.dir

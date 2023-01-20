@@ -9,19 +9,19 @@ int total = 0;
 string path;
 
 static inline int up_free(int r, int c) {
-    return r - 1 >= 0 && !grid[r - 1][c];
+    return r - 1 >= 0 && !Grid[r - 1][c];
 }
 
 static inline int down_free(int r, int c) {
-    return r + 1 < GRID_SIZE && !grid[r + 1][c];
+    return r + 1 < GRID_SIZE && !Grid[r + 1][c];
 }
 
 static inline int left_free(int r, int c) {
-    return c - 1 >= 0 && !grid[r][c - 1];
+    return c - 1 >= 0 && !Grid[r][c - 1];
 }
 
 static inline int right_free(int r, int c) {
-    return c + 1 < GRID_SIZE && !grid[r][c + 1];
+    return c + 1 < GRID_SIZE && !Grid[r][c + 1];
 }
 
 static inline int dir_free(int r, int c, char dir) {
@@ -51,7 +51,7 @@ static inline int sides_free(int r, int c, char dir) {
 
 void dfs(int i, int r, int c, char dir) {
 
-    if (r < 0 || r >= GRID_SIZE || c < 0 || c >= GRID_SIZE || grid[r][c] ||
+    if (r < 0 || r >= GRID_SIZE || c < 0 || c >= GRID_SIZE || Grid[r][c] ||
         (!dir_free(r, c, dir) && sides_free(r, c, dir))) {
         return;
     }
@@ -67,14 +67,14 @@ void dfs(int i, int r, int c, char dir) {
         return;
     }
 
-    grid[r][c] = 1;
+    Grid[r][c] = 1;
 
     dfs(i + 1, r - 1, c, 'U');
     dfs(i + 1, r + 1, c, 'D');
     dfs(i + 1, r, c - 1, 'L');
     dfs(i + 1, r, c + 1, 'R');
 
-    grid[r][c] = 0;
+    Grid[r][c] = 0;
 
 }
 
