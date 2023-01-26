@@ -3414,6 +3414,105 @@ build RangeQueries/StaticRangeSumQueries.exe: CXX_EXECUTABLE_LINKER__StaticRange
   TARGET_IMPLIB = RangeQueries\libStaticRangeSumQueries.dll.a
   TARGET_PDB = StaticRangeSumQueries.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target StaticRangeMinimumQueries
+
+
+#############################################
+# Order-only phony target for StaticRangeMinimumQueries
+
+build cmake_object_order_depends_target_StaticRangeMinimumQueries: phony || RangeQueries/CMakeFiles/StaticRangeMinimumQueries.dir
+
+build RangeQueries/CMakeFiles/StaticRangeMinimumQueries.dir/StaticRangeMinimumQueries.cpp.obj: CXX_COMPILER__StaticRangeMinimumQueries_Debug C$:/Users/anton/CLionProjects/CSESProblemSet/RangeQueries/StaticRangeMinimumQueries.cpp || cmake_object_order_depends_target_StaticRangeMinimumQueries
+  DEP_FILE = RangeQueries\CMakeFiles\StaticRangeMinimumQueries.dir\StaticRangeMinimumQueries.cpp.obj.d
+  FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
+  OBJECT_DIR = RangeQueries\CMakeFiles\StaticRangeMinimumQueries.dir
+  OBJECT_FILE_DIR = RangeQueries\CMakeFiles\StaticRangeMinimumQueries.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target StaticRangeMinimumQueries
+
+
+#############################################
+# Link the executable RangeQueries\StaticRangeMinimumQueries.exe
+
+build RangeQueries/StaticRangeMinimumQueries.exe: CXX_EXECUTABLE_LINKER__StaticRangeMinimumQueries_Debug RangeQueries/CMakeFiles/StaticRangeMinimumQueries.dir/StaticRangeMinimumQueries.cpp.obj
+  FLAGS = -O2 -Wall -Wextra -DLOCAL -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = RangeQueries\CMakeFiles\StaticRangeMinimumQueries.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = RangeQueries\StaticRangeMinimumQueries.exe
+  TARGET_IMPLIB = RangeQueries\libStaticRangeMinimumQueries.dll.a
+  TARGET_PDB = StaticRangeMinimumQueries.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target RangeUpdateQueries
+
+
+#############################################
+# Order-only phony target for RangeUpdateQueries
+
+build cmake_object_order_depends_target_RangeUpdateQueries: phony || RangeQueries/CMakeFiles/RangeUpdateQueries.dir
+
+build RangeQueries/CMakeFiles/RangeUpdateQueries.dir/RangeUpdateQueries.cpp.obj: CXX_COMPILER__RangeUpdateQueries_Debug C$:/Users/anton/CLionProjects/CSESProblemSet/RangeQueries/RangeUpdateQueries.cpp || cmake_object_order_depends_target_RangeUpdateQueries
+  DEP_FILE = RangeQueries\CMakeFiles\RangeUpdateQueries.dir\RangeUpdateQueries.cpp.obj.d
+  FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
+  OBJECT_DIR = RangeQueries\CMakeFiles\RangeUpdateQueries.dir
+  OBJECT_FILE_DIR = RangeQueries\CMakeFiles\RangeUpdateQueries.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target RangeUpdateQueries
+
+
+#############################################
+# Link the executable RangeQueries\RangeUpdateQueries.exe
+
+build RangeQueries/RangeUpdateQueries.exe: CXX_EXECUTABLE_LINKER__RangeUpdateQueries_Debug RangeQueries/CMakeFiles/RangeUpdateQueries.dir/RangeUpdateQueries.cpp.obj
+  FLAGS = -O2 -Wall -Wextra -DLOCAL -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = RangeQueries\CMakeFiles\RangeUpdateQueries.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = RangeQueries\RangeUpdateQueries.exe
+  TARGET_IMPLIB = RangeQueries\libRangeUpdateQueries.dll.a
+  TARGET_PDB = RangeUpdateQueries.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target DynamicRangeSumQueries
+
+
+#############################################
+# Order-only phony target for DynamicRangeSumQueries
+
+build cmake_object_order_depends_target_DynamicRangeSumQueries: phony || RangeQueries/CMakeFiles/DynamicRangeSumQueries.dir
+
+build RangeQueries/CMakeFiles/DynamicRangeSumQueries.dir/DynamicRangeSumQueries.cpp.obj: CXX_COMPILER__DynamicRangeSumQueries_Debug C$:/Users/anton/CLionProjects/CSESProblemSet/RangeQueries/DynamicRangeSumQueries.cpp || cmake_object_order_depends_target_DynamicRangeSumQueries
+  DEP_FILE = RangeQueries\CMakeFiles\DynamicRangeSumQueries.dir\DynamicRangeSumQueries.cpp.obj.d
+  FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
+  OBJECT_DIR = RangeQueries\CMakeFiles\DynamicRangeSumQueries.dir
+  OBJECT_FILE_DIR = RangeQueries\CMakeFiles\DynamicRangeSumQueries.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target DynamicRangeSumQueries
+
+
+#############################################
+# Link the executable RangeQueries\DynamicRangeSumQueries.exe
+
+build RangeQueries/DynamicRangeSumQueries.exe: CXX_EXECUTABLE_LINKER__DynamicRangeSumQueries_Debug RangeQueries/CMakeFiles/DynamicRangeSumQueries.dir/DynamicRangeSumQueries.cpp.obj
+  FLAGS = -O2 -Wall -Wextra -DLOCAL -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = RangeQueries\CMakeFiles\DynamicRangeSumQueries.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = RangeQueries\DynamicRangeSumQueries.exe
+  TARGET_IMPLIB = RangeQueries\libDynamicRangeSumQueries.dll.a
+  TARGET_PDB = DynamicRangeSumQueries.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -4130,6 +4229,39 @@ build Mathematics/CandyLottery.exe: CXX_EXECUTABLE_LINKER__CandyLottery_Debug Ma
   TARGET_IMPLIB = Mathematics\libCandyLottery.dll.a
   TARGET_PDB = CandyLottery.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target CountingGrids
+
+
+#############################################
+# Order-only phony target for CountingGrids
+
+build cmake_object_order_depends_target_CountingGrids: phony || Mathematics/CMakeFiles/CountingGrids.dir
+
+build Mathematics/CMakeFiles/CountingGrids.dir/CountingGrids.cpp.obj: CXX_COMPILER__CountingGrids_Debug C$:/Users/anton/CLionProjects/CSESProblemSet/Mathematics/CountingGrids.cpp || cmake_object_order_depends_target_CountingGrids
+  DEP_FILE = Mathematics\CMakeFiles\CountingGrids.dir\CountingGrids.cpp.obj.d
+  FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
+  OBJECT_DIR = Mathematics\CMakeFiles\CountingGrids.dir
+  OBJECT_FILE_DIR = Mathematics\CMakeFiles\CountingGrids.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CountingGrids
+
+
+#############################################
+# Link the executable Mathematics\CountingGrids.exe
+
+build Mathematics/CountingGrids.exe: CXX_EXECUTABLE_LINKER__CountingGrids_Debug Mathematics/CMakeFiles/CountingGrids.dir/CountingGrids.cpp.obj
+  FLAGS = -O2 -Wall -Wextra -DLOCAL -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Mathematics\CMakeFiles\CountingGrids.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Mathematics\CountingGrids.exe
+  TARGET_IMPLIB = Mathematics\libCountingGrids.dll.a
+  TARGET_PDB = CountingGrids.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -4593,6 +4725,10 @@ build CountingDivisors: phony Mathematics/CountingDivisors.exe
 
 build CountingDivisors.exe: phony Mathematics/CountingDivisors.exe
 
+build CountingGrids: phony Mathematics/CountingGrids.exe
+
+build CountingGrids.exe: phony Mathematics/CountingGrids.exe
+
 build CountingNecklaces: phony Mathematics/CountingNecklaces.exe
 
 build CountingNecklaces.exe: phony Mathematics/CountingNecklaces.exe
@@ -4648,6 +4784,10 @@ build DistributingApples.exe: phony Mathematics/DistributingApples.exe
 build DivisorAnalysis: phony Mathematics/DivisorAnalysis.exe
 
 build DivisorAnalysis.exe: phony Mathematics/DivisorAnalysis.exe
+
+build DynamicRangeSumQueries: phony RangeQueries/DynamicRangeSumQueries.exe
+
+build DynamicRangeSumQueries.exe: phony RangeQueries/DynamicRangeSumQueries.exe
 
 build EditDistance: phony DynamicProgramming/EditDistance.exe
 
@@ -4845,6 +4985,10 @@ build Projects: phony DynamicProgramming/Projects.exe
 
 build Projects.exe: phony DynamicProgramming/Projects.exe
 
+build RangeUpdateQueries: phony RangeQueries/RangeUpdateQueries.exe
+
+build RangeUpdateQueries.exe: phony RangeQueries/RangeUpdateQueries.exe
+
 build RangeXorQueries: phony RangeQueries/RangeXorQueries.exe
 
 build RangeXorQueries.exe: phony RangeQueries/RangeXorQueries.exe
@@ -4908,6 +5052,10 @@ build SlidingCost.exe: phony SortingAndSearching/SlidingCost.exe
 build SlidingMedian: phony SortingAndSearching/SlidingMedian.exe
 
 build SlidingMedian.exe: phony SortingAndSearching/SlidingMedian.exe
+
+build StaticRangeMinimumQueries: phony RangeQueries/StaticRangeMinimumQueries.exe
+
+build StaticRangeMinimumQueries.exe: phony RangeQueries/StaticRangeMinimumQueries.exe
 
 build StaticRangeSumQueries: phony RangeQueries/StaticRangeSumQueries.exe
 
@@ -5054,14 +5202,14 @@ build IntroductoryProblems/all: phony IntroductoryProblems/WeirdAlgorithm.exe In
 #############################################
 # Folder: C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/Mathematics
 
-build Mathematics/all: phony Mathematics/CommonDivisors.exe Mathematics/ThrowingDice.exe Mathematics/DiceProbability.exe Mathematics/PrimeMultiples.exe Mathematics/Exponentiation.exe Mathematics/ExponentiationII.exe Mathematics/CountingDivisors.exe Mathematics/CreatingStringsII.exe Mathematics/SumOfDivisors.exe Mathematics/FibonacciNumbers.exe Mathematics/ChristmasParty.exe Mathematics/BinomialCoefficients.exe Mathematics/DivisorAnalysis.exe Mathematics/BracketSequencesI.exe Mathematics/GraphPathsI.exe Mathematics/GraphPathsII.exe Mathematics/DistributingApples.exe Mathematics/BracketSequencesII.exe Mathematics/CountingNecklaces.exe Mathematics/CandyLottery.exe
+build Mathematics/all: phony Mathematics/CommonDivisors.exe Mathematics/ThrowingDice.exe Mathematics/DiceProbability.exe Mathematics/PrimeMultiples.exe Mathematics/Exponentiation.exe Mathematics/ExponentiationII.exe Mathematics/CountingDivisors.exe Mathematics/CreatingStringsII.exe Mathematics/SumOfDivisors.exe Mathematics/FibonacciNumbers.exe Mathematics/ChristmasParty.exe Mathematics/BinomialCoefficients.exe Mathematics/DivisorAnalysis.exe Mathematics/BracketSequencesI.exe Mathematics/GraphPathsI.exe Mathematics/GraphPathsII.exe Mathematics/DistributingApples.exe Mathematics/BracketSequencesII.exe Mathematics/CountingNecklaces.exe Mathematics/CandyLottery.exe Mathematics/CountingGrids.exe
 
 # =============================================================================
 
 #############################################
 # Folder: C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/RangeQueries
 
-build RangeQueries/all: phony RangeQueries/RangeXorQueries.exe RangeQueries/StaticRangeSumQueries.exe
+build RangeQueries/all: phony RangeQueries/RangeXorQueries.exe RangeQueries/StaticRangeSumQueries.exe RangeQueries/StaticRangeMinimumQueries.exe RangeQueries/RangeUpdateQueries.exe RangeQueries/DynamicRangeSumQueries.exe
 
 # =============================================================================
 

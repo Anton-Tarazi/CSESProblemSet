@@ -106,6 +106,9 @@ C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/GraphAlgorithms/CM
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/GraphAlgorithms/CMakeFiles/rebuild_cache.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/RangeQueries/CMakeFiles/RangeXorQueries.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/RangeQueries/CMakeFiles/StaticRangeSumQueries.dir
+C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/RangeQueries/CMakeFiles/StaticRangeMinimumQueries.dir
+C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/RangeQueries/CMakeFiles/RangeUpdateQueries.dir
+C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/RangeQueries/CMakeFiles/DynamicRangeSumQueries.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/RangeQueries/CMakeFiles/edit_cache.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/RangeQueries/CMakeFiles/rebuild_cache.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/TreeAlgorithms/CMakeFiles/edit_cache.dir
@@ -130,6 +133,7 @@ C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/Mathematics/CMakeF
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/Mathematics/CMakeFiles/BracketSequencesII.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/Mathematics/CMakeFiles/CountingNecklaces.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/Mathematics/CMakeFiles/CandyLottery.dir
+C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/Mathematics/CMakeFiles/CountingGrids.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/Mathematics/CMakeFiles/edit_cache.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/Mathematics/CMakeFiles/rebuild_cache.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/StringAlgorithms/CMakeFiles/edit_cache.dir

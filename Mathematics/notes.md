@@ -107,6 +107,18 @@ answer.
 Use Burnside's Lemma / orbit counting theorem. Idea relies on group theory.
 
 **Counting Grids**
+
+Using Burnside's Lemma. The rotations of the board are the group G = C_4. For each element of 
+G, count how many members of the set are fixed by G (the size of the stabilizer). Assume n is 
+even, then for the null rotation, all 2^(area) possible boards are fixed. For the 90/ 270
+degree rotations, every board that is fixed is uniquely determined by a quarter of the board, 
+so the size of those two sets is 2^(area/4). And for the 180-degree rotation, every board that
+is fixed is uniquely determined by half, so the count is 2^(area/2). If n is odd, must slightly
+modify calculations: round n down to even before calculating area, and then tack on n / 2 + 1, 
+which corresponds to the segment from the center of the grid to the midpoint of an edge, which 
+also uniquely determines a half/ quarter board. Finally, add all these numbers together and
+divide by |G| = 4. 
+
 **Fibonacci Numbers**
 
 Binary matrix exponentiation.

@@ -1,2 +1,5 @@
 add_executable(RangeXorQueries RangeXorQueries.cpp)
 add_executable(StaticRangeSumQueries StaticRangeSumQueries.cpp)
+add_executable(StaticRangeMinimumQueries StaticRangeMinimumQueries.cpp)
+add_executable(RangeUpdateQueries RangeUpdateQueries.cpp)
+add_executable(DynamicRangeSumQueries DynamicRangeSumQueries.cpp)
