@@ -109,6 +109,8 @@ C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/RangeQueries/CMake
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/RangeQueries/CMakeFiles/StaticRangeMinimumQueries.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/RangeQueries/CMakeFiles/RangeUpdateQueries.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/RangeQueries/CMakeFiles/DynamicRangeSumQueries.dir
+C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/RangeQueries/CMakeFiles/DynamicRangeMinimumQueries.dir
+C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/RangeQueries/CMakeFiles/HotelQueries.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/RangeQueries/CMakeFiles/edit_cache.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/RangeQueries/CMakeFiles/rebuild_cache.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/TreeAlgorithms/CMakeFiles/edit_cache.dir

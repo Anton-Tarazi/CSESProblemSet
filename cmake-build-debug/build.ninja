@@ -54,6 +54,8 @@ build CMakeFiles/CSESProblemSet.dir/main.cpp.obj: CXX_COMPILER__CSESProblemSet_D
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = CMakeFiles\CSESProblemSet.dir
   OBJECT_FILE_DIR = CMakeFiles\CSESProblemSet.dir
+  TARGET_COMPILE_PDB = CMakeFiles\CSESProblemSet.dir\
+  TARGET_PDB = CSESProblemSet.pdb
 
 
 # =============================================================================
@@ -69,9 +71,10 @@ build CSESProblemSet.exe: CXX_EXECUTABLE_LINKER__CSESProblemSet_Debug CMakeFiles
   OBJECT_DIR = CMakeFiles\CSESProblemSet.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\CSESProblemSet.dir\
   TARGET_FILE = CSESProblemSet.exe
   TARGET_IMPLIB = libCSESProblemSet.dll.a
-  TARGET_PDB = CSESProblemSet.exe.dbg
+  TARGET_PDB = CSESProblemSet.pdb
 
 
 #############################################
@@ -115,6 +118,8 @@ build IntroductoryProblems/CMakeFiles/WeirdAlgorithm.dir/WeirdAlgorithm.cpp.obj:
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = IntroductoryProblems\CMakeFiles\WeirdAlgorithm.dir
   OBJECT_FILE_DIR = IntroductoryProblems\CMakeFiles\WeirdAlgorithm.dir
+  TARGET_COMPILE_PDB = IntroductoryProblems\CMakeFiles\WeirdAlgorithm.dir\
+  TARGET_PDB = IntroductoryProblems\WeirdAlgorithm.pdb
 
 
 # =============================================================================
@@ -130,9 +135,10 @@ build IntroductoryProblems/WeirdAlgorithm.exe: CXX_EXECUTABLE_LINKER__WeirdAlgor
   OBJECT_DIR = IntroductoryProblems\CMakeFiles\WeirdAlgorithm.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = IntroductoryProblems\CMakeFiles\WeirdAlgorithm.dir\
   TARGET_FILE = IntroductoryProblems\WeirdAlgorithm.exe
   TARGET_IMPLIB = IntroductoryProblems\libWeirdAlgorithm.dll.a
-  TARGET_PDB = WeirdAlgorithm.exe.dbg
+  TARGET_PDB = IntroductoryProblems\WeirdAlgorithm.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target MissingNumber
@@ -148,6 +154,8 @@ build IntroductoryProblems/CMakeFiles/MissingNumber.dir/MissingNumber.cpp.obj: C
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = IntroductoryProblems\CMakeFiles\MissingNumber.dir
   OBJECT_FILE_DIR = IntroductoryProblems\CMakeFiles\MissingNumber.dir
+  TARGET_COMPILE_PDB = IntroductoryProblems\CMakeFiles\MissingNumber.dir\
+  TARGET_PDB = IntroductoryProblems\MissingNumber.pdb
 
 
 # =============================================================================
@@ -163,9 +171,10 @@ build IntroductoryProblems/MissingNumber.exe: CXX_EXECUTABLE_LINKER__MissingNumb
   OBJECT_DIR = IntroductoryProblems\CMakeFiles\MissingNumber.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = IntroductoryProblems\CMakeFiles\MissingNumber.dir\
   TARGET_FILE = IntroductoryProblems\MissingNumber.exe
   TARGET_IMPLIB = IntroductoryProblems\libMissingNumber.dll.a
-  TARGET_PDB = MissingNumber.exe.dbg
+  TARGET_PDB = IntroductoryProblems\MissingNumber.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Repetitions
@@ -181,6 +190,8 @@ build IntroductoryProblems/CMakeFiles/Repetitions.dir/Repetitions.cpp.obj: CXX_C
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = IntroductoryProblems\CMakeFiles\Repetitions.dir
   OBJECT_FILE_DIR = IntroductoryProblems\CMakeFiles\Repetitions.dir
+  TARGET_COMPILE_PDB = IntroductoryProblems\CMakeFiles\Repetitions.dir\
+  TARGET_PDB = IntroductoryProblems\Repetitions.pdb
 
 
 # =============================================================================
@@ -196,9 +207,10 @@ build IntroductoryProblems/Repetitions.exe: CXX_EXECUTABLE_LINKER__Repetitions_D
   OBJECT_DIR = IntroductoryProblems\CMakeFiles\Repetitions.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = IntroductoryProblems\CMakeFiles\Repetitions.dir\
   TARGET_FILE = IntroductoryProblems\Repetitions.exe
   TARGET_IMPLIB = IntroductoryProblems\libRepetitions.dll.a
-  TARGET_PDB = Repetitions.exe.dbg
+  TARGET_PDB = IntroductoryProblems\Repetitions.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target IncreasingArray
@@ -214,6 +226,8 @@ build IntroductoryProblems/CMakeFiles/IncreasingArray.dir/IncreasingArray.cpp.ob
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = IntroductoryProblems\CMakeFiles\IncreasingArray.dir
   OBJECT_FILE_DIR = IntroductoryProblems\CMakeFiles\IncreasingArray.dir
+  TARGET_COMPILE_PDB = IntroductoryProblems\CMakeFiles\IncreasingArray.dir\
+  TARGET_PDB = IntroductoryProblems\IncreasingArray.pdb
 
 
 # =============================================================================
@@ -229,9 +243,10 @@ build IntroductoryProblems/IncreasingArray.exe: CXX_EXECUTABLE_LINKER__Increasin
   OBJECT_DIR = IntroductoryProblems\CMakeFiles\IncreasingArray.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = IntroductoryProblems\CMakeFiles\IncreasingArray.dir\
   TARGET_FILE = IntroductoryProblems\IncreasingArray.exe
   TARGET_IMPLIB = IntroductoryProblems\libIncreasingArray.dll.a
-  TARGET_PDB = IncreasingArray.exe.dbg
+  TARGET_PDB = IntroductoryProblems\IncreasingArray.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Permutations
@@ -247,6 +262,8 @@ build IntroductoryProblems/CMakeFiles/Permutations.dir/Permutations.cpp.obj: CXX
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = IntroductoryProblems\CMakeFiles\Permutations.dir
   OBJECT_FILE_DIR = IntroductoryProblems\CMakeFiles\Permutations.dir
+  TARGET_COMPILE_PDB = IntroductoryProblems\CMakeFiles\Permutations.dir\
+  TARGET_PDB = IntroductoryProblems\Permutations.pdb
 
 
 # =============================================================================
@@ -262,9 +279,10 @@ build IntroductoryProblems/Permutations.exe: CXX_EXECUTABLE_LINKER__Permutations
   OBJECT_DIR = IntroductoryProblems\CMakeFiles\Permutations.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = IntroductoryProblems\CMakeFiles\Permutations.dir\
   TARGET_FILE = IntroductoryProblems\Permutations.exe
   TARGET_IMPLIB = IntroductoryProblems\libPermutations.dll.a
-  TARGET_PDB = Permutations.exe.dbg
+  TARGET_PDB = IntroductoryProblems\Permutations.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target BitStrings
@@ -280,6 +298,8 @@ build IntroductoryProblems/CMakeFiles/BitStrings.dir/BitStrings.cpp.obj: CXX_COM
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = IntroductoryProblems\CMakeFiles\BitStrings.dir
   OBJECT_FILE_DIR = IntroductoryProblems\CMakeFiles\BitStrings.dir
+  TARGET_COMPILE_PDB = IntroductoryProblems\CMakeFiles\BitStrings.dir\
+  TARGET_PDB = IntroductoryProblems\BitStrings.pdb
 
 
 # =============================================================================
@@ -295,9 +315,10 @@ build IntroductoryProblems/BitStrings.exe: CXX_EXECUTABLE_LINKER__BitStrings_Deb
   OBJECT_DIR = IntroductoryProblems\CMakeFiles\BitStrings.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = IntroductoryProblems\CMakeFiles\BitStrings.dir\
   TARGET_FILE = IntroductoryProblems\BitStrings.exe
   TARGET_IMPLIB = IntroductoryProblems\libBitStrings.dll.a
-  TARGET_PDB = BitStrings.exe.dbg
+  TARGET_PDB = IntroductoryProblems\BitStrings.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target GrayCode
@@ -313,6 +334,8 @@ build IntroductoryProblems/CMakeFiles/GrayCode.dir/GrayCode.cpp.obj: CXX_COMPILE
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = IntroductoryProblems\CMakeFiles\GrayCode.dir
   OBJECT_FILE_DIR = IntroductoryProblems\CMakeFiles\GrayCode.dir
+  TARGET_COMPILE_PDB = IntroductoryProblems\CMakeFiles\GrayCode.dir\
+  TARGET_PDB = IntroductoryProblems\GrayCode.pdb
 
 
 # =============================================================================
@@ -328,9 +351,10 @@ build IntroductoryProblems/GrayCode.exe: CXX_EXECUTABLE_LINKER__GrayCode_Debug I
   OBJECT_DIR = IntroductoryProblems\CMakeFiles\GrayCode.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = IntroductoryProblems\CMakeFiles\GrayCode.dir\
   TARGET_FILE = IntroductoryProblems\GrayCode.exe
   TARGET_IMPLIB = IntroductoryProblems\libGrayCode.dll.a
-  TARGET_PDB = GrayCode.exe.dbg
+  TARGET_PDB = IntroductoryProblems\GrayCode.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target AppleDivision
@@ -346,6 +370,8 @@ build IntroductoryProblems/CMakeFiles/AppleDivision.dir/AppleDivision.cpp.obj: C
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = IntroductoryProblems\CMakeFiles\AppleDivision.dir
   OBJECT_FILE_DIR = IntroductoryProblems\CMakeFiles\AppleDivision.dir
+  TARGET_COMPILE_PDB = IntroductoryProblems\CMakeFiles\AppleDivision.dir\
+  TARGET_PDB = IntroductoryProblems\AppleDivision.pdb
 
 
 # =============================================================================
@@ -361,9 +387,10 @@ build IntroductoryProblems/AppleDivision.exe: CXX_EXECUTABLE_LINKER__AppleDivisi
   OBJECT_DIR = IntroductoryProblems\CMakeFiles\AppleDivision.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = IntroductoryProblems\CMakeFiles\AppleDivision.dir\
   TARGET_FILE = IntroductoryProblems\AppleDivision.exe
   TARGET_IMPLIB = IntroductoryProblems\libAppleDivision.dll.a
-  TARGET_PDB = AppleDivision.exe.dbg
+  TARGET_PDB = IntroductoryProblems\AppleDivision.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target TrailingZeroes
@@ -379,6 +406,8 @@ build IntroductoryProblems/CMakeFiles/TrailingZeroes.dir/TrailingZeroes.cpp.obj:
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = IntroductoryProblems\CMakeFiles\TrailingZeroes.dir
   OBJECT_FILE_DIR = IntroductoryProblems\CMakeFiles\TrailingZeroes.dir
+  TARGET_COMPILE_PDB = IntroductoryProblems\CMakeFiles\TrailingZeroes.dir\
+  TARGET_PDB = IntroductoryProblems\TrailingZeroes.pdb
 
 
 # =============================================================================
@@ -394,9 +423,10 @@ build IntroductoryProblems/TrailingZeroes.exe: CXX_EXECUTABLE_LINKER__TrailingZe
   OBJECT_DIR = IntroductoryProblems\CMakeFiles\TrailingZeroes.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = IntroductoryProblems\CMakeFiles\TrailingZeroes.dir\
   TARGET_FILE = IntroductoryProblems\TrailingZeroes.exe
   TARGET_IMPLIB = IntroductoryProblems\libTrailingZeroes.dll.a
-  TARGET_PDB = TrailingZeroes.exe.dbg
+  TARGET_PDB = IntroductoryProblems\TrailingZeroes.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target PalindromeReorder
@@ -412,6 +442,8 @@ build IntroductoryProblems/CMakeFiles/PalindromeReorder.dir/PalindromeReorder.cp
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = IntroductoryProblems\CMakeFiles\PalindromeReorder.dir
   OBJECT_FILE_DIR = IntroductoryProblems\CMakeFiles\PalindromeReorder.dir
+  TARGET_COMPILE_PDB = IntroductoryProblems\CMakeFiles\PalindromeReorder.dir\
+  TARGET_PDB = IntroductoryProblems\PalindromeReorder.pdb
 
 
 # =============================================================================
@@ -427,9 +459,10 @@ build IntroductoryProblems/PalindromeReorder.exe: CXX_EXECUTABLE_LINKER__Palindr
   OBJECT_DIR = IntroductoryProblems\CMakeFiles\PalindromeReorder.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = IntroductoryProblems\CMakeFiles\PalindromeReorder.dir\
   TARGET_FILE = IntroductoryProblems\PalindromeReorder.exe
   TARGET_IMPLIB = IntroductoryProblems\libPalindromeReorder.dll.a
-  TARGET_PDB = PalindromeReorder.exe.dbg
+  TARGET_PDB = IntroductoryProblems\PalindromeReorder.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target TowerOfHanoi
@@ -445,6 +478,8 @@ build IntroductoryProblems/CMakeFiles/TowerOfHanoi.dir/TowerOfHanoi.cpp.obj: CXX
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = IntroductoryProblems\CMakeFiles\TowerOfHanoi.dir
   OBJECT_FILE_DIR = IntroductoryProblems\CMakeFiles\TowerOfHanoi.dir
+  TARGET_COMPILE_PDB = IntroductoryProblems\CMakeFiles\TowerOfHanoi.dir\
+  TARGET_PDB = IntroductoryProblems\TowerOfHanoi.pdb
 
 
 # =============================================================================
@@ -460,9 +495,10 @@ build IntroductoryProblems/TowerOfHanoi.exe: CXX_EXECUTABLE_LINKER__TowerOfHanoi
   OBJECT_DIR = IntroductoryProblems\CMakeFiles\TowerOfHanoi.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = IntroductoryProblems\CMakeFiles\TowerOfHanoi.dir\
   TARGET_FILE = IntroductoryProblems\TowerOfHanoi.exe
   TARGET_IMPLIB = IntroductoryProblems\libTowerOfHanoi.dll.a
-  TARGET_PDB = TowerOfHanoi.exe.dbg
+  TARGET_PDB = IntroductoryProblems\TowerOfHanoi.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target CreatingStrings
@@ -478,6 +514,8 @@ build IntroductoryProblems/CMakeFiles/CreatingStrings.dir/CreatingStrings.cpp.ob
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = IntroductoryProblems\CMakeFiles\CreatingStrings.dir
   OBJECT_FILE_DIR = IntroductoryProblems\CMakeFiles\CreatingStrings.dir
+  TARGET_COMPILE_PDB = IntroductoryProblems\CMakeFiles\CreatingStrings.dir\
+  TARGET_PDB = IntroductoryProblems\CreatingStrings.pdb
 
 
 # =============================================================================
@@ -493,9 +531,10 @@ build IntroductoryProblems/CreatingStrings.exe: CXX_EXECUTABLE_LINKER__CreatingS
   OBJECT_DIR = IntroductoryProblems\CMakeFiles\CreatingStrings.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = IntroductoryProblems\CMakeFiles\CreatingStrings.dir\
   TARGET_FILE = IntroductoryProblems\CreatingStrings.exe
   TARGET_IMPLIB = IntroductoryProblems\libCreatingStrings.dll.a
-  TARGET_PDB = CreatingStrings.exe.dbg
+  TARGET_PDB = IntroductoryProblems\CreatingStrings.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target NumberSpiral
@@ -511,6 +550,8 @@ build IntroductoryProblems/CMakeFiles/NumberSpiral.dir/NumberSpiral.cpp.obj: CXX
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = IntroductoryProblems\CMakeFiles\NumberSpiral.dir
   OBJECT_FILE_DIR = IntroductoryProblems\CMakeFiles\NumberSpiral.dir
+  TARGET_COMPILE_PDB = IntroductoryProblems\CMakeFiles\NumberSpiral.dir\
+  TARGET_PDB = IntroductoryProblems\NumberSpiral.pdb
 
 
 # =============================================================================
@@ -526,9 +567,10 @@ build IntroductoryProblems/NumberSpiral.exe: CXX_EXECUTABLE_LINKER__NumberSpiral
   OBJECT_DIR = IntroductoryProblems\CMakeFiles\NumberSpiral.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = IntroductoryProblems\CMakeFiles\NumberSpiral.dir\
   TARGET_FILE = IntroductoryProblems\NumberSpiral.exe
   TARGET_IMPLIB = IntroductoryProblems\libNumberSpiral.dll.a
-  TARGET_PDB = NumberSpiral.exe.dbg
+  TARGET_PDB = IntroductoryProblems\NumberSpiral.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target GridPaths
@@ -544,6 +586,8 @@ build IntroductoryProblems/CMakeFiles/GridPaths.dir/GridPaths.cpp.obj: CXX_COMPI
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = IntroductoryProblems\CMakeFiles\GridPaths.dir
   OBJECT_FILE_DIR = IntroductoryProblems\CMakeFiles\GridPaths.dir
+  TARGET_COMPILE_PDB = IntroductoryProblems\CMakeFiles\GridPaths.dir\
+  TARGET_PDB = IntroductoryProblems\GridPaths.pdb
 
 
 # =============================================================================
@@ -559,9 +603,10 @@ build IntroductoryProblems/GridPaths.exe: CXX_EXECUTABLE_LINKER__GridPaths_Debug
   OBJECT_DIR = IntroductoryProblems\CMakeFiles\GridPaths.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = IntroductoryProblems\CMakeFiles\GridPaths.dir\
   TARGET_FILE = IntroductoryProblems\GridPaths.exe
   TARGET_IMPLIB = IntroductoryProblems\libGridPaths.dll.a
-  TARGET_PDB = GridPaths.exe.dbg
+  TARGET_PDB = IntroductoryProblems\GridPaths.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target CoinPiles
@@ -577,6 +622,8 @@ build IntroductoryProblems/CMakeFiles/CoinPiles.dir/CoinPiles.cpp.obj: CXX_COMPI
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = IntroductoryProblems\CMakeFiles\CoinPiles.dir
   OBJECT_FILE_DIR = IntroductoryProblems\CMakeFiles\CoinPiles.dir
+  TARGET_COMPILE_PDB = IntroductoryProblems\CMakeFiles\CoinPiles.dir\
+  TARGET_PDB = IntroductoryProblems\CoinPiles.pdb
 
 
 # =============================================================================
@@ -592,9 +639,10 @@ build IntroductoryProblems/CoinPiles.exe: CXX_EXECUTABLE_LINKER__CoinPiles_Debug
   OBJECT_DIR = IntroductoryProblems\CMakeFiles\CoinPiles.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = IntroductoryProblems\CMakeFiles\CoinPiles.dir\
   TARGET_FILE = IntroductoryProblems\CoinPiles.exe
   TARGET_IMPLIB = IntroductoryProblems\libCoinPiles.dll.a
-  TARGET_PDB = CoinPiles.exe.dbg
+  TARGET_PDB = IntroductoryProblems\CoinPiles.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target ChessboardAndQueens
@@ -610,6 +658,8 @@ build IntroductoryProblems/CMakeFiles/ChessboardAndQueens.dir/ChessboardAndQueen
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = IntroductoryProblems\CMakeFiles\ChessboardAndQueens.dir
   OBJECT_FILE_DIR = IntroductoryProblems\CMakeFiles\ChessboardAndQueens.dir
+  TARGET_COMPILE_PDB = IntroductoryProblems\CMakeFiles\ChessboardAndQueens.dir\
+  TARGET_PDB = IntroductoryProblems\ChessboardAndQueens.pdb
 
 
 # =============================================================================
@@ -625,9 +675,10 @@ build IntroductoryProblems/ChessboardAndQueens.exe: CXX_EXECUTABLE_LINKER__Chess
   OBJECT_DIR = IntroductoryProblems\CMakeFiles\ChessboardAndQueens.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = IntroductoryProblems\CMakeFiles\ChessboardAndQueens.dir\
   TARGET_FILE = IntroductoryProblems\ChessboardAndQueens.exe
   TARGET_IMPLIB = IntroductoryProblems\libChessboardAndQueens.dll.a
-  TARGET_PDB = ChessboardAndQueens.exe.dbg
+  TARGET_PDB = IntroductoryProblems\ChessboardAndQueens.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target TwoSets
@@ -643,6 +694,8 @@ build IntroductoryProblems/CMakeFiles/TwoSets.dir/TwoSets.cpp.obj: CXX_COMPILER_
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = IntroductoryProblems\CMakeFiles\TwoSets.dir
   OBJECT_FILE_DIR = IntroductoryProblems\CMakeFiles\TwoSets.dir
+  TARGET_COMPILE_PDB = IntroductoryProblems\CMakeFiles\TwoSets.dir\
+  TARGET_PDB = IntroductoryProblems\TwoSets.pdb
 
 
 # =============================================================================
@@ -658,9 +711,10 @@ build IntroductoryProblems/TwoSets.exe: CXX_EXECUTABLE_LINKER__TwoSets_Debug Int
   OBJECT_DIR = IntroductoryProblems\CMakeFiles\TwoSets.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = IntroductoryProblems\CMakeFiles\TwoSets.dir\
   TARGET_FILE = IntroductoryProblems\TwoSets.exe
   TARGET_IMPLIB = IntroductoryProblems\libTwoSets.dll.a
-  TARGET_PDB = TwoSets.exe.dbg
+  TARGET_PDB = IntroductoryProblems\TwoSets.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target DigitQueries
@@ -676,6 +730,8 @@ build IntroductoryProblems/CMakeFiles/DigitQueries.dir/DigitQueries.cpp.obj: CXX
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = IntroductoryProblems\CMakeFiles\DigitQueries.dir
   OBJECT_FILE_DIR = IntroductoryProblems\CMakeFiles\DigitQueries.dir
+  TARGET_COMPILE_PDB = IntroductoryProblems\CMakeFiles\DigitQueries.dir\
+  TARGET_PDB = IntroductoryProblems\DigitQueries.pdb
 
 
 # =============================================================================
@@ -691,9 +747,10 @@ build IntroductoryProblems/DigitQueries.exe: CXX_EXECUTABLE_LINKER__DigitQueries
   OBJECT_DIR = IntroductoryProblems\CMakeFiles\DigitQueries.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = IntroductoryProblems\CMakeFiles\DigitQueries.dir\
   TARGET_FILE = IntroductoryProblems\DigitQueries.exe
   TARGET_IMPLIB = IntroductoryProblems\libDigitQueries.dll.a
-  TARGET_PDB = DigitQueries.exe.dbg
+  TARGET_PDB = IntroductoryProblems\DigitQueries.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target TwoKnights
@@ -709,6 +766,8 @@ build IntroductoryProblems/CMakeFiles/TwoKnights.dir/TwoKnights.cpp.obj: CXX_COM
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = IntroductoryProblems\CMakeFiles\TwoKnights.dir
   OBJECT_FILE_DIR = IntroductoryProblems\CMakeFiles\TwoKnights.dir
+  TARGET_COMPILE_PDB = IntroductoryProblems\CMakeFiles\TwoKnights.dir\
+  TARGET_PDB = IntroductoryProblems\TwoKnights.pdb
 
 
 # =============================================================================
@@ -724,9 +783,10 @@ build IntroductoryProblems/TwoKnights.exe: CXX_EXECUTABLE_LINKER__TwoKnights_Deb
   OBJECT_DIR = IntroductoryProblems\CMakeFiles\TwoKnights.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = IntroductoryProblems\CMakeFiles\TwoKnights.dir\
   TARGET_FILE = IntroductoryProblems\TwoKnights.exe
   TARGET_IMPLIB = IntroductoryProblems\libTwoKnights.dll.a
-  TARGET_PDB = TwoKnights.exe.dbg
+  TARGET_PDB = IntroductoryProblems\TwoKnights.pdb
 
 
 #############################################
@@ -770,6 +830,8 @@ build SortingAndSearching/CMakeFiles/CollectingNumbers.dir/CollectingNumbers.cpp
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = SortingAndSearching\CMakeFiles\CollectingNumbers.dir
   OBJECT_FILE_DIR = SortingAndSearching\CMakeFiles\CollectingNumbers.dir
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\CollectingNumbers.dir\
+  TARGET_PDB = SortingAndSearching\CollectingNumbers.pdb
 
 
 # =============================================================================
@@ -785,9 +847,10 @@ build SortingAndSearching/CollectingNumbers.exe: CXX_EXECUTABLE_LINKER__Collecti
   OBJECT_DIR = SortingAndSearching\CMakeFiles\CollectingNumbers.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\CollectingNumbers.dir\
   TARGET_FILE = SortingAndSearching\CollectingNumbers.exe
   TARGET_IMPLIB = SortingAndSearching\libCollectingNumbers.dll.a
-  TARGET_PDB = CollectingNumbers.exe.dbg
+  TARGET_PDB = SortingAndSearching\CollectingNumbers.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target NestedRangesCheck
@@ -803,6 +866,8 @@ build SortingAndSearching/CMakeFiles/NestedRangesCheck.dir/NestedRangesCheck.cpp
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = SortingAndSearching\CMakeFiles\NestedRangesCheck.dir
   OBJECT_FILE_DIR = SortingAndSearching\CMakeFiles\NestedRangesCheck.dir
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\NestedRangesCheck.dir\
+  TARGET_PDB = SortingAndSearching\NestedRangesCheck.pdb
 
 
 # =============================================================================
@@ -818,9 +883,10 @@ build SortingAndSearching/NestedRangesCheck.exe: CXX_EXECUTABLE_LINKER__NestedRa
   OBJECT_DIR = SortingAndSearching\CMakeFiles\NestedRangesCheck.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\NestedRangesCheck.dir\
   TARGET_FILE = SortingAndSearching\NestedRangesCheck.exe
   TARGET_IMPLIB = SortingAndSearching\libNestedRangesCheck.dll.a
-  TARGET_PDB = NestedRangesCheck.exe.dbg
+  TARGET_PDB = SortingAndSearching\NestedRangesCheck.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target DistinctNumbers
@@ -836,6 +902,8 @@ build SortingAndSearching/CMakeFiles/DistinctNumbers.dir/DistinctNumbers.cpp.obj
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = SortingAndSearching\CMakeFiles\DistinctNumbers.dir
   OBJECT_FILE_DIR = SortingAndSearching\CMakeFiles\DistinctNumbers.dir
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\DistinctNumbers.dir\
+  TARGET_PDB = SortingAndSearching\DistinctNumbers.pdb
 
 
 # =============================================================================
@@ -851,9 +919,10 @@ build SortingAndSearching/DistinctNumbers.exe: CXX_EXECUTABLE_LINKER__DistinctNu
   OBJECT_DIR = SortingAndSearching\CMakeFiles\DistinctNumbers.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\DistinctNumbers.dir\
   TARGET_FILE = SortingAndSearching\DistinctNumbers.exe
   TARGET_IMPLIB = SortingAndSearching\libDistinctNumbers.dll.a
-  TARGET_PDB = DistinctNumbers.exe.dbg
+  TARGET_PDB = SortingAndSearching\DistinctNumbers.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Apartments
@@ -869,6 +938,8 @@ build SortingAndSearching/CMakeFiles/Apartments.dir/Apartments.cpp.obj: CXX_COMP
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = SortingAndSearching\CMakeFiles\Apartments.dir
   OBJECT_FILE_DIR = SortingAndSearching\CMakeFiles\Apartments.dir
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\Apartments.dir\
+  TARGET_PDB = SortingAndSearching\Apartments.pdb
 
 
 # =============================================================================
@@ -884,9 +955,10 @@ build SortingAndSearching/Apartments.exe: CXX_EXECUTABLE_LINKER__Apartments_Debu
   OBJECT_DIR = SortingAndSearching\CMakeFiles\Apartments.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\Apartments.dir\
   TARGET_FILE = SortingAndSearching\Apartments.exe
   TARGET_IMPLIB = SortingAndSearching\libApartments.dll.a
-  TARGET_PDB = Apartments.exe.dbg
+  TARGET_PDB = SortingAndSearching\Apartments.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target FerrisWheel
@@ -902,6 +974,8 @@ build SortingAndSearching/CMakeFiles/FerrisWheel.dir/FerrisWheel.cpp.obj: CXX_CO
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = SortingAndSearching\CMakeFiles\FerrisWheel.dir
   OBJECT_FILE_DIR = SortingAndSearching\CMakeFiles\FerrisWheel.dir
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\FerrisWheel.dir\
+  TARGET_PDB = SortingAndSearching\FerrisWheel.pdb
 
 
 # =============================================================================
@@ -917,9 +991,10 @@ build SortingAndSearching/FerrisWheel.exe: CXX_EXECUTABLE_LINKER__FerrisWheel_De
   OBJECT_DIR = SortingAndSearching\CMakeFiles\FerrisWheel.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\FerrisWheel.dir\
   TARGET_FILE = SortingAndSearching\FerrisWheel.exe
   TARGET_IMPLIB = SortingAndSearching\libFerrisWheel.dll.a
-  TARGET_PDB = FerrisWheel.exe.dbg
+  TARGET_PDB = SortingAndSearching\FerrisWheel.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target ConcertTickets
@@ -935,6 +1010,8 @@ build SortingAndSearching/CMakeFiles/ConcertTickets.dir/ConcertTickets.cpp.obj: 
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = SortingAndSearching\CMakeFiles\ConcertTickets.dir
   OBJECT_FILE_DIR = SortingAndSearching\CMakeFiles\ConcertTickets.dir
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\ConcertTickets.dir\
+  TARGET_PDB = SortingAndSearching\ConcertTickets.pdb
 
 
 # =============================================================================
@@ -950,9 +1027,10 @@ build SortingAndSearching/ConcertTickets.exe: CXX_EXECUTABLE_LINKER__ConcertTick
   OBJECT_DIR = SortingAndSearching\CMakeFiles\ConcertTickets.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\ConcertTickets.dir\
   TARGET_FILE = SortingAndSearching\ConcertTickets.exe
   TARGET_IMPLIB = SortingAndSearching\libConcertTickets.dll.a
-  TARGET_PDB = ConcertTickets.exe.dbg
+  TARGET_PDB = SortingAndSearching\ConcertTickets.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target RestaurantCustomers
@@ -968,6 +1046,8 @@ build SortingAndSearching/CMakeFiles/RestaurantCustomers.dir/RestaurantCustomers
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = SortingAndSearching\CMakeFiles\RestaurantCustomers.dir
   OBJECT_FILE_DIR = SortingAndSearching\CMakeFiles\RestaurantCustomers.dir
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\RestaurantCustomers.dir\
+  TARGET_PDB = SortingAndSearching\RestaurantCustomers.pdb
 
 
 # =============================================================================
@@ -983,9 +1063,10 @@ build SortingAndSearching/RestaurantCustomers.exe: CXX_EXECUTABLE_LINKER__Restau
   OBJECT_DIR = SortingAndSearching\CMakeFiles\RestaurantCustomers.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\RestaurantCustomers.dir\
   TARGET_FILE = SortingAndSearching\RestaurantCustomers.exe
   TARGET_IMPLIB = SortingAndSearching\libRestaurantCustomers.dll.a
-  TARGET_PDB = RestaurantCustomers.exe.dbg
+  TARGET_PDB = SortingAndSearching\RestaurantCustomers.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target RoomAllocation
@@ -1001,6 +1082,8 @@ build SortingAndSearching/CMakeFiles/RoomAllocation.dir/RoomAllocation.cpp.obj: 
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = SortingAndSearching\CMakeFiles\RoomAllocation.dir
   OBJECT_FILE_DIR = SortingAndSearching\CMakeFiles\RoomAllocation.dir
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\RoomAllocation.dir\
+  TARGET_PDB = SortingAndSearching\RoomAllocation.pdb
 
 
 # =============================================================================
@@ -1016,9 +1099,10 @@ build SortingAndSearching/RoomAllocation.exe: CXX_EXECUTABLE_LINKER__RoomAllocat
   OBJECT_DIR = SortingAndSearching\CMakeFiles\RoomAllocation.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\RoomAllocation.dir\
   TARGET_FILE = SortingAndSearching\RoomAllocation.exe
   TARGET_IMPLIB = SortingAndSearching\libRoomAllocation.dll.a
-  TARGET_PDB = RoomAllocation.exe.dbg
+  TARGET_PDB = SortingAndSearching\RoomAllocation.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target SumOfTwoValues
@@ -1034,6 +1118,8 @@ build SortingAndSearching/CMakeFiles/SumOfTwoValues.dir/SumOfTwoValues.cpp.obj: 
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = SortingAndSearching\CMakeFiles\SumOfTwoValues.dir
   OBJECT_FILE_DIR = SortingAndSearching\CMakeFiles\SumOfTwoValues.dir
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\SumOfTwoValues.dir\
+  TARGET_PDB = SortingAndSearching\SumOfTwoValues.pdb
 
 
 # =============================================================================
@@ -1049,9 +1135,10 @@ build SortingAndSearching/SumOfTwoValues.exe: CXX_EXECUTABLE_LINKER__SumOfTwoVal
   OBJECT_DIR = SortingAndSearching\CMakeFiles\SumOfTwoValues.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\SumOfTwoValues.dir\
   TARGET_FILE = SortingAndSearching\SumOfTwoValues.exe
   TARGET_IMPLIB = SortingAndSearching\libSumOfTwoValues.dll.a
-  TARGET_PDB = SumOfTwoValues.exe.dbg
+  TARGET_PDB = SortingAndSearching\SumOfTwoValues.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target MaximumSubarraySum
@@ -1067,6 +1154,8 @@ build SortingAndSearching/CMakeFiles/MaximumSubarraySum.dir/MaximumSubarraySum.c
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = SortingAndSearching\CMakeFiles\MaximumSubarraySum.dir
   OBJECT_FILE_DIR = SortingAndSearching\CMakeFiles\MaximumSubarraySum.dir
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\MaximumSubarraySum.dir\
+  TARGET_PDB = SortingAndSearching\MaximumSubarraySum.pdb
 
 
 # =============================================================================
@@ -1082,9 +1171,10 @@ build SortingAndSearching/MaximumSubarraySum.exe: CXX_EXECUTABLE_LINKER__Maximum
   OBJECT_DIR = SortingAndSearching\CMakeFiles\MaximumSubarraySum.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\MaximumSubarraySum.dir\
   TARGET_FILE = SortingAndSearching\MaximumSubarraySum.exe
   TARGET_IMPLIB = SortingAndSearching\libMaximumSubarraySum.dll.a
-  TARGET_PDB = MaximumSubarraySum.exe.dbg
+  TARGET_PDB = SortingAndSearching\MaximumSubarraySum.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target FactoryMachines
@@ -1100,6 +1190,8 @@ build SortingAndSearching/CMakeFiles/FactoryMachines.dir/FactoryMachines.cpp.obj
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = SortingAndSearching\CMakeFiles\FactoryMachines.dir
   OBJECT_FILE_DIR = SortingAndSearching\CMakeFiles\FactoryMachines.dir
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\FactoryMachines.dir\
+  TARGET_PDB = SortingAndSearching\FactoryMachines.pdb
 
 
 # =============================================================================
@@ -1115,9 +1207,10 @@ build SortingAndSearching/FactoryMachines.exe: CXX_EXECUTABLE_LINKER__FactoryMac
   OBJECT_DIR = SortingAndSearching\CMakeFiles\FactoryMachines.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\FactoryMachines.dir\
   TARGET_FILE = SortingAndSearching\FactoryMachines.exe
   TARGET_IMPLIB = SortingAndSearching\libFactoryMachines.dll.a
-  TARGET_PDB = FactoryMachines.exe.dbg
+  TARGET_PDB = SortingAndSearching\FactoryMachines.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target MissingCoinSum
@@ -1133,6 +1226,8 @@ build SortingAndSearching/CMakeFiles/MissingCoinSum.dir/MissingCoinSum.cpp.obj: 
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = SortingAndSearching\CMakeFiles\MissingCoinSum.dir
   OBJECT_FILE_DIR = SortingAndSearching\CMakeFiles\MissingCoinSum.dir
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\MissingCoinSum.dir\
+  TARGET_PDB = SortingAndSearching\MissingCoinSum.pdb
 
 
 # =============================================================================
@@ -1148,9 +1243,10 @@ build SortingAndSearching/MissingCoinSum.exe: CXX_EXECUTABLE_LINKER__MissingCoin
   OBJECT_DIR = SortingAndSearching\CMakeFiles\MissingCoinSum.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\MissingCoinSum.dir\
   TARGET_FILE = SortingAndSearching\MissingCoinSum.exe
   TARGET_IMPLIB = SortingAndSearching\libMissingCoinSum.dll.a
-  TARGET_PDB = MissingCoinSum.exe.dbg
+  TARGET_PDB = SortingAndSearching\MissingCoinSum.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target MovieFestival
@@ -1166,6 +1262,8 @@ build SortingAndSearching/CMakeFiles/MovieFestival.dir/MovieFestival.cpp.obj: CX
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = SortingAndSearching\CMakeFiles\MovieFestival.dir
   OBJECT_FILE_DIR = SortingAndSearching\CMakeFiles\MovieFestival.dir
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\MovieFestival.dir\
+  TARGET_PDB = SortingAndSearching\MovieFestival.pdb
 
 
 # =============================================================================
@@ -1181,9 +1279,10 @@ build SortingAndSearching/MovieFestival.exe: CXX_EXECUTABLE_LINKER__MovieFestiva
   OBJECT_DIR = SortingAndSearching\CMakeFiles\MovieFestival.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\MovieFestival.dir\
   TARGET_FILE = SortingAndSearching\MovieFestival.exe
   TARGET_IMPLIB = SortingAndSearching\libMovieFestival.dll.a
-  TARGET_PDB = MovieFestival.exe.dbg
+  TARGET_PDB = SortingAndSearching\MovieFestival.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target StickLengths
@@ -1199,6 +1298,8 @@ build SortingAndSearching/CMakeFiles/StickLengths.dir/StickLengths.cpp.obj: CXX_
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = SortingAndSearching\CMakeFiles\StickLengths.dir
   OBJECT_FILE_DIR = SortingAndSearching\CMakeFiles\StickLengths.dir
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\StickLengths.dir\
+  TARGET_PDB = SortingAndSearching\StickLengths.pdb
 
 
 # =============================================================================
@@ -1214,9 +1315,10 @@ build SortingAndSearching/StickLengths.exe: CXX_EXECUTABLE_LINKER__StickLengths_
   OBJECT_DIR = SortingAndSearching\CMakeFiles\StickLengths.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\StickLengths.dir\
   TARGET_FILE = SortingAndSearching\StickLengths.exe
   TARGET_IMPLIB = SortingAndSearching\libStickLengths.dll.a
-  TARGET_PDB = StickLengths.exe.dbg
+  TARGET_PDB = SortingAndSearching\StickLengths.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Playlist
@@ -1232,6 +1334,8 @@ build SortingAndSearching/CMakeFiles/Playlist.dir/Playlist.cpp.obj: CXX_COMPILER
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = SortingAndSearching\CMakeFiles\Playlist.dir
   OBJECT_FILE_DIR = SortingAndSearching\CMakeFiles\Playlist.dir
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\Playlist.dir\
+  TARGET_PDB = SortingAndSearching\Playlist.pdb
 
 
 # =============================================================================
@@ -1247,9 +1351,10 @@ build SortingAndSearching/Playlist.exe: CXX_EXECUTABLE_LINKER__Playlist_Debug So
   OBJECT_DIR = SortingAndSearching\CMakeFiles\Playlist.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\Playlist.dir\
   TARGET_FILE = SortingAndSearching\Playlist.exe
   TARGET_IMPLIB = SortingAndSearching\libPlaylist.dll.a
-  TARGET_PDB = Playlist.exe.dbg
+  TARGET_PDB = SortingAndSearching\Playlist.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Towers
@@ -1265,6 +1370,8 @@ build SortingAndSearching/CMakeFiles/Towers.dir/Towers.cpp.obj: CXX_COMPILER__To
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = SortingAndSearching\CMakeFiles\Towers.dir
   OBJECT_FILE_DIR = SortingAndSearching\CMakeFiles\Towers.dir
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\Towers.dir\
+  TARGET_PDB = SortingAndSearching\Towers.pdb
 
 
 # =============================================================================
@@ -1280,9 +1387,10 @@ build SortingAndSearching/Towers.exe: CXX_EXECUTABLE_LINKER__Towers_Debug Sortin
   OBJECT_DIR = SortingAndSearching\CMakeFiles\Towers.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\Towers.dir\
   TARGET_FILE = SortingAndSearching\Towers.exe
   TARGET_IMPLIB = SortingAndSearching\libTowers.dll.a
-  TARGET_PDB = Towers.exe.dbg
+  TARGET_PDB = SortingAndSearching\Towers.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target TasksAndDeadlines
@@ -1298,6 +1406,8 @@ build SortingAndSearching/CMakeFiles/TasksAndDeadlines.dir/TasksAndDeadlines.cpp
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = SortingAndSearching\CMakeFiles\TasksAndDeadlines.dir
   OBJECT_FILE_DIR = SortingAndSearching\CMakeFiles\TasksAndDeadlines.dir
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\TasksAndDeadlines.dir\
+  TARGET_PDB = SortingAndSearching\TasksAndDeadlines.pdb
 
 
 # =============================================================================
@@ -1313,9 +1423,10 @@ build SortingAndSearching/TasksAndDeadlines.exe: CXX_EXECUTABLE_LINKER__TasksAnd
   OBJECT_DIR = SortingAndSearching\CMakeFiles\TasksAndDeadlines.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\TasksAndDeadlines.dir\
   TARGET_FILE = SortingAndSearching\TasksAndDeadlines.exe
   TARGET_IMPLIB = SortingAndSearching\libTasksAndDeadlines.dll.a
-  TARGET_PDB = TasksAndDeadlines.exe.dbg
+  TARGET_PDB = SortingAndSearching\TasksAndDeadlines.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target CollectingNumbersII
@@ -1331,6 +1442,8 @@ build SortingAndSearching/CMakeFiles/CollectingNumbersII.dir/CollectingNumbersII
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = SortingAndSearching\CMakeFiles\CollectingNumbersII.dir
   OBJECT_FILE_DIR = SortingAndSearching\CMakeFiles\CollectingNumbersII.dir
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\CollectingNumbersII.dir\
+  TARGET_PDB = SortingAndSearching\CollectingNumbersII.pdb
 
 
 # =============================================================================
@@ -1346,9 +1459,10 @@ build SortingAndSearching/CollectingNumbersII.exe: CXX_EXECUTABLE_LINKER__Collec
   OBJECT_DIR = SortingAndSearching\CMakeFiles\CollectingNumbersII.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\CollectingNumbersII.dir\
   TARGET_FILE = SortingAndSearching\CollectingNumbersII.exe
   TARGET_IMPLIB = SortingAndSearching\libCollectingNumbersII.dll.a
-  TARGET_PDB = CollectingNumbersII.exe.dbg
+  TARGET_PDB = SortingAndSearching\CollectingNumbersII.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target TrafficLights
@@ -1364,6 +1478,8 @@ build SortingAndSearching/CMakeFiles/TrafficLights.dir/TrafficLights.cpp.obj: CX
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = SortingAndSearching\CMakeFiles\TrafficLights.dir
   OBJECT_FILE_DIR = SortingAndSearching\CMakeFiles\TrafficLights.dir
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\TrafficLights.dir\
+  TARGET_PDB = SortingAndSearching\TrafficLights.pdb
 
 
 # =============================================================================
@@ -1379,9 +1495,10 @@ build SortingAndSearching/TrafficLights.exe: CXX_EXECUTABLE_LINKER__TrafficLight
   OBJECT_DIR = SortingAndSearching\CMakeFiles\TrafficLights.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\TrafficLights.dir\
   TARGET_FILE = SortingAndSearching\TrafficLights.exe
   TARGET_IMPLIB = SortingAndSearching\libTrafficLights.dll.a
-  TARGET_PDB = TrafficLights.exe.dbg
+  TARGET_PDB = SortingAndSearching\TrafficLights.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target NearestSmallerValues
@@ -1397,6 +1514,8 @@ build SortingAndSearching/CMakeFiles/NearestSmallerValues.dir/NearestSmallerValu
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = SortingAndSearching\CMakeFiles\NearestSmallerValues.dir
   OBJECT_FILE_DIR = SortingAndSearching\CMakeFiles\NearestSmallerValues.dir
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\NearestSmallerValues.dir\
+  TARGET_PDB = SortingAndSearching\NearestSmallerValues.pdb
 
 
 # =============================================================================
@@ -1412,9 +1531,10 @@ build SortingAndSearching/NearestSmallerValues.exe: CXX_EXECUTABLE_LINKER__Neare
   OBJECT_DIR = SortingAndSearching\CMakeFiles\NearestSmallerValues.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\NearestSmallerValues.dir\
   TARGET_FILE = SortingAndSearching\NearestSmallerValues.exe
   TARGET_IMPLIB = SortingAndSearching\libNearestSmallerValues.dll.a
-  TARGET_PDB = NearestSmallerValues.exe.dbg
+  TARGET_PDB = SortingAndSearching\NearestSmallerValues.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target SumOfThreeValues
@@ -1430,6 +1550,8 @@ build SortingAndSearching/CMakeFiles/SumOfThreeValues.dir/SumOfThreeValues.cpp.o
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = SortingAndSearching\CMakeFiles\SumOfThreeValues.dir
   OBJECT_FILE_DIR = SortingAndSearching\CMakeFiles\SumOfThreeValues.dir
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\SumOfThreeValues.dir\
+  TARGET_PDB = SortingAndSearching\SumOfThreeValues.pdb
 
 
 # =============================================================================
@@ -1445,9 +1567,10 @@ build SortingAndSearching/SumOfThreeValues.exe: CXX_EXECUTABLE_LINKER__SumOfThre
   OBJECT_DIR = SortingAndSearching\CMakeFiles\SumOfThreeValues.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\SumOfThreeValues.dir\
   TARGET_FILE = SortingAndSearching\SumOfThreeValues.exe
   TARGET_IMPLIB = SortingAndSearching\libSumOfThreeValues.dll.a
-  TARGET_PDB = SumOfThreeValues.exe.dbg
+  TARGET_PDB = SortingAndSearching\SumOfThreeValues.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target SumOfFourValues
@@ -1463,6 +1586,8 @@ build SortingAndSearching/CMakeFiles/SumOfFourValues.dir/SumOfFourValues.cpp.obj
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = SortingAndSearching\CMakeFiles\SumOfFourValues.dir
   OBJECT_FILE_DIR = SortingAndSearching\CMakeFiles\SumOfFourValues.dir
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\SumOfFourValues.dir\
+  TARGET_PDB = SortingAndSearching\SumOfFourValues.pdb
 
 
 # =============================================================================
@@ -1478,9 +1603,10 @@ build SortingAndSearching/SumOfFourValues.exe: CXX_EXECUTABLE_LINKER__SumOfFourV
   OBJECT_DIR = SortingAndSearching\CMakeFiles\SumOfFourValues.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\SumOfFourValues.dir\
   TARGET_FILE = SortingAndSearching\SumOfFourValues.exe
   TARGET_IMPLIB = SortingAndSearching\libSumOfFourValues.dll.a
-  TARGET_PDB = SumOfFourValues.exe.dbg
+  TARGET_PDB = SortingAndSearching\SumOfFourValues.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target JosephusProblemI
@@ -1496,6 +1622,8 @@ build SortingAndSearching/CMakeFiles/JosephusProblemI.dir/JosephusProblemI.cpp.o
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = SortingAndSearching\CMakeFiles\JosephusProblemI.dir
   OBJECT_FILE_DIR = SortingAndSearching\CMakeFiles\JosephusProblemI.dir
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\JosephusProblemI.dir\
+  TARGET_PDB = SortingAndSearching\JosephusProblemI.pdb
 
 
 # =============================================================================
@@ -1511,9 +1639,10 @@ build SortingAndSearching/JosephusProblemI.exe: CXX_EXECUTABLE_LINKER__JosephusP
   OBJECT_DIR = SortingAndSearching\CMakeFiles\JosephusProblemI.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\JosephusProblemI.dir\
   TARGET_FILE = SortingAndSearching\JosephusProblemI.exe
   TARGET_IMPLIB = SortingAndSearching\libJosephusProblemI.dll.a
-  TARGET_PDB = JosephusProblemI.exe.dbg
+  TARGET_PDB = SortingAndSearching\JosephusProblemI.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target JosephusProblemII
@@ -1529,6 +1658,8 @@ build SortingAndSearching/CMakeFiles/JosephusProblemII.dir/JosephusProblemII.cpp
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = SortingAndSearching\CMakeFiles\JosephusProblemII.dir
   OBJECT_FILE_DIR = SortingAndSearching\CMakeFiles\JosephusProblemII.dir
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\JosephusProblemII.dir\
+  TARGET_PDB = SortingAndSearching\JosephusProblemII.pdb
 
 
 # =============================================================================
@@ -1544,9 +1675,10 @@ build SortingAndSearching/JosephusProblemII.exe: CXX_EXECUTABLE_LINKER__Josephus
   OBJECT_DIR = SortingAndSearching\CMakeFiles\JosephusProblemII.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\JosephusProblemII.dir\
   TARGET_FILE = SortingAndSearching\JosephusProblemII.exe
   TARGET_IMPLIB = SortingAndSearching\libJosephusProblemII.dll.a
-  TARGET_PDB = JosephusProblemII.exe.dbg
+  TARGET_PDB = SortingAndSearching\JosephusProblemII.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target MaximumSubarraySumII
@@ -1562,6 +1694,8 @@ build SortingAndSearching/CMakeFiles/MaximumSubarraySumII.dir/MaximumSubarraySum
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = SortingAndSearching\CMakeFiles\MaximumSubarraySumII.dir
   OBJECT_FILE_DIR = SortingAndSearching\CMakeFiles\MaximumSubarraySumII.dir
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\MaximumSubarraySumII.dir\
+  TARGET_PDB = SortingAndSearching\MaximumSubarraySumII.pdb
 
 
 # =============================================================================
@@ -1577,9 +1711,10 @@ build SortingAndSearching/MaximumSubarraySumII.exe: CXX_EXECUTABLE_LINKER__Maxim
   OBJECT_DIR = SortingAndSearching\CMakeFiles\MaximumSubarraySumII.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\MaximumSubarraySumII.dir\
   TARGET_FILE = SortingAndSearching\MaximumSubarraySumII.exe
   TARGET_IMPLIB = SortingAndSearching\libMaximumSubarraySumII.dll.a
-  TARGET_PDB = MaximumSubarraySumII.exe.dbg
+  TARGET_PDB = SortingAndSearching\MaximumSubarraySumII.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target SubarraySumsI
@@ -1595,6 +1730,8 @@ build SortingAndSearching/CMakeFiles/SubarraySumsI.dir/SubarraySumsI.cpp.obj: CX
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = SortingAndSearching\CMakeFiles\SubarraySumsI.dir
   OBJECT_FILE_DIR = SortingAndSearching\CMakeFiles\SubarraySumsI.dir
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\SubarraySumsI.dir\
+  TARGET_PDB = SortingAndSearching\SubarraySumsI.pdb
 
 
 # =============================================================================
@@ -1610,9 +1747,10 @@ build SortingAndSearching/SubarraySumsI.exe: CXX_EXECUTABLE_LINKER__SubarraySums
   OBJECT_DIR = SortingAndSearching\CMakeFiles\SubarraySumsI.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\SubarraySumsI.dir\
   TARGET_FILE = SortingAndSearching\SubarraySumsI.exe
   TARGET_IMPLIB = SortingAndSearching\libSubarraySumsI.dll.a
-  TARGET_PDB = SubarraySumsI.exe.dbg
+  TARGET_PDB = SortingAndSearching\SubarraySumsI.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target SubarraySumsII
@@ -1628,6 +1766,8 @@ build SortingAndSearching/CMakeFiles/SubarraySumsII.dir/SubarraySumsII.cpp.obj: 
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = SortingAndSearching\CMakeFiles\SubarraySumsII.dir
   OBJECT_FILE_DIR = SortingAndSearching\CMakeFiles\SubarraySumsII.dir
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\SubarraySumsII.dir\
+  TARGET_PDB = SortingAndSearching\SubarraySumsII.pdb
 
 
 # =============================================================================
@@ -1643,9 +1783,10 @@ build SortingAndSearching/SubarraySumsII.exe: CXX_EXECUTABLE_LINKER__SubarraySum
   OBJECT_DIR = SortingAndSearching\CMakeFiles\SubarraySumsII.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\SubarraySumsII.dir\
   TARGET_FILE = SortingAndSearching\SubarraySumsII.exe
   TARGET_IMPLIB = SortingAndSearching\libSubarraySumsII.dll.a
-  TARGET_PDB = SubarraySumsII.exe.dbg
+  TARGET_PDB = SortingAndSearching\SubarraySumsII.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target SubarrayDivisibility
@@ -1661,6 +1802,8 @@ build SortingAndSearching/CMakeFiles/SubarrayDivisibility.dir/SubarrayDivisibili
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = SortingAndSearching\CMakeFiles\SubarrayDivisibility.dir
   OBJECT_FILE_DIR = SortingAndSearching\CMakeFiles\SubarrayDivisibility.dir
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\SubarrayDivisibility.dir\
+  TARGET_PDB = SortingAndSearching\SubarrayDivisibility.pdb
 
 
 # =============================================================================
@@ -1676,9 +1819,10 @@ build SortingAndSearching/SubarrayDivisibility.exe: CXX_EXECUTABLE_LINKER__Subar
   OBJECT_DIR = SortingAndSearching\CMakeFiles\SubarrayDivisibility.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\SubarrayDivisibility.dir\
   TARGET_FILE = SortingAndSearching\SubarrayDivisibility.exe
   TARGET_IMPLIB = SortingAndSearching\libSubarrayDivisibility.dll.a
-  TARGET_PDB = SubarrayDivisibility.exe.dbg
+  TARGET_PDB = SortingAndSearching\SubarrayDivisibility.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target SubarrayDistinctValues
@@ -1694,6 +1838,8 @@ build SortingAndSearching/CMakeFiles/SubarrayDistinctValues.dir/SubarrayDistinct
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = SortingAndSearching\CMakeFiles\SubarrayDistinctValues.dir
   OBJECT_FILE_DIR = SortingAndSearching\CMakeFiles\SubarrayDistinctValues.dir
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\SubarrayDistinctValues.dir\
+  TARGET_PDB = SortingAndSearching\SubarrayDistinctValues.pdb
 
 
 # =============================================================================
@@ -1709,9 +1855,10 @@ build SortingAndSearching/SubarrayDistinctValues.exe: CXX_EXECUTABLE_LINKER__Sub
   OBJECT_DIR = SortingAndSearching\CMakeFiles\SubarrayDistinctValues.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\SubarrayDistinctValues.dir\
   TARGET_FILE = SortingAndSearching\SubarrayDistinctValues.exe
   TARGET_IMPLIB = SortingAndSearching\libSubarrayDistinctValues.dll.a
-  TARGET_PDB = SubarrayDistinctValues.exe.dbg
+  TARGET_PDB = SortingAndSearching\SubarrayDistinctValues.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target ArrayDivision
@@ -1727,6 +1874,8 @@ build SortingAndSearching/CMakeFiles/ArrayDivision.dir/ArrayDivision.cpp.obj: CX
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = SortingAndSearching\CMakeFiles\ArrayDivision.dir
   OBJECT_FILE_DIR = SortingAndSearching\CMakeFiles\ArrayDivision.dir
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\ArrayDivision.dir\
+  TARGET_PDB = SortingAndSearching\ArrayDivision.pdb
 
 
 # =============================================================================
@@ -1742,9 +1891,10 @@ build SortingAndSearching/ArrayDivision.exe: CXX_EXECUTABLE_LINKER__ArrayDivisio
   OBJECT_DIR = SortingAndSearching\CMakeFiles\ArrayDivision.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\ArrayDivision.dir\
   TARGET_FILE = SortingAndSearching\ArrayDivision.exe
   TARGET_IMPLIB = SortingAndSearching\libArrayDivision.dll.a
-  TARGET_PDB = ArrayDivision.exe.dbg
+  TARGET_PDB = SortingAndSearching\ArrayDivision.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target MovieFestivalII
@@ -1760,6 +1910,8 @@ build SortingAndSearching/CMakeFiles/MovieFestivalII.dir/MovieFestivalII.cpp.obj
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = SortingAndSearching\CMakeFiles\MovieFestivalII.dir
   OBJECT_FILE_DIR = SortingAndSearching\CMakeFiles\MovieFestivalII.dir
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\MovieFestivalII.dir\
+  TARGET_PDB = SortingAndSearching\MovieFestivalII.pdb
 
 
 # =============================================================================
@@ -1775,9 +1927,10 @@ build SortingAndSearching/MovieFestivalII.exe: CXX_EXECUTABLE_LINKER__MovieFesti
   OBJECT_DIR = SortingAndSearching\CMakeFiles\MovieFestivalII.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\MovieFestivalII.dir\
   TARGET_FILE = SortingAndSearching\MovieFestivalII.exe
   TARGET_IMPLIB = SortingAndSearching\libMovieFestivalII.dll.a
-  TARGET_PDB = MovieFestivalII.exe.dbg
+  TARGET_PDB = SortingAndSearching\MovieFestivalII.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target SlidingMedian
@@ -1793,6 +1946,8 @@ build SortingAndSearching/CMakeFiles/SlidingMedian.dir/SlidingMedian.cpp.obj: CX
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = SortingAndSearching\CMakeFiles\SlidingMedian.dir
   OBJECT_FILE_DIR = SortingAndSearching\CMakeFiles\SlidingMedian.dir
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\SlidingMedian.dir\
+  TARGET_PDB = SortingAndSearching\SlidingMedian.pdb
 
 
 # =============================================================================
@@ -1808,9 +1963,10 @@ build SortingAndSearching/SlidingMedian.exe: CXX_EXECUTABLE_LINKER__SlidingMedia
   OBJECT_DIR = SortingAndSearching\CMakeFiles\SlidingMedian.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\SlidingMedian.dir\
   TARGET_FILE = SortingAndSearching\SlidingMedian.exe
   TARGET_IMPLIB = SortingAndSearching\libSlidingMedian.dll.a
-  TARGET_PDB = SlidingMedian.exe.dbg
+  TARGET_PDB = SortingAndSearching\SlidingMedian.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target SlidingCost
@@ -1826,6 +1982,8 @@ build SortingAndSearching/CMakeFiles/SlidingCost.dir/SlidingCost.cpp.obj: CXX_CO
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = SortingAndSearching\CMakeFiles\SlidingCost.dir
   OBJECT_FILE_DIR = SortingAndSearching\CMakeFiles\SlidingCost.dir
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\SlidingCost.dir\
+  TARGET_PDB = SortingAndSearching\SlidingCost.pdb
 
 
 # =============================================================================
@@ -1841,9 +1999,10 @@ build SortingAndSearching/SlidingCost.exe: CXX_EXECUTABLE_LINKER__SlidingCost_De
   OBJECT_DIR = SortingAndSearching\CMakeFiles\SlidingCost.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\SlidingCost.dir\
   TARGET_FILE = SortingAndSearching\SlidingCost.exe
   TARGET_IMPLIB = SortingAndSearching\libSlidingCost.dll.a
-  TARGET_PDB = SlidingCost.exe.dbg
+  TARGET_PDB = SortingAndSearching\SlidingCost.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target ReadingBooks
@@ -1859,6 +2018,8 @@ build SortingAndSearching/CMakeFiles/ReadingBooks.dir/ReadingBooks.cpp.obj: CXX_
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = SortingAndSearching\CMakeFiles\ReadingBooks.dir
   OBJECT_FILE_DIR = SortingAndSearching\CMakeFiles\ReadingBooks.dir
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\ReadingBooks.dir\
+  TARGET_PDB = SortingAndSearching\ReadingBooks.pdb
 
 
 # =============================================================================
@@ -1874,9 +2035,10 @@ build SortingAndSearching/ReadingBooks.exe: CXX_EXECUTABLE_LINKER__ReadingBooks_
   OBJECT_DIR = SortingAndSearching\CMakeFiles\ReadingBooks.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = SortingAndSearching\CMakeFiles\ReadingBooks.dir\
   TARGET_FILE = SortingAndSearching\ReadingBooks.exe
   TARGET_IMPLIB = SortingAndSearching\libReadingBooks.dll.a
-  TARGET_PDB = ReadingBooks.exe.dbg
+  TARGET_PDB = SortingAndSearching\ReadingBooks.pdb
 
 
 #############################################
@@ -1920,6 +2082,8 @@ build DynamicProgramming/CMakeFiles/ArrayDescription.dir/ArrayDescription.cpp.ob
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = DynamicProgramming\CMakeFiles\ArrayDescription.dir
   OBJECT_FILE_DIR = DynamicProgramming\CMakeFiles\ArrayDescription.dir
+  TARGET_COMPILE_PDB = DynamicProgramming\CMakeFiles\ArrayDescription.dir\
+  TARGET_PDB = DynamicProgramming\ArrayDescription.pdb
 
 
 # =============================================================================
@@ -1935,9 +2099,10 @@ build DynamicProgramming/ArrayDescription.exe: CXX_EXECUTABLE_LINKER__ArrayDescr
   OBJECT_DIR = DynamicProgramming\CMakeFiles\ArrayDescription.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = DynamicProgramming\CMakeFiles\ArrayDescription.dir\
   TARGET_FILE = DynamicProgramming\ArrayDescription.exe
   TARGET_IMPLIB = DynamicProgramming\libArrayDescription.dll.a
-  TARGET_PDB = ArrayDescription.exe.dbg
+  TARGET_PDB = DynamicProgramming\ArrayDescription.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target DiceCombinations
@@ -1953,6 +2118,8 @@ build DynamicProgramming/CMakeFiles/DiceCombinations.dir/DiceCombinations.cpp.ob
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = DynamicProgramming\CMakeFiles\DiceCombinations.dir
   OBJECT_FILE_DIR = DynamicProgramming\CMakeFiles\DiceCombinations.dir
+  TARGET_COMPILE_PDB = DynamicProgramming\CMakeFiles\DiceCombinations.dir\
+  TARGET_PDB = DynamicProgramming\DiceCombinations.pdb
 
 
 # =============================================================================
@@ -1968,9 +2135,10 @@ build DynamicProgramming/DiceCombinations.exe: CXX_EXECUTABLE_LINKER__DiceCombin
   OBJECT_DIR = DynamicProgramming\CMakeFiles\DiceCombinations.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = DynamicProgramming\CMakeFiles\DiceCombinations.dir\
   TARGET_FILE = DynamicProgramming\DiceCombinations.exe
   TARGET_IMPLIB = DynamicProgramming\libDiceCombinations.dll.a
-  TARGET_PDB = DiceCombinations.exe.dbg
+  TARGET_PDB = DynamicProgramming\DiceCombinations.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target MinimizingCoins
@@ -1986,6 +2154,8 @@ build DynamicProgramming/CMakeFiles/MinimizingCoins.dir/MinimizingCoins.cpp.obj:
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = DynamicProgramming\CMakeFiles\MinimizingCoins.dir
   OBJECT_FILE_DIR = DynamicProgramming\CMakeFiles\MinimizingCoins.dir
+  TARGET_COMPILE_PDB = DynamicProgramming\CMakeFiles\MinimizingCoins.dir\
+  TARGET_PDB = DynamicProgramming\MinimizingCoins.pdb
 
 
 # =============================================================================
@@ -2001,9 +2171,10 @@ build DynamicProgramming/MinimizingCoins.exe: CXX_EXECUTABLE_LINKER__MinimizingC
   OBJECT_DIR = DynamicProgramming\CMakeFiles\MinimizingCoins.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = DynamicProgramming\CMakeFiles\MinimizingCoins.dir\
   TARGET_FILE = DynamicProgramming\MinimizingCoins.exe
   TARGET_IMPLIB = DynamicProgramming\libMinimizingCoins.dll.a
-  TARGET_PDB = MinimizingCoins.exe.dbg
+  TARGET_PDB = DynamicProgramming\MinimizingCoins.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target MoneySums
@@ -2019,6 +2190,8 @@ build DynamicProgramming/CMakeFiles/MoneySums.dir/MoneySums.cpp.obj: CXX_COMPILE
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = DynamicProgramming\CMakeFiles\MoneySums.dir
   OBJECT_FILE_DIR = DynamicProgramming\CMakeFiles\MoneySums.dir
+  TARGET_COMPILE_PDB = DynamicProgramming\CMakeFiles\MoneySums.dir\
+  TARGET_PDB = DynamicProgramming\MoneySums.pdb
 
 
 # =============================================================================
@@ -2034,9 +2207,10 @@ build DynamicProgramming/MoneySums.exe: CXX_EXECUTABLE_LINKER__MoneySums_Debug D
   OBJECT_DIR = DynamicProgramming\CMakeFiles\MoneySums.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = DynamicProgramming\CMakeFiles\MoneySums.dir\
   TARGET_FILE = DynamicProgramming\MoneySums.exe
   TARGET_IMPLIB = DynamicProgramming\libMoneySums.dll.a
-  TARGET_PDB = MoneySums.exe.dbg
+  TARGET_PDB = DynamicProgramming\MoneySums.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target RectangleCutting
@@ -2052,6 +2226,8 @@ build DynamicProgramming/CMakeFiles/RectangleCutting.dir/RectangleCutting.cpp.ob
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = DynamicProgramming\CMakeFiles\RectangleCutting.dir
   OBJECT_FILE_DIR = DynamicProgramming\CMakeFiles\RectangleCutting.dir
+  TARGET_COMPILE_PDB = DynamicProgramming\CMakeFiles\RectangleCutting.dir\
+  TARGET_PDB = DynamicProgramming\RectangleCutting.pdb
 
 
 # =============================================================================
@@ -2067,9 +2243,10 @@ build DynamicProgramming/RectangleCutting.exe: CXX_EXECUTABLE_LINKER__RectangleC
   OBJECT_DIR = DynamicProgramming\CMakeFiles\RectangleCutting.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = DynamicProgramming\CMakeFiles\RectangleCutting.dir\
   TARGET_FILE = DynamicProgramming\RectangleCutting.exe
   TARGET_IMPLIB = DynamicProgramming\libRectangleCutting.dll.a
-  TARGET_PDB = RectangleCutting.exe.dbg
+  TARGET_PDB = DynamicProgramming\RectangleCutting.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target EditDistance
@@ -2085,6 +2262,8 @@ build DynamicProgramming/CMakeFiles/EditDistance.dir/EditDistance.cpp.obj: CXX_C
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = DynamicProgramming\CMakeFiles\EditDistance.dir
   OBJECT_FILE_DIR = DynamicProgramming\CMakeFiles\EditDistance.dir
+  TARGET_COMPILE_PDB = DynamicProgramming\CMakeFiles\EditDistance.dir\
+  TARGET_PDB = DynamicProgramming\EditDistance.pdb
 
 
 # =============================================================================
@@ -2100,9 +2279,10 @@ build DynamicProgramming/EditDistance.exe: CXX_EXECUTABLE_LINKER__EditDistance_D
   OBJECT_DIR = DynamicProgramming\CMakeFiles\EditDistance.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = DynamicProgramming\CMakeFiles\EditDistance.dir\
   TARGET_FILE = DynamicProgramming\EditDistance.exe
   TARGET_IMPLIB = DynamicProgramming\libEditDistance.dll.a
-  TARGET_PDB = EditDistance.exe.dbg
+  TARGET_PDB = DynamicProgramming\EditDistance.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target CoinCombinationsI
@@ -2118,6 +2298,8 @@ build DynamicProgramming/CMakeFiles/CoinCombinationsI.dir/CoinCombinationsI.cpp.
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = DynamicProgramming\CMakeFiles\CoinCombinationsI.dir
   OBJECT_FILE_DIR = DynamicProgramming\CMakeFiles\CoinCombinationsI.dir
+  TARGET_COMPILE_PDB = DynamicProgramming\CMakeFiles\CoinCombinationsI.dir\
+  TARGET_PDB = DynamicProgramming\CoinCombinationsI.pdb
 
 
 # =============================================================================
@@ -2133,9 +2315,10 @@ build DynamicProgramming/CoinCombinationsI.exe: CXX_EXECUTABLE_LINKER__CoinCombi
   OBJECT_DIR = DynamicProgramming\CMakeFiles\CoinCombinationsI.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = DynamicProgramming\CMakeFiles\CoinCombinationsI.dir\
   TARGET_FILE = DynamicProgramming\CoinCombinationsI.exe
   TARGET_IMPLIB = DynamicProgramming\libCoinCombinationsI.dll.a
-  TARGET_PDB = CoinCombinationsI.exe.dbg
+  TARGET_PDB = DynamicProgramming\CoinCombinationsI.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target CoinCombinationsII
@@ -2151,6 +2334,8 @@ build DynamicProgramming/CMakeFiles/CoinCombinationsII.dir/CoinCombinationsII.cp
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = DynamicProgramming\CMakeFiles\CoinCombinationsII.dir
   OBJECT_FILE_DIR = DynamicProgramming\CMakeFiles\CoinCombinationsII.dir
+  TARGET_COMPILE_PDB = DynamicProgramming\CMakeFiles\CoinCombinationsII.dir\
+  TARGET_PDB = DynamicProgramming\CoinCombinationsII.pdb
 
 
 # =============================================================================
@@ -2166,9 +2351,10 @@ build DynamicProgramming/CoinCombinationsII.exe: CXX_EXECUTABLE_LINKER__CoinComb
   OBJECT_DIR = DynamicProgramming\CMakeFiles\CoinCombinationsII.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = DynamicProgramming\CMakeFiles\CoinCombinationsII.dir\
   TARGET_FILE = DynamicProgramming\CoinCombinationsII.exe
   TARGET_IMPLIB = DynamicProgramming\libCoinCombinationsII.dll.a
-  TARGET_PDB = CoinCombinationsII.exe.dbg
+  TARGET_PDB = DynamicProgramming\CoinCombinationsII.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target GridPathsDP
@@ -2184,6 +2370,8 @@ build DynamicProgramming/CMakeFiles/GridPathsDP.dir/GridPaths.cpp.obj: CXX_COMPI
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = DynamicProgramming\CMakeFiles\GridPathsDP.dir
   OBJECT_FILE_DIR = DynamicProgramming\CMakeFiles\GridPathsDP.dir
+  TARGET_COMPILE_PDB = DynamicProgramming\CMakeFiles\GridPathsDP.dir\
+  TARGET_PDB = DynamicProgramming\GridPathsDP.pdb
 
 
 # =============================================================================
@@ -2199,9 +2387,10 @@ build DynamicProgramming/GridPathsDP.exe: CXX_EXECUTABLE_LINKER__GridPathsDP_Deb
   OBJECT_DIR = DynamicProgramming\CMakeFiles\GridPathsDP.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = DynamicProgramming\CMakeFiles\GridPathsDP.dir\
   TARGET_FILE = DynamicProgramming\GridPathsDP.exe
   TARGET_IMPLIB = DynamicProgramming\libGridPathsDP.dll.a
-  TARGET_PDB = GridPathsDP.exe.dbg
+  TARGET_PDB = DynamicProgramming\GridPathsDP.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target TwoSetsII
@@ -2217,6 +2406,8 @@ build DynamicProgramming/CMakeFiles/TwoSetsII.dir/TwoSetsII.cpp.obj: CXX_COMPILE
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = DynamicProgramming\CMakeFiles\TwoSetsII.dir
   OBJECT_FILE_DIR = DynamicProgramming\CMakeFiles\TwoSetsII.dir
+  TARGET_COMPILE_PDB = DynamicProgramming\CMakeFiles\TwoSetsII.dir\
+  TARGET_PDB = DynamicProgramming\TwoSetsII.pdb
 
 
 # =============================================================================
@@ -2232,9 +2423,10 @@ build DynamicProgramming/TwoSetsII.exe: CXX_EXECUTABLE_LINKER__TwoSetsII_Debug D
   OBJECT_DIR = DynamicProgramming\CMakeFiles\TwoSetsII.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = DynamicProgramming\CMakeFiles\TwoSetsII.dir\
   TARGET_FILE = DynamicProgramming\TwoSetsII.exe
   TARGET_IMPLIB = DynamicProgramming\libTwoSetsII.dll.a
-  TARGET_PDB = TwoSetsII.exe.dbg
+  TARGET_PDB = DynamicProgramming\TwoSetsII.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target RemoveDigits
@@ -2250,6 +2442,8 @@ build DynamicProgramming/CMakeFiles/RemoveDigits.dir/RemoveDigits.cpp.obj: CXX_C
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = DynamicProgramming\CMakeFiles\RemoveDigits.dir
   OBJECT_FILE_DIR = DynamicProgramming\CMakeFiles\RemoveDigits.dir
+  TARGET_COMPILE_PDB = DynamicProgramming\CMakeFiles\RemoveDigits.dir\
+  TARGET_PDB = DynamicProgramming\RemoveDigits.pdb
 
 
 # =============================================================================
@@ -2265,9 +2459,10 @@ build DynamicProgramming/RemoveDigits.exe: CXX_EXECUTABLE_LINKER__RemoveDigits_D
   OBJECT_DIR = DynamicProgramming\CMakeFiles\RemoveDigits.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = DynamicProgramming\CMakeFiles\RemoveDigits.dir\
   TARGET_FILE = DynamicProgramming\RemoveDigits.exe
   TARGET_IMPLIB = DynamicProgramming\libRemoveDigits.dll.a
-  TARGET_PDB = RemoveDigits.exe.dbg
+  TARGET_PDB = DynamicProgramming\RemoveDigits.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target BookShop
@@ -2283,6 +2478,8 @@ build DynamicProgramming/CMakeFiles/BookShop.dir/BookShop.cpp.obj: CXX_COMPILER_
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = DynamicProgramming\CMakeFiles\BookShop.dir
   OBJECT_FILE_DIR = DynamicProgramming\CMakeFiles\BookShop.dir
+  TARGET_COMPILE_PDB = DynamicProgramming\CMakeFiles\BookShop.dir\
+  TARGET_PDB = DynamicProgramming\BookShop.pdb
 
 
 # =============================================================================
@@ -2298,9 +2495,10 @@ build DynamicProgramming/BookShop.exe: CXX_EXECUTABLE_LINKER__BookShop_Debug Dyn
   OBJECT_DIR = DynamicProgramming\CMakeFiles\BookShop.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = DynamicProgramming\CMakeFiles\BookShop.dir\
   TARGET_FILE = DynamicProgramming\BookShop.exe
   TARGET_IMPLIB = DynamicProgramming\libBookShop.dll.a
-  TARGET_PDB = BookShop.exe.dbg
+  TARGET_PDB = DynamicProgramming\BookShop.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Projects
@@ -2316,6 +2514,8 @@ build DynamicProgramming/CMakeFiles/Projects.dir/Projects.cpp.obj: CXX_COMPILER_
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = DynamicProgramming\CMakeFiles\Projects.dir
   OBJECT_FILE_DIR = DynamicProgramming\CMakeFiles\Projects.dir
+  TARGET_COMPILE_PDB = DynamicProgramming\CMakeFiles\Projects.dir\
+  TARGET_PDB = DynamicProgramming\Projects.pdb
 
 
 # =============================================================================
@@ -2331,9 +2531,10 @@ build DynamicProgramming/Projects.exe: CXX_EXECUTABLE_LINKER__Projects_Debug Dyn
   OBJECT_DIR = DynamicProgramming\CMakeFiles\Projects.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = DynamicProgramming\CMakeFiles\Projects.dir\
   TARGET_FILE = DynamicProgramming\Projects.exe
   TARGET_IMPLIB = DynamicProgramming\libProjects.dll.a
-  TARGET_PDB = Projects.exe.dbg
+  TARGET_PDB = DynamicProgramming\Projects.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target ElevatorRides
@@ -2349,6 +2550,8 @@ build DynamicProgramming/CMakeFiles/ElevatorRides.dir/ElevatorRides.cpp.obj: CXX
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = DynamicProgramming\CMakeFiles\ElevatorRides.dir
   OBJECT_FILE_DIR = DynamicProgramming\CMakeFiles\ElevatorRides.dir
+  TARGET_COMPILE_PDB = DynamicProgramming\CMakeFiles\ElevatorRides.dir\
+  TARGET_PDB = DynamicProgramming\ElevatorRides.pdb
 
 
 # =============================================================================
@@ -2364,9 +2567,10 @@ build DynamicProgramming/ElevatorRides.exe: CXX_EXECUTABLE_LINKER__ElevatorRides
   OBJECT_DIR = DynamicProgramming\CMakeFiles\ElevatorRides.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = DynamicProgramming\CMakeFiles\ElevatorRides.dir\
   TARGET_FILE = DynamicProgramming\ElevatorRides.exe
   TARGET_IMPLIB = DynamicProgramming\libElevatorRides.dll.a
-  TARGET_PDB = ElevatorRides.exe.dbg
+  TARGET_PDB = DynamicProgramming\ElevatorRides.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target IncreasingSubsequence
@@ -2382,6 +2586,8 @@ build DynamicProgramming/CMakeFiles/IncreasingSubsequence.dir/IncreasingSubseque
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = DynamicProgramming\CMakeFiles\IncreasingSubsequence.dir
   OBJECT_FILE_DIR = DynamicProgramming\CMakeFiles\IncreasingSubsequence.dir
+  TARGET_COMPILE_PDB = DynamicProgramming\CMakeFiles\IncreasingSubsequence.dir\
+  TARGET_PDB = DynamicProgramming\IncreasingSubsequence.pdb
 
 
 # =============================================================================
@@ -2397,9 +2603,10 @@ build DynamicProgramming/IncreasingSubsequence.exe: CXX_EXECUTABLE_LINKER__Incre
   OBJECT_DIR = DynamicProgramming\CMakeFiles\IncreasingSubsequence.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = DynamicProgramming\CMakeFiles\IncreasingSubsequence.dir\
   TARGET_FILE = DynamicProgramming\IncreasingSubsequence.exe
   TARGET_IMPLIB = DynamicProgramming\libIncreasingSubsequence.dll.a
-  TARGET_PDB = IncreasingSubsequence.exe.dbg
+  TARGET_PDB = DynamicProgramming\IncreasingSubsequence.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target RemovalGame
@@ -2415,6 +2622,8 @@ build DynamicProgramming/CMakeFiles/RemovalGame.dir/RemovalGame.cpp.obj: CXX_COM
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = DynamicProgramming\CMakeFiles\RemovalGame.dir
   OBJECT_FILE_DIR = DynamicProgramming\CMakeFiles\RemovalGame.dir
+  TARGET_COMPILE_PDB = DynamicProgramming\CMakeFiles\RemovalGame.dir\
+  TARGET_PDB = DynamicProgramming\RemovalGame.pdb
 
 
 # =============================================================================
@@ -2430,9 +2639,10 @@ build DynamicProgramming/RemovalGame.exe: CXX_EXECUTABLE_LINKER__RemovalGame_Deb
   OBJECT_DIR = DynamicProgramming\CMakeFiles\RemovalGame.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = DynamicProgramming\CMakeFiles\RemovalGame.dir\
   TARGET_FILE = DynamicProgramming\RemovalGame.exe
   TARGET_IMPLIB = DynamicProgramming\libRemovalGame.dll.a
-  TARGET_PDB = RemovalGame.exe.dbg
+  TARGET_PDB = DynamicProgramming\RemovalGame.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target CountingTowers
@@ -2448,6 +2658,8 @@ build DynamicProgramming/CMakeFiles/CountingTowers.dir/CountingTowers.cpp.obj: C
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = DynamicProgramming\CMakeFiles\CountingTowers.dir
   OBJECT_FILE_DIR = DynamicProgramming\CMakeFiles\CountingTowers.dir
+  TARGET_COMPILE_PDB = DynamicProgramming\CMakeFiles\CountingTowers.dir\
+  TARGET_PDB = DynamicProgramming\CountingTowers.pdb
 
 
 # =============================================================================
@@ -2463,9 +2675,10 @@ build DynamicProgramming/CountingTowers.exe: CXX_EXECUTABLE_LINKER__CountingTowe
   OBJECT_DIR = DynamicProgramming\CMakeFiles\CountingTowers.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = DynamicProgramming\CMakeFiles\CountingTowers.dir\
   TARGET_FILE = DynamicProgramming\CountingTowers.exe
   TARGET_IMPLIB = DynamicProgramming\libCountingTowers.dll.a
-  TARGET_PDB = CountingTowers.exe.dbg
+  TARGET_PDB = DynamicProgramming\CountingTowers.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target CountingTilings
@@ -2481,6 +2694,8 @@ build DynamicProgramming/CMakeFiles/CountingTilings.dir/CountingTilings.cpp.obj:
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = DynamicProgramming\CMakeFiles\CountingTilings.dir
   OBJECT_FILE_DIR = DynamicProgramming\CMakeFiles\CountingTilings.dir
+  TARGET_COMPILE_PDB = DynamicProgramming\CMakeFiles\CountingTilings.dir\
+  TARGET_PDB = DynamicProgramming\CountingTilings.pdb
 
 
 # =============================================================================
@@ -2496,9 +2711,10 @@ build DynamicProgramming/CountingTilings.exe: CXX_EXECUTABLE_LINKER__CountingTil
   OBJECT_DIR = DynamicProgramming\CMakeFiles\CountingTilings.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = DynamicProgramming\CMakeFiles\CountingTilings.dir\
   TARGET_FILE = DynamicProgramming\CountingTilings.exe
   TARGET_IMPLIB = DynamicProgramming\libCountingTilings.dll.a
-  TARGET_PDB = CountingTilings.exe.dbg
+  TARGET_PDB = DynamicProgramming\CountingTilings.pdb
 
 
 #############################################
@@ -2542,6 +2758,8 @@ build GraphAlgorithms/CMakeFiles/CountingRooms.dir/CountingRooms.cpp.obj: CXX_CO
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\CountingRooms.dir
   OBJECT_FILE_DIR = GraphAlgorithms\CMakeFiles\CountingRooms.dir
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\CountingRooms.dir\
+  TARGET_PDB = GraphAlgorithms\CountingRooms.pdb
 
 
 # =============================================================================
@@ -2557,9 +2775,10 @@ build GraphAlgorithms/CountingRooms.exe: CXX_EXECUTABLE_LINKER__CountingRooms_De
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\CountingRooms.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\CountingRooms.dir\
   TARGET_FILE = GraphAlgorithms\CountingRooms.exe
   TARGET_IMPLIB = GraphAlgorithms\libCountingRooms.dll.a
-  TARGET_PDB = CountingRooms.exe.dbg
+  TARGET_PDB = GraphAlgorithms\CountingRooms.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target BuildingRoads
@@ -2575,6 +2794,8 @@ build GraphAlgorithms/CMakeFiles/BuildingRoads.dir/BuildingRoads.cpp.obj: CXX_CO
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\BuildingRoads.dir
   OBJECT_FILE_DIR = GraphAlgorithms\CMakeFiles\BuildingRoads.dir
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\BuildingRoads.dir\
+  TARGET_PDB = GraphAlgorithms\BuildingRoads.pdb
 
 
 # =============================================================================
@@ -2590,9 +2811,10 @@ build GraphAlgorithms/BuildingRoads.exe: CXX_EXECUTABLE_LINKER__BuildingRoads_De
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\BuildingRoads.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\BuildingRoads.dir\
   TARGET_FILE = GraphAlgorithms\BuildingRoads.exe
   TARGET_IMPLIB = GraphAlgorithms\libBuildingRoads.dll.a
-  TARGET_PDB = BuildingRoads.exe.dbg
+  TARGET_PDB = GraphAlgorithms\BuildingRoads.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target GameRoutes
@@ -2608,6 +2830,8 @@ build GraphAlgorithms/CMakeFiles/GameRoutes.dir/GameRoutes.cpp.obj: CXX_COMPILER
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\GameRoutes.dir
   OBJECT_FILE_DIR = GraphAlgorithms\CMakeFiles\GameRoutes.dir
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\GameRoutes.dir\
+  TARGET_PDB = GraphAlgorithms\GameRoutes.pdb
 
 
 # =============================================================================
@@ -2623,9 +2847,10 @@ build GraphAlgorithms/GameRoutes.exe: CXX_EXECUTABLE_LINKER__GameRoutes_Debug Gr
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\GameRoutes.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\GameRoutes.dir\
   TARGET_FILE = GraphAlgorithms\GameRoutes.exe
   TARGET_IMPLIB = GraphAlgorithms\libGameRoutes.dll.a
-  TARGET_PDB = GameRoutes.exe.dbg
+  TARGET_PDB = GraphAlgorithms\GameRoutes.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target HighScore
@@ -2641,6 +2866,8 @@ build GraphAlgorithms/CMakeFiles/HighScore.dir/HighScore.cpp.obj: CXX_COMPILER__
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\HighScore.dir
   OBJECT_FILE_DIR = GraphAlgorithms\CMakeFiles\HighScore.dir
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\HighScore.dir\
+  TARGET_PDB = GraphAlgorithms\HighScore.pdb
 
 
 # =============================================================================
@@ -2656,9 +2883,10 @@ build GraphAlgorithms/HighScore.exe: CXX_EXECUTABLE_LINKER__HighScore_Debug Grap
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\HighScore.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\HighScore.dir\
   TARGET_FILE = GraphAlgorithms\HighScore.exe
   TARGET_IMPLIB = GraphAlgorithms\libHighScore.dll.a
-  TARGET_PDB = HighScore.exe.dbg
+  TARGET_PDB = GraphAlgorithms\HighScore.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target BuildingTeams
@@ -2674,6 +2902,8 @@ build GraphAlgorithms/CMakeFiles/BuildingTeams.dir/BuildingTeams.cpp.obj: CXX_CO
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\BuildingTeams.dir
   OBJECT_FILE_DIR = GraphAlgorithms\CMakeFiles\BuildingTeams.dir
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\BuildingTeams.dir\
+  TARGET_PDB = GraphAlgorithms\BuildingTeams.pdb
 
 
 # =============================================================================
@@ -2689,9 +2919,10 @@ build GraphAlgorithms/BuildingTeams.exe: CXX_EXECUTABLE_LINKER__BuildingTeams_De
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\BuildingTeams.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\BuildingTeams.dir\
   TARGET_FILE = GraphAlgorithms\BuildingTeams.exe
   TARGET_IMPLIB = GraphAlgorithms\libBuildingTeams.dll.a
-  TARGET_PDB = BuildingTeams.exe.dbg
+  TARGET_PDB = GraphAlgorithms\BuildingTeams.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target MessageRoute
@@ -2707,6 +2938,8 @@ build GraphAlgorithms/CMakeFiles/MessageRoute.dir/MessageRoute.cpp.obj: CXX_COMP
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\MessageRoute.dir
   OBJECT_FILE_DIR = GraphAlgorithms\CMakeFiles\MessageRoute.dir
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\MessageRoute.dir\
+  TARGET_PDB = GraphAlgorithms\MessageRoute.pdb
 
 
 # =============================================================================
@@ -2722,9 +2955,10 @@ build GraphAlgorithms/MessageRoute.exe: CXX_EXECUTABLE_LINKER__MessageRoute_Debu
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\MessageRoute.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\MessageRoute.dir\
   TARGET_FILE = GraphAlgorithms\MessageRoute.exe
   TARGET_IMPLIB = GraphAlgorithms\libMessageRoute.dll.a
-  TARGET_PDB = MessageRoute.exe.dbg
+  TARGET_PDB = GraphAlgorithms\MessageRoute.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Labyrinth.cpp
@@ -2740,6 +2974,8 @@ build GraphAlgorithms/CMakeFiles/Labyrinth.cpp.dir/Labyrinth.cpp.obj: CXX_COMPIL
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\Labyrinth.cpp.dir
   OBJECT_FILE_DIR = GraphAlgorithms\CMakeFiles\Labyrinth.cpp.dir
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\Labyrinth.cpp.dir\
+  TARGET_PDB = GraphAlgorithms\Labyrinth.cpp.pdb
 
 
 # =============================================================================
@@ -2755,9 +2991,10 @@ build GraphAlgorithms/Labyrinth.cpp.exe: CXX_EXECUTABLE_LINKER__Labyrinth.2ecpp_
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\Labyrinth.cpp.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\Labyrinth.cpp.dir\
   TARGET_FILE = GraphAlgorithms\Labyrinth.cpp.exe
   TARGET_IMPLIB = GraphAlgorithms\libLabyrinth.cpp.dll.a
-  TARGET_PDB = Labyrinth.cpp.exe.dbg
+  TARGET_PDB = GraphAlgorithms\Labyrinth.cpp.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target RoundTrip
@@ -2773,6 +3010,8 @@ build GraphAlgorithms/CMakeFiles/RoundTrip.dir/RoundTrip.cpp.obj: CXX_COMPILER__
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\RoundTrip.dir
   OBJECT_FILE_DIR = GraphAlgorithms\CMakeFiles\RoundTrip.dir
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\RoundTrip.dir\
+  TARGET_PDB = GraphAlgorithms\RoundTrip.pdb
 
 
 # =============================================================================
@@ -2788,9 +3027,10 @@ build GraphAlgorithms/RoundTrip.exe: CXX_EXECUTABLE_LINKER__RoundTrip_Debug Grap
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\RoundTrip.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\RoundTrip.dir\
   TARGET_FILE = GraphAlgorithms\RoundTrip.exe
   TARGET_IMPLIB = GraphAlgorithms\libRoundTrip.dll.a
-  TARGET_PDB = RoundTrip.exe.dbg
+  TARGET_PDB = GraphAlgorithms\RoundTrip.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target RoadConstruction
@@ -2806,6 +3046,8 @@ build GraphAlgorithms/CMakeFiles/RoadConstruction.dir/RoadConstruction.cpp.obj: 
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\RoadConstruction.dir
   OBJECT_FILE_DIR = GraphAlgorithms\CMakeFiles\RoadConstruction.dir
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\RoadConstruction.dir\
+  TARGET_PDB = GraphAlgorithms\RoadConstruction.pdb
 
 
 # =============================================================================
@@ -2821,9 +3063,10 @@ build GraphAlgorithms/RoadConstruction.exe: CXX_EXECUTABLE_LINKER__RoadConstruct
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\RoadConstruction.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\RoadConstruction.dir\
   TARGET_FILE = GraphAlgorithms\RoadConstruction.exe
   TARGET_IMPLIB = GraphAlgorithms\libRoadConstruction.dll.a
-  TARGET_PDB = RoadConstruction.exe.dbg
+  TARGET_PDB = GraphAlgorithms\RoadConstruction.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target ShortestRoutesI
@@ -2839,6 +3082,8 @@ build GraphAlgorithms/CMakeFiles/ShortestRoutesI.dir/ShortestRoutesI.cpp.obj: CX
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\ShortestRoutesI.dir
   OBJECT_FILE_DIR = GraphAlgorithms\CMakeFiles\ShortestRoutesI.dir
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\ShortestRoutesI.dir\
+  TARGET_PDB = GraphAlgorithms\ShortestRoutesI.pdb
 
 
 # =============================================================================
@@ -2854,9 +3099,10 @@ build GraphAlgorithms/ShortestRoutesI.exe: CXX_EXECUTABLE_LINKER__ShortestRoutes
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\ShortestRoutesI.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\ShortestRoutesI.dir\
   TARGET_FILE = GraphAlgorithms\ShortestRoutesI.exe
   TARGET_IMPLIB = GraphAlgorithms\libShortestRoutesI.dll.a
-  TARGET_PDB = ShortestRoutesI.exe.dbg
+  TARGET_PDB = GraphAlgorithms\ShortestRoutesI.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target ShortestRoutesII
@@ -2872,6 +3118,8 @@ build GraphAlgorithms/CMakeFiles/ShortestRoutesII.dir/ShortestRoutesII.cpp.obj: 
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\ShortestRoutesII.dir
   OBJECT_FILE_DIR = GraphAlgorithms\CMakeFiles\ShortestRoutesII.dir
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\ShortestRoutesII.dir\
+  TARGET_PDB = GraphAlgorithms\ShortestRoutesII.pdb
 
 
 # =============================================================================
@@ -2887,9 +3135,10 @@ build GraphAlgorithms/ShortestRoutesII.exe: CXX_EXECUTABLE_LINKER__ShortestRoute
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\ShortestRoutesII.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\ShortestRoutesII.dir\
   TARGET_FILE = GraphAlgorithms\ShortestRoutesII.exe
   TARGET_IMPLIB = GraphAlgorithms\libShortestRoutesII.dll.a
-  TARGET_PDB = ShortestRoutesII.exe.dbg
+  TARGET_PDB = GraphAlgorithms\ShortestRoutesII.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target RoundTripII
@@ -2905,6 +3154,8 @@ build GraphAlgorithms/CMakeFiles/RoundTripII.dir/RoundTripII.cpp.obj: CXX_COMPIL
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\RoundTripII.dir
   OBJECT_FILE_DIR = GraphAlgorithms\CMakeFiles\RoundTripII.dir
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\RoundTripII.dir\
+  TARGET_PDB = GraphAlgorithms\RoundTripII.pdb
 
 
 # =============================================================================
@@ -2920,9 +3171,10 @@ build GraphAlgorithms/RoundTripII.exe: CXX_EXECUTABLE_LINKER__RoundTripII_Debug 
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\RoundTripII.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\RoundTripII.dir\
   TARGET_FILE = GraphAlgorithms\RoundTripII.exe
   TARGET_IMPLIB = GraphAlgorithms\libRoundTripII.dll.a
-  TARGET_PDB = RoundTripII.exe.dbg
+  TARGET_PDB = GraphAlgorithms\RoundTripII.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target CycleFinding
@@ -2938,6 +3190,8 @@ build GraphAlgorithms/CMakeFiles/CycleFinding.dir/CycleFinding.cpp.obj: CXX_COMP
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\CycleFinding.dir
   OBJECT_FILE_DIR = GraphAlgorithms\CMakeFiles\CycleFinding.dir
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\CycleFinding.dir\
+  TARGET_PDB = GraphAlgorithms\CycleFinding.pdb
 
 
 # =============================================================================
@@ -2953,9 +3207,10 @@ build GraphAlgorithms/CycleFinding.exe: CXX_EXECUTABLE_LINKER__CycleFinding_Debu
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\CycleFinding.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\CycleFinding.dir\
   TARGET_FILE = GraphAlgorithms\CycleFinding.exe
   TARGET_IMPLIB = GraphAlgorithms\libCycleFinding.dll.a
-  TARGET_PDB = CycleFinding.exe.dbg
+  TARGET_PDB = GraphAlgorithms\CycleFinding.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Monsters
@@ -2971,6 +3226,8 @@ build GraphAlgorithms/CMakeFiles/Monsters.dir/Monsters.cpp.obj: CXX_COMPILER__Mo
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\Monsters.dir
   OBJECT_FILE_DIR = GraphAlgorithms\CMakeFiles\Monsters.dir
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\Monsters.dir\
+  TARGET_PDB = GraphAlgorithms\Monsters.pdb
 
 
 # =============================================================================
@@ -2986,9 +3243,10 @@ build GraphAlgorithms/Monsters.exe: CXX_EXECUTABLE_LINKER__Monsters_Debug GraphA
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\Monsters.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\Monsters.dir\
   TARGET_FILE = GraphAlgorithms\Monsters.exe
   TARGET_IMPLIB = GraphAlgorithms\libMonsters.dll.a
-  TARGET_PDB = Monsters.exe.dbg
+  TARGET_PDB = GraphAlgorithms\Monsters.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target FlightDiscount
@@ -3004,6 +3262,8 @@ build GraphAlgorithms/CMakeFiles/FlightDiscount.dir/FlightDiscount.cpp.obj: CXX_
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\FlightDiscount.dir
   OBJECT_FILE_DIR = GraphAlgorithms\CMakeFiles\FlightDiscount.dir
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\FlightDiscount.dir\
+  TARGET_PDB = GraphAlgorithms\FlightDiscount.pdb
 
 
 # =============================================================================
@@ -3019,9 +3279,10 @@ build GraphAlgorithms/FlightDiscount.exe: CXX_EXECUTABLE_LINKER__FlightDiscount_
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\FlightDiscount.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\FlightDiscount.dir\
   TARGET_FILE = GraphAlgorithms\FlightDiscount.exe
   TARGET_IMPLIB = GraphAlgorithms\libFlightDiscount.dll.a
-  TARGET_PDB = FlightDiscount.exe.dbg
+  TARGET_PDB = GraphAlgorithms\FlightDiscount.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Investigation
@@ -3037,6 +3298,8 @@ build GraphAlgorithms/CMakeFiles/Investigation.dir/Investigation.cpp.obj: CXX_CO
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\Investigation.dir
   OBJECT_FILE_DIR = GraphAlgorithms\CMakeFiles\Investigation.dir
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\Investigation.dir\
+  TARGET_PDB = GraphAlgorithms\Investigation.pdb
 
 
 # =============================================================================
@@ -3052,9 +3315,10 @@ build GraphAlgorithms/Investigation.exe: CXX_EXECUTABLE_LINKER__Investigation_De
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\Investigation.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\Investigation.dir\
   TARGET_FILE = GraphAlgorithms\Investigation.exe
   TARGET_IMPLIB = GraphAlgorithms\libInvestigation.dll.a
-  TARGET_PDB = Investigation.exe.dbg
+  TARGET_PDB = GraphAlgorithms\Investigation.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target RoadReparation
@@ -3070,6 +3334,8 @@ build GraphAlgorithms/CMakeFiles/RoadReparation.dir/RoadReparation.cpp.obj: CXX_
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\RoadReparation.dir
   OBJECT_FILE_DIR = GraphAlgorithms\CMakeFiles\RoadReparation.dir
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\RoadReparation.dir\
+  TARGET_PDB = GraphAlgorithms\RoadReparation.pdb
 
 
 # =============================================================================
@@ -3085,9 +3351,10 @@ build GraphAlgorithms/RoadReparation.exe: CXX_EXECUTABLE_LINKER__RoadReparation_
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\RoadReparation.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\RoadReparation.dir\
   TARGET_FILE = GraphAlgorithms\RoadReparation.exe
   TARGET_IMPLIB = GraphAlgorithms\libRoadReparation.dll.a
-  TARGET_PDB = RoadReparation.exe.dbg
+  TARGET_PDB = GraphAlgorithms\RoadReparation.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target LongestFlightRoute
@@ -3103,6 +3370,8 @@ build GraphAlgorithms/CMakeFiles/LongestFlightRoute.dir/LongestFlightRoute.cpp.o
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\LongestFlightRoute.dir
   OBJECT_FILE_DIR = GraphAlgorithms\CMakeFiles\LongestFlightRoute.dir
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\LongestFlightRoute.dir\
+  TARGET_PDB = GraphAlgorithms\LongestFlightRoute.pdb
 
 
 # =============================================================================
@@ -3118,9 +3387,10 @@ build GraphAlgorithms/LongestFlightRoute.exe: CXX_EXECUTABLE_LINKER__LongestFlig
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\LongestFlightRoute.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\LongestFlightRoute.dir\
   TARGET_FILE = GraphAlgorithms\LongestFlightRoute.exe
   TARGET_IMPLIB = GraphAlgorithms\libLongestFlightRoute.dll.a
-  TARGET_PDB = LongestFlightRoute.exe.dbg
+  TARGET_PDB = GraphAlgorithms\LongestFlightRoute.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target KnightsTour
@@ -3136,6 +3406,8 @@ build GraphAlgorithms/CMakeFiles/KnightsTour.dir/KnightsTour.cpp.obj: CXX_COMPIL
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\KnightsTour.dir
   OBJECT_FILE_DIR = GraphAlgorithms\CMakeFiles\KnightsTour.dir
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\KnightsTour.dir\
+  TARGET_PDB = GraphAlgorithms\KnightsTour.pdb
 
 
 # =============================================================================
@@ -3151,9 +3423,10 @@ build GraphAlgorithms/KnightsTour.exe: CXX_EXECUTABLE_LINKER__KnightsTour_Debug 
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\KnightsTour.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\KnightsTour.dir\
   TARGET_FILE = GraphAlgorithms\KnightsTour.exe
   TARGET_IMPLIB = GraphAlgorithms\libKnightsTour.dll.a
-  TARGET_PDB = KnightsTour.exe.dbg
+  TARGET_PDB = GraphAlgorithms\KnightsTour.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target CourseSchedule
@@ -3169,6 +3442,8 @@ build GraphAlgorithms/CMakeFiles/CourseSchedule.dir/CourseSchedule.cpp.obj: CXX_
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\CourseSchedule.dir
   OBJECT_FILE_DIR = GraphAlgorithms\CMakeFiles\CourseSchedule.dir
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\CourseSchedule.dir\
+  TARGET_PDB = GraphAlgorithms\CourseSchedule.pdb
 
 
 # =============================================================================
@@ -3184,9 +3459,10 @@ build GraphAlgorithms/CourseSchedule.exe: CXX_EXECUTABLE_LINKER__CourseSchedule_
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\CourseSchedule.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\CourseSchedule.dir\
   TARGET_FILE = GraphAlgorithms\CourseSchedule.exe
   TARGET_IMPLIB = GraphAlgorithms\libCourseSchedule.dll.a
-  TARGET_PDB = CourseSchedule.exe.dbg
+  TARGET_PDB = GraphAlgorithms\CourseSchedule.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target FlightRoutes
@@ -3202,6 +3478,8 @@ build GraphAlgorithms/CMakeFiles/FlightRoutes.dir/FlightRoutes.cpp.obj: CXX_COMP
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\FlightRoutes.dir
   OBJECT_FILE_DIR = GraphAlgorithms\CMakeFiles\FlightRoutes.dir
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\FlightRoutes.dir\
+  TARGET_PDB = GraphAlgorithms\FlightRoutes.pdb
 
 
 # =============================================================================
@@ -3217,9 +3495,10 @@ build GraphAlgorithms/FlightRoutes.exe: CXX_EXECUTABLE_LINKER__FlightRoutes_Debu
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\FlightRoutes.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\FlightRoutes.dir\
   TARGET_FILE = GraphAlgorithms\FlightRoutes.exe
   TARGET_IMPLIB = GraphAlgorithms\libFlightRoutes.dll.a
-  TARGET_PDB = FlightRoutes.exe.dbg
+  TARGET_PDB = GraphAlgorithms\FlightRoutes.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target HamiltonianFlights
@@ -3235,6 +3514,8 @@ build GraphAlgorithms/CMakeFiles/HamiltonianFlights.dir/HamiltonianFlights.cpp.o
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\HamiltonianFlights.dir
   OBJECT_FILE_DIR = GraphAlgorithms\CMakeFiles\HamiltonianFlights.dir
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\HamiltonianFlights.dir\
+  TARGET_PDB = GraphAlgorithms\HamiltonianFlights.pdb
 
 
 # =============================================================================
@@ -3250,9 +3531,10 @@ build GraphAlgorithms/HamiltonianFlights.exe: CXX_EXECUTABLE_LINKER__Hamiltonian
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\HamiltonianFlights.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\HamiltonianFlights.dir\
   TARGET_FILE = GraphAlgorithms\HamiltonianFlights.exe
   TARGET_IMPLIB = GraphAlgorithms\libHamiltonianFlights.dll.a
-  TARGET_PDB = HamiltonianFlights.exe.dbg
+  TARGET_PDB = GraphAlgorithms\HamiltonianFlights.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target PlanetsQueriesI
@@ -3268,6 +3550,8 @@ build GraphAlgorithms/CMakeFiles/PlanetsQueriesI.dir/PlanetsQueriesI.cpp.obj: CX
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\PlanetsQueriesI.dir
   OBJECT_FILE_DIR = GraphAlgorithms\CMakeFiles\PlanetsQueriesI.dir
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\PlanetsQueriesI.dir\
+  TARGET_PDB = GraphAlgorithms\PlanetsQueriesI.pdb
 
 
 # =============================================================================
@@ -3283,9 +3567,10 @@ build GraphAlgorithms/PlanetsQueriesI.exe: CXX_EXECUTABLE_LINKER__PlanetsQueries
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\PlanetsQueriesI.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\PlanetsQueriesI.dir\
   TARGET_FILE = GraphAlgorithms\PlanetsQueriesI.exe
   TARGET_IMPLIB = GraphAlgorithms\libPlanetsQueriesI.dll.a
-  TARGET_PDB = PlanetsQueriesI.exe.dbg
+  TARGET_PDB = GraphAlgorithms\PlanetsQueriesI.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target PlanetsCycles
@@ -3301,6 +3586,8 @@ build GraphAlgorithms/CMakeFiles/PlanetsCycles.dir/PlanetsCycles.cpp.obj: CXX_CO
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\PlanetsCycles.dir
   OBJECT_FILE_DIR = GraphAlgorithms\CMakeFiles\PlanetsCycles.dir
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\PlanetsCycles.dir\
+  TARGET_PDB = GraphAlgorithms\PlanetsCycles.pdb
 
 
 # =============================================================================
@@ -3316,9 +3603,10 @@ build GraphAlgorithms/PlanetsCycles.exe: CXX_EXECUTABLE_LINKER__PlanetsCycles_De
   OBJECT_DIR = GraphAlgorithms\CMakeFiles\PlanetsCycles.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = GraphAlgorithms\CMakeFiles\PlanetsCycles.dir\
   TARGET_FILE = GraphAlgorithms\PlanetsCycles.exe
   TARGET_IMPLIB = GraphAlgorithms\libPlanetsCycles.dll.a
-  TARGET_PDB = PlanetsCycles.exe.dbg
+  TARGET_PDB = GraphAlgorithms\PlanetsCycles.pdb
 
 
 #############################################
@@ -3362,6 +3650,8 @@ build RangeQueries/CMakeFiles/RangeXorQueries.dir/RangeXorQueries.cpp.obj: CXX_C
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = RangeQueries\CMakeFiles\RangeXorQueries.dir
   OBJECT_FILE_DIR = RangeQueries\CMakeFiles\RangeXorQueries.dir
+  TARGET_COMPILE_PDB = RangeQueries\CMakeFiles\RangeXorQueries.dir\
+  TARGET_PDB = RangeQueries\RangeXorQueries.pdb
 
 
 # =============================================================================
@@ -3377,9 +3667,10 @@ build RangeQueries/RangeXorQueries.exe: CXX_EXECUTABLE_LINKER__RangeXorQueries_D
   OBJECT_DIR = RangeQueries\CMakeFiles\RangeXorQueries.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = RangeQueries\CMakeFiles\RangeXorQueries.dir\
   TARGET_FILE = RangeQueries\RangeXorQueries.exe
   TARGET_IMPLIB = RangeQueries\libRangeXorQueries.dll.a
-  TARGET_PDB = RangeXorQueries.exe.dbg
+  TARGET_PDB = RangeQueries\RangeXorQueries.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target StaticRangeSumQueries
@@ -3395,6 +3686,8 @@ build RangeQueries/CMakeFiles/StaticRangeSumQueries.dir/StaticRangeSumQueries.cp
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = RangeQueries\CMakeFiles\StaticRangeSumQueries.dir
   OBJECT_FILE_DIR = RangeQueries\CMakeFiles\StaticRangeSumQueries.dir
+  TARGET_COMPILE_PDB = RangeQueries\CMakeFiles\StaticRangeSumQueries.dir\
+  TARGET_PDB = RangeQueries\StaticRangeSumQueries.pdb
 
 
 # =============================================================================
@@ -3410,9 +3703,10 @@ build RangeQueries/StaticRangeSumQueries.exe: CXX_EXECUTABLE_LINKER__StaticRange
   OBJECT_DIR = RangeQueries\CMakeFiles\StaticRangeSumQueries.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = RangeQueries\CMakeFiles\StaticRangeSumQueries.dir\
   TARGET_FILE = RangeQueries\StaticRangeSumQueries.exe
   TARGET_IMPLIB = RangeQueries\libStaticRangeSumQueries.dll.a
-  TARGET_PDB = StaticRangeSumQueries.exe.dbg
+  TARGET_PDB = RangeQueries\StaticRangeSumQueries.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target StaticRangeMinimumQueries
@@ -3428,6 +3722,8 @@ build RangeQueries/CMakeFiles/StaticRangeMinimumQueries.dir/StaticRangeMinimumQu
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = RangeQueries\CMakeFiles\StaticRangeMinimumQueries.dir
   OBJECT_FILE_DIR = RangeQueries\CMakeFiles\StaticRangeMinimumQueries.dir
+  TARGET_COMPILE_PDB = RangeQueries\CMakeFiles\StaticRangeMinimumQueries.dir\
+  TARGET_PDB = RangeQueries\StaticRangeMinimumQueries.pdb
 
 
 # =============================================================================
@@ -3443,9 +3739,10 @@ build RangeQueries/StaticRangeMinimumQueries.exe: CXX_EXECUTABLE_LINKER__StaticR
   OBJECT_DIR = RangeQueries\CMakeFiles\StaticRangeMinimumQueries.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = RangeQueries\CMakeFiles\StaticRangeMinimumQueries.dir\
   TARGET_FILE = RangeQueries\StaticRangeMinimumQueries.exe
   TARGET_IMPLIB = RangeQueries\libStaticRangeMinimumQueries.dll.a
-  TARGET_PDB = StaticRangeMinimumQueries.exe.dbg
+  TARGET_PDB = RangeQueries\StaticRangeMinimumQueries.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target RangeUpdateQueries
@@ -3461,6 +3758,8 @@ build RangeQueries/CMakeFiles/RangeUpdateQueries.dir/RangeUpdateQueries.cpp.obj:
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = RangeQueries\CMakeFiles\RangeUpdateQueries.dir
   OBJECT_FILE_DIR = RangeQueries\CMakeFiles\RangeUpdateQueries.dir
+  TARGET_COMPILE_PDB = RangeQueries\CMakeFiles\RangeUpdateQueries.dir\
+  TARGET_PDB = RangeQueries\RangeUpdateQueries.pdb
 
 
 # =============================================================================
@@ -3476,9 +3775,10 @@ build RangeQueries/RangeUpdateQueries.exe: CXX_EXECUTABLE_LINKER__RangeUpdateQue
   OBJECT_DIR = RangeQueries\CMakeFiles\RangeUpdateQueries.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = RangeQueries\CMakeFiles\RangeUpdateQueries.dir\
   TARGET_FILE = RangeQueries\RangeUpdateQueries.exe
   TARGET_IMPLIB = RangeQueries\libRangeUpdateQueries.dll.a
-  TARGET_PDB = RangeUpdateQueries.exe.dbg
+  TARGET_PDB = RangeQueries\RangeUpdateQueries.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target DynamicRangeSumQueries
@@ -3494,6 +3794,8 @@ build RangeQueries/CMakeFiles/DynamicRangeSumQueries.dir/DynamicRangeSumQueries.
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = RangeQueries\CMakeFiles\DynamicRangeSumQueries.dir
   OBJECT_FILE_DIR = RangeQueries\CMakeFiles\DynamicRangeSumQueries.dir
+  TARGET_COMPILE_PDB = RangeQueries\CMakeFiles\DynamicRangeSumQueries.dir\
+  TARGET_PDB = RangeQueries\DynamicRangeSumQueries.pdb
 
 
 # =============================================================================
@@ -3509,9 +3811,82 @@ build RangeQueries/DynamicRangeSumQueries.exe: CXX_EXECUTABLE_LINKER__DynamicRan
   OBJECT_DIR = RangeQueries\CMakeFiles\DynamicRangeSumQueries.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = RangeQueries\CMakeFiles\DynamicRangeSumQueries.dir\
   TARGET_FILE = RangeQueries\DynamicRangeSumQueries.exe
   TARGET_IMPLIB = RangeQueries\libDynamicRangeSumQueries.dll.a
-  TARGET_PDB = DynamicRangeSumQueries.exe.dbg
+  TARGET_PDB = RangeQueries\DynamicRangeSumQueries.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target DynamicRangeMinimumQueries
+
+
+#############################################
+# Order-only phony target for DynamicRangeMinimumQueries
+
+build cmake_object_order_depends_target_DynamicRangeMinimumQueries: phony || RangeQueries/CMakeFiles/DynamicRangeMinimumQueries.dir
+
+build RangeQueries/CMakeFiles/DynamicRangeMinimumQueries.dir/DynamicRangeMinimumQueries.cpp.obj: CXX_COMPILER__DynamicRangeMinimumQueries_Debug C$:/Users/anton/CLionProjects/CSESProblemSet/RangeQueries/DynamicRangeMinimumQueries.cpp || cmake_object_order_depends_target_DynamicRangeMinimumQueries
+  DEP_FILE = RangeQueries\CMakeFiles\DynamicRangeMinimumQueries.dir\DynamicRangeMinimumQueries.cpp.obj.d
+  FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
+  OBJECT_DIR = RangeQueries\CMakeFiles\DynamicRangeMinimumQueries.dir
+  OBJECT_FILE_DIR = RangeQueries\CMakeFiles\DynamicRangeMinimumQueries.dir
+  TARGET_COMPILE_PDB = RangeQueries\CMakeFiles\DynamicRangeMinimumQueries.dir\
+  TARGET_PDB = RangeQueries\DynamicRangeMinimumQueries.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target DynamicRangeMinimumQueries
+
+
+#############################################
+# Link the executable RangeQueries\DynamicRangeMinimumQueries.exe
+
+build RangeQueries/DynamicRangeMinimumQueries.exe: CXX_EXECUTABLE_LINKER__DynamicRangeMinimumQueries_Debug RangeQueries/CMakeFiles/DynamicRangeMinimumQueries.dir/DynamicRangeMinimumQueries.cpp.obj
+  FLAGS = -O2 -Wall -Wextra -DLOCAL -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = RangeQueries\CMakeFiles\DynamicRangeMinimumQueries.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = RangeQueries\CMakeFiles\DynamicRangeMinimumQueries.dir\
+  TARGET_FILE = RangeQueries\DynamicRangeMinimumQueries.exe
+  TARGET_IMPLIB = RangeQueries\libDynamicRangeMinimumQueries.dll.a
+  TARGET_PDB = RangeQueries\DynamicRangeMinimumQueries.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target HotelQueries
+
+
+#############################################
+# Order-only phony target for HotelQueries
+
+build cmake_object_order_depends_target_HotelQueries: phony || RangeQueries/CMakeFiles/HotelQueries.dir
+
+build RangeQueries/CMakeFiles/HotelQueries.dir/HotelQueries.cpp.obj: CXX_COMPILER__HotelQueries_Debug C$:/Users/anton/CLionProjects/CSESProblemSet/RangeQueries/HotelQueries.cpp || cmake_object_order_depends_target_HotelQueries
+  DEP_FILE = RangeQueries\CMakeFiles\HotelQueries.dir\HotelQueries.cpp.obj.d
+  FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
+  OBJECT_DIR = RangeQueries\CMakeFiles\HotelQueries.dir
+  OBJECT_FILE_DIR = RangeQueries\CMakeFiles\HotelQueries.dir
+  TARGET_COMPILE_PDB = RangeQueries\CMakeFiles\HotelQueries.dir\
+  TARGET_PDB = RangeQueries\HotelQueries.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target HotelQueries
+
+
+#############################################
+# Link the executable RangeQueries\HotelQueries.exe
+
+build RangeQueries/HotelQueries.exe: CXX_EXECUTABLE_LINKER__HotelQueries_Debug RangeQueries/CMakeFiles/HotelQueries.dir/HotelQueries.cpp.obj
+  FLAGS = -O2 -Wall -Wextra -DLOCAL -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = RangeQueries\CMakeFiles\HotelQueries.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = RangeQueries\CMakeFiles\HotelQueries.dir\
+  TARGET_FILE = RangeQueries\HotelQueries.exe
+  TARGET_IMPLIB = RangeQueries\libHotelQueries.dll.a
+  TARGET_PDB = RangeQueries\HotelQueries.pdb
 
 
 #############################################
@@ -3583,6 +3958,8 @@ build Mathematics/CMakeFiles/CommonDivisors.dir/CommonDivisors.cpp.obj: CXX_COMP
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = Mathematics\CMakeFiles\CommonDivisors.dir
   OBJECT_FILE_DIR = Mathematics\CMakeFiles\CommonDivisors.dir
+  TARGET_COMPILE_PDB = Mathematics\CMakeFiles\CommonDivisors.dir\
+  TARGET_PDB = Mathematics\CommonDivisors.pdb
 
 
 # =============================================================================
@@ -3598,9 +3975,10 @@ build Mathematics/CommonDivisors.exe: CXX_EXECUTABLE_LINKER__CommonDivisors_Debu
   OBJECT_DIR = Mathematics\CMakeFiles\CommonDivisors.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = Mathematics\CMakeFiles\CommonDivisors.dir\
   TARGET_FILE = Mathematics\CommonDivisors.exe
   TARGET_IMPLIB = Mathematics\libCommonDivisors.dll.a
-  TARGET_PDB = CommonDivisors.exe.dbg
+  TARGET_PDB = Mathematics\CommonDivisors.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target ThrowingDice
@@ -3616,6 +3994,8 @@ build Mathematics/CMakeFiles/ThrowingDice.dir/ThrowingDice.cpp.obj: CXX_COMPILER
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = Mathematics\CMakeFiles\ThrowingDice.dir
   OBJECT_FILE_DIR = Mathematics\CMakeFiles\ThrowingDice.dir
+  TARGET_COMPILE_PDB = Mathematics\CMakeFiles\ThrowingDice.dir\
+  TARGET_PDB = Mathematics\ThrowingDice.pdb
 
 
 # =============================================================================
@@ -3631,9 +4011,10 @@ build Mathematics/ThrowingDice.exe: CXX_EXECUTABLE_LINKER__ThrowingDice_Debug Ma
   OBJECT_DIR = Mathematics\CMakeFiles\ThrowingDice.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = Mathematics\CMakeFiles\ThrowingDice.dir\
   TARGET_FILE = Mathematics\ThrowingDice.exe
   TARGET_IMPLIB = Mathematics\libThrowingDice.dll.a
-  TARGET_PDB = ThrowingDice.exe.dbg
+  TARGET_PDB = Mathematics\ThrowingDice.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target DiceProbability
@@ -3649,6 +4030,8 @@ build Mathematics/CMakeFiles/DiceProbability.dir/DiceProbability.cpp.obj: CXX_CO
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = Mathematics\CMakeFiles\DiceProbability.dir
   OBJECT_FILE_DIR = Mathematics\CMakeFiles\DiceProbability.dir
+  TARGET_COMPILE_PDB = Mathematics\CMakeFiles\DiceProbability.dir\
+  TARGET_PDB = Mathematics\DiceProbability.pdb
 
 
 # =============================================================================
@@ -3664,9 +4047,10 @@ build Mathematics/DiceProbability.exe: CXX_EXECUTABLE_LINKER__DiceProbability_De
   OBJECT_DIR = Mathematics\CMakeFiles\DiceProbability.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = Mathematics\CMakeFiles\DiceProbability.dir\
   TARGET_FILE = Mathematics\DiceProbability.exe
   TARGET_IMPLIB = Mathematics\libDiceProbability.dll.a
-  TARGET_PDB = DiceProbability.exe.dbg
+  TARGET_PDB = Mathematics\DiceProbability.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target PrimeMultiples
@@ -3682,6 +4066,8 @@ build Mathematics/CMakeFiles/PrimeMultiples.dir/PrimeMultiples.cpp.obj: CXX_COMP
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = Mathematics\CMakeFiles\PrimeMultiples.dir
   OBJECT_FILE_DIR = Mathematics\CMakeFiles\PrimeMultiples.dir
+  TARGET_COMPILE_PDB = Mathematics\CMakeFiles\PrimeMultiples.dir\
+  TARGET_PDB = Mathematics\PrimeMultiples.pdb
 
 
 # =============================================================================
@@ -3697,9 +4083,10 @@ build Mathematics/PrimeMultiples.exe: CXX_EXECUTABLE_LINKER__PrimeMultiples_Debu
   OBJECT_DIR = Mathematics\CMakeFiles\PrimeMultiples.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = Mathematics\CMakeFiles\PrimeMultiples.dir\
   TARGET_FILE = Mathematics\PrimeMultiples.exe
   TARGET_IMPLIB = Mathematics\libPrimeMultiples.dll.a
-  TARGET_PDB = PrimeMultiples.exe.dbg
+  TARGET_PDB = Mathematics\PrimeMultiples.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Exponentiation
@@ -3715,6 +4102,8 @@ build Mathematics/CMakeFiles/Exponentiation.dir/Exponentiation.cpp.obj: CXX_COMP
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = Mathematics\CMakeFiles\Exponentiation.dir
   OBJECT_FILE_DIR = Mathematics\CMakeFiles\Exponentiation.dir
+  TARGET_COMPILE_PDB = Mathematics\CMakeFiles\Exponentiation.dir\
+  TARGET_PDB = Mathematics\Exponentiation.pdb
 
 
 # =============================================================================
@@ -3730,9 +4119,10 @@ build Mathematics/Exponentiation.exe: CXX_EXECUTABLE_LINKER__Exponentiation_Debu
   OBJECT_DIR = Mathematics\CMakeFiles\Exponentiation.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = Mathematics\CMakeFiles\Exponentiation.dir\
   TARGET_FILE = Mathematics\Exponentiation.exe
   TARGET_IMPLIB = Mathematics\libExponentiation.dll.a
-  TARGET_PDB = Exponentiation.exe.dbg
+  TARGET_PDB = Mathematics\Exponentiation.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target ExponentiationII
@@ -3748,6 +4138,8 @@ build Mathematics/CMakeFiles/ExponentiationII.dir/ExponentiationII.cpp.obj: CXX_
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = Mathematics\CMakeFiles\ExponentiationII.dir
   OBJECT_FILE_DIR = Mathematics\CMakeFiles\ExponentiationII.dir
+  TARGET_COMPILE_PDB = Mathematics\CMakeFiles\ExponentiationII.dir\
+  TARGET_PDB = Mathematics\ExponentiationII.pdb
 
 
 # =============================================================================
@@ -3763,9 +4155,10 @@ build Mathematics/ExponentiationII.exe: CXX_EXECUTABLE_LINKER__ExponentiationII_
   OBJECT_DIR = Mathematics\CMakeFiles\ExponentiationII.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = Mathematics\CMakeFiles\ExponentiationII.dir\
   TARGET_FILE = Mathematics\ExponentiationII.exe
   TARGET_IMPLIB = Mathematics\libExponentiationII.dll.a
-  TARGET_PDB = ExponentiationII.exe.dbg
+  TARGET_PDB = Mathematics\ExponentiationII.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target CountingDivisors
@@ -3781,6 +4174,8 @@ build Mathematics/CMakeFiles/CountingDivisors.dir/CountingDivisors.cpp.obj: CXX_
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = Mathematics\CMakeFiles\CountingDivisors.dir
   OBJECT_FILE_DIR = Mathematics\CMakeFiles\CountingDivisors.dir
+  TARGET_COMPILE_PDB = Mathematics\CMakeFiles\CountingDivisors.dir\
+  TARGET_PDB = Mathematics\CountingDivisors.pdb
 
 
 # =============================================================================
@@ -3796,9 +4191,10 @@ build Mathematics/CountingDivisors.exe: CXX_EXECUTABLE_LINKER__CountingDivisors_
   OBJECT_DIR = Mathematics\CMakeFiles\CountingDivisors.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = Mathematics\CMakeFiles\CountingDivisors.dir\
   TARGET_FILE = Mathematics\CountingDivisors.exe
   TARGET_IMPLIB = Mathematics\libCountingDivisors.dll.a
-  TARGET_PDB = CountingDivisors.exe.dbg
+  TARGET_PDB = Mathematics\CountingDivisors.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target CreatingStringsII
@@ -3814,6 +4210,8 @@ build Mathematics/CMakeFiles/CreatingStringsII.dir/CreatingStringsII.cpp.obj: CX
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = Mathematics\CMakeFiles\CreatingStringsII.dir
   OBJECT_FILE_DIR = Mathematics\CMakeFiles\CreatingStringsII.dir
+  TARGET_COMPILE_PDB = Mathematics\CMakeFiles\CreatingStringsII.dir\
+  TARGET_PDB = Mathematics\CreatingStringsII.pdb
 
 
 # =============================================================================
@@ -3829,9 +4227,10 @@ build Mathematics/CreatingStringsII.exe: CXX_EXECUTABLE_LINKER__CreatingStringsI
   OBJECT_DIR = Mathematics\CMakeFiles\CreatingStringsII.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = Mathematics\CMakeFiles\CreatingStringsII.dir\
   TARGET_FILE = Mathematics\CreatingStringsII.exe
   TARGET_IMPLIB = Mathematics\libCreatingStringsII.dll.a
-  TARGET_PDB = CreatingStringsII.exe.dbg
+  TARGET_PDB = Mathematics\CreatingStringsII.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target SumOfDivisors
@@ -3847,6 +4246,8 @@ build Mathematics/CMakeFiles/SumOfDivisors.dir/SumOfDivisors.cpp.obj: CXX_COMPIL
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = Mathematics\CMakeFiles\SumOfDivisors.dir
   OBJECT_FILE_DIR = Mathematics\CMakeFiles\SumOfDivisors.dir
+  TARGET_COMPILE_PDB = Mathematics\CMakeFiles\SumOfDivisors.dir\
+  TARGET_PDB = Mathematics\SumOfDivisors.pdb
 
 
 # =============================================================================
@@ -3862,9 +4263,10 @@ build Mathematics/SumOfDivisors.exe: CXX_EXECUTABLE_LINKER__SumOfDivisors_Debug 
   OBJECT_DIR = Mathematics\CMakeFiles\SumOfDivisors.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = Mathematics\CMakeFiles\SumOfDivisors.dir\
   TARGET_FILE = Mathematics\SumOfDivisors.exe
   TARGET_IMPLIB = Mathematics\libSumOfDivisors.dll.a
-  TARGET_PDB = SumOfDivisors.exe.dbg
+  TARGET_PDB = Mathematics\SumOfDivisors.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target FibonacciNumbers
@@ -3880,6 +4282,8 @@ build Mathematics/CMakeFiles/FibonacciNumbers.dir/FibonacciNumbers.cpp.obj: CXX_
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = Mathematics\CMakeFiles\FibonacciNumbers.dir
   OBJECT_FILE_DIR = Mathematics\CMakeFiles\FibonacciNumbers.dir
+  TARGET_COMPILE_PDB = Mathematics\CMakeFiles\FibonacciNumbers.dir\
+  TARGET_PDB = Mathematics\FibonacciNumbers.pdb
 
 
 # =============================================================================
@@ -3895,9 +4299,10 @@ build Mathematics/FibonacciNumbers.exe: CXX_EXECUTABLE_LINKER__FibonacciNumbers_
   OBJECT_DIR = Mathematics\CMakeFiles\FibonacciNumbers.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = Mathematics\CMakeFiles\FibonacciNumbers.dir\
   TARGET_FILE = Mathematics\FibonacciNumbers.exe
   TARGET_IMPLIB = Mathematics\libFibonacciNumbers.dll.a
-  TARGET_PDB = FibonacciNumbers.exe.dbg
+  TARGET_PDB = Mathematics\FibonacciNumbers.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target ChristmasParty
@@ -3913,6 +4318,8 @@ build Mathematics/CMakeFiles/ChristmasParty.dir/ChristmasParty.cpp.obj: CXX_COMP
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = Mathematics\CMakeFiles\ChristmasParty.dir
   OBJECT_FILE_DIR = Mathematics\CMakeFiles\ChristmasParty.dir
+  TARGET_COMPILE_PDB = Mathematics\CMakeFiles\ChristmasParty.dir\
+  TARGET_PDB = Mathematics\ChristmasParty.pdb
 
 
 # =============================================================================
@@ -3928,9 +4335,10 @@ build Mathematics/ChristmasParty.exe: CXX_EXECUTABLE_LINKER__ChristmasParty_Debu
   OBJECT_DIR = Mathematics\CMakeFiles\ChristmasParty.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = Mathematics\CMakeFiles\ChristmasParty.dir\
   TARGET_FILE = Mathematics\ChristmasParty.exe
   TARGET_IMPLIB = Mathematics\libChristmasParty.dll.a
-  TARGET_PDB = ChristmasParty.exe.dbg
+  TARGET_PDB = Mathematics\ChristmasParty.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target BinomialCoefficients
@@ -3946,6 +4354,8 @@ build Mathematics/CMakeFiles/BinomialCoefficients.dir/BinomialCoefficients.cpp.o
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = Mathematics\CMakeFiles\BinomialCoefficients.dir
   OBJECT_FILE_DIR = Mathematics\CMakeFiles\BinomialCoefficients.dir
+  TARGET_COMPILE_PDB = Mathematics\CMakeFiles\BinomialCoefficients.dir\
+  TARGET_PDB = Mathematics\BinomialCoefficients.pdb
 
 
 # =============================================================================
@@ -3961,9 +4371,10 @@ build Mathematics/BinomialCoefficients.exe: CXX_EXECUTABLE_LINKER__BinomialCoeff
   OBJECT_DIR = Mathematics\CMakeFiles\BinomialCoefficients.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = Mathematics\CMakeFiles\BinomialCoefficients.dir\
   TARGET_FILE = Mathematics\BinomialCoefficients.exe
   TARGET_IMPLIB = Mathematics\libBinomialCoefficients.dll.a
-  TARGET_PDB = BinomialCoefficients.exe.dbg
+  TARGET_PDB = Mathematics\BinomialCoefficients.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target DivisorAnalysis
@@ -3979,6 +4390,8 @@ build Mathematics/CMakeFiles/DivisorAnalysis.dir/DivisorAnalysis.cpp.obj: CXX_CO
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = Mathematics\CMakeFiles\DivisorAnalysis.dir
   OBJECT_FILE_DIR = Mathematics\CMakeFiles\DivisorAnalysis.dir
+  TARGET_COMPILE_PDB = Mathematics\CMakeFiles\DivisorAnalysis.dir\
+  TARGET_PDB = Mathematics\DivisorAnalysis.pdb
 
 
 # =============================================================================
@@ -3994,9 +4407,10 @@ build Mathematics/DivisorAnalysis.exe: CXX_EXECUTABLE_LINKER__DivisorAnalysis_De
   OBJECT_DIR = Mathematics\CMakeFiles\DivisorAnalysis.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = Mathematics\CMakeFiles\DivisorAnalysis.dir\
   TARGET_FILE = Mathematics\DivisorAnalysis.exe
   TARGET_IMPLIB = Mathematics\libDivisorAnalysis.dll.a
-  TARGET_PDB = DivisorAnalysis.exe.dbg
+  TARGET_PDB = Mathematics\DivisorAnalysis.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target BracketSequencesI
@@ -4012,6 +4426,8 @@ build Mathematics/CMakeFiles/BracketSequencesI.dir/BracketSequencesI.cpp.obj: CX
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = Mathematics\CMakeFiles\BracketSequencesI.dir
   OBJECT_FILE_DIR = Mathematics\CMakeFiles\BracketSequencesI.dir
+  TARGET_COMPILE_PDB = Mathematics\CMakeFiles\BracketSequencesI.dir\
+  TARGET_PDB = Mathematics\BracketSequencesI.pdb
 
 
 # =============================================================================
@@ -4027,9 +4443,10 @@ build Mathematics/BracketSequencesI.exe: CXX_EXECUTABLE_LINKER__BracketSequences
   OBJECT_DIR = Mathematics\CMakeFiles\BracketSequencesI.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = Mathematics\CMakeFiles\BracketSequencesI.dir\
   TARGET_FILE = Mathematics\BracketSequencesI.exe
   TARGET_IMPLIB = Mathematics\libBracketSequencesI.dll.a
-  TARGET_PDB = BracketSequencesI.exe.dbg
+  TARGET_PDB = Mathematics\BracketSequencesI.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target GraphPathsI
@@ -4045,6 +4462,8 @@ build Mathematics/CMakeFiles/GraphPathsI.dir/GraphPathsI.cpp.obj: CXX_COMPILER__
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = Mathematics\CMakeFiles\GraphPathsI.dir
   OBJECT_FILE_DIR = Mathematics\CMakeFiles\GraphPathsI.dir
+  TARGET_COMPILE_PDB = Mathematics\CMakeFiles\GraphPathsI.dir\
+  TARGET_PDB = Mathematics\GraphPathsI.pdb
 
 
 # =============================================================================
@@ -4060,9 +4479,10 @@ build Mathematics/GraphPathsI.exe: CXX_EXECUTABLE_LINKER__GraphPathsI_Debug Math
   OBJECT_DIR = Mathematics\CMakeFiles\GraphPathsI.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = Mathematics\CMakeFiles\GraphPathsI.dir\
   TARGET_FILE = Mathematics\GraphPathsI.exe
   TARGET_IMPLIB = Mathematics\libGraphPathsI.dll.a
-  TARGET_PDB = GraphPathsI.exe.dbg
+  TARGET_PDB = Mathematics\GraphPathsI.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target GraphPathsII
@@ -4078,6 +4498,8 @@ build Mathematics/CMakeFiles/GraphPathsII.dir/GraphPathsII.cpp.obj: CXX_COMPILER
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = Mathematics\CMakeFiles\GraphPathsII.dir
   OBJECT_FILE_DIR = Mathematics\CMakeFiles\GraphPathsII.dir
+  TARGET_COMPILE_PDB = Mathematics\CMakeFiles\GraphPathsII.dir\
+  TARGET_PDB = Mathematics\GraphPathsII.pdb
 
 
 # =============================================================================
@@ -4093,9 +4515,10 @@ build Mathematics/GraphPathsII.exe: CXX_EXECUTABLE_LINKER__GraphPathsII_Debug Ma
   OBJECT_DIR = Mathematics\CMakeFiles\GraphPathsII.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = Mathematics\CMakeFiles\GraphPathsII.dir\
   TARGET_FILE = Mathematics\GraphPathsII.exe
   TARGET_IMPLIB = Mathematics\libGraphPathsII.dll.a
-  TARGET_PDB = GraphPathsII.exe.dbg
+  TARGET_PDB = Mathematics\GraphPathsII.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target DistributingApples
@@ -4111,6 +4534,8 @@ build Mathematics/CMakeFiles/DistributingApples.dir/DistributingApples.cpp.obj: 
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = Mathematics\CMakeFiles\DistributingApples.dir
   OBJECT_FILE_DIR = Mathematics\CMakeFiles\DistributingApples.dir
+  TARGET_COMPILE_PDB = Mathematics\CMakeFiles\DistributingApples.dir\
+  TARGET_PDB = Mathematics\DistributingApples.pdb
 
 
 # =============================================================================
@@ -4126,9 +4551,10 @@ build Mathematics/DistributingApples.exe: CXX_EXECUTABLE_LINKER__DistributingApp
   OBJECT_DIR = Mathematics\CMakeFiles\DistributingApples.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = Mathematics\CMakeFiles\DistributingApples.dir\
   TARGET_FILE = Mathematics\DistributingApples.exe
   TARGET_IMPLIB = Mathematics\libDistributingApples.dll.a
-  TARGET_PDB = DistributingApples.exe.dbg
+  TARGET_PDB = Mathematics\DistributingApples.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target BracketSequencesII
@@ -4144,6 +4570,8 @@ build Mathematics/CMakeFiles/BracketSequencesII.dir/BracketSequencesII.cpp.obj: 
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = Mathematics\CMakeFiles\BracketSequencesII.dir
   OBJECT_FILE_DIR = Mathematics\CMakeFiles\BracketSequencesII.dir
+  TARGET_COMPILE_PDB = Mathematics\CMakeFiles\BracketSequencesII.dir\
+  TARGET_PDB = Mathematics\BracketSequencesII.pdb
 
 
 # =============================================================================
@@ -4159,9 +4587,10 @@ build Mathematics/BracketSequencesII.exe: CXX_EXECUTABLE_LINKER__BracketSequence
   OBJECT_DIR = Mathematics\CMakeFiles\BracketSequencesII.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = Mathematics\CMakeFiles\BracketSequencesII.dir\
   TARGET_FILE = Mathematics\BracketSequencesII.exe
   TARGET_IMPLIB = Mathematics\libBracketSequencesII.dll.a
-  TARGET_PDB = BracketSequencesII.exe.dbg
+  TARGET_PDB = Mathematics\BracketSequencesII.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target CountingNecklaces
@@ -4177,6 +4606,8 @@ build Mathematics/CMakeFiles/CountingNecklaces.dir/CountingNecklaces.cpp.obj: CX
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = Mathematics\CMakeFiles\CountingNecklaces.dir
   OBJECT_FILE_DIR = Mathematics\CMakeFiles\CountingNecklaces.dir
+  TARGET_COMPILE_PDB = Mathematics\CMakeFiles\CountingNecklaces.dir\
+  TARGET_PDB = Mathematics\CountingNecklaces.pdb
 
 
 # =============================================================================
@@ -4192,9 +4623,10 @@ build Mathematics/CountingNecklaces.exe: CXX_EXECUTABLE_LINKER__CountingNecklace
   OBJECT_DIR = Mathematics\CMakeFiles\CountingNecklaces.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = Mathematics\CMakeFiles\CountingNecklaces.dir\
   TARGET_FILE = Mathematics\CountingNecklaces.exe
   TARGET_IMPLIB = Mathematics\libCountingNecklaces.dll.a
-  TARGET_PDB = CountingNecklaces.exe.dbg
+  TARGET_PDB = Mathematics\CountingNecklaces.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target CandyLottery
@@ -4210,6 +4642,8 @@ build Mathematics/CMakeFiles/CandyLottery.dir/CandyLottery.cpp.obj: CXX_COMPILER
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = Mathematics\CMakeFiles\CandyLottery.dir
   OBJECT_FILE_DIR = Mathematics\CMakeFiles\CandyLottery.dir
+  TARGET_COMPILE_PDB = Mathematics\CMakeFiles\CandyLottery.dir\
+  TARGET_PDB = Mathematics\CandyLottery.pdb
 
 
 # =============================================================================
@@ -4225,9 +4659,10 @@ build Mathematics/CandyLottery.exe: CXX_EXECUTABLE_LINKER__CandyLottery_Debug Ma
   OBJECT_DIR = Mathematics\CMakeFiles\CandyLottery.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = Mathematics\CMakeFiles\CandyLottery.dir\
   TARGET_FILE = Mathematics\CandyLottery.exe
   TARGET_IMPLIB = Mathematics\libCandyLottery.dll.a
-  TARGET_PDB = CandyLottery.exe.dbg
+  TARGET_PDB = Mathematics\CandyLottery.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target CountingGrids
@@ -4243,6 +4678,8 @@ build Mathematics/CMakeFiles/CountingGrids.dir/CountingGrids.cpp.obj: CXX_COMPIL
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = Mathematics\CMakeFiles\CountingGrids.dir
   OBJECT_FILE_DIR = Mathematics\CMakeFiles\CountingGrids.dir
+  TARGET_COMPILE_PDB = Mathematics\CMakeFiles\CountingGrids.dir\
+  TARGET_PDB = Mathematics\CountingGrids.pdb
 
 
 # =============================================================================
@@ -4258,9 +4695,10 @@ build Mathematics/CountingGrids.exe: CXX_EXECUTABLE_LINKER__CountingGrids_Debug 
   OBJECT_DIR = Mathematics\CMakeFiles\CountingGrids.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = Mathematics\CMakeFiles\CountingGrids.dir\
   TARGET_FILE = Mathematics\CountingGrids.exe
   TARGET_IMPLIB = Mathematics\libCountingGrids.dll.a
-  TARGET_PDB = CountingGrids.exe.dbg
+  TARGET_PDB = Mathematics\CountingGrids.pdb
 
 
 #############################################
@@ -4360,6 +4798,8 @@ build AdvancedTechniques/CMakeFiles/MeetInTheMiddle.dir/MeetInTheMiddle.cpp.obj:
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = AdvancedTechniques\CMakeFiles\MeetInTheMiddle.dir
   OBJECT_FILE_DIR = AdvancedTechniques\CMakeFiles\MeetInTheMiddle.dir
+  TARGET_COMPILE_PDB = AdvancedTechniques\CMakeFiles\MeetInTheMiddle.dir\
+  TARGET_PDB = AdvancedTechniques\MeetInTheMiddle.pdb
 
 
 # =============================================================================
@@ -4375,9 +4815,10 @@ build AdvancedTechniques/MeetInTheMiddle.exe: CXX_EXECUTABLE_LINKER__MeetInTheMi
   OBJECT_DIR = AdvancedTechniques\CMakeFiles\MeetInTheMiddle.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = AdvancedTechniques\CMakeFiles\MeetInTheMiddle.dir\
   TARGET_FILE = AdvancedTechniques\MeetInTheMiddle.exe
   TARGET_IMPLIB = AdvancedTechniques\libMeetInTheMiddle.dll.a
-  TARGET_PDB = MeetInTheMiddle.exe.dbg
+  TARGET_PDB = AdvancedTechniques\MeetInTheMiddle.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target BeautifulSubgrids
@@ -4393,6 +4834,8 @@ build AdvancedTechniques/CMakeFiles/BeautifulSubgrids.dir/BeautifulSubgrids.cpp.
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = AdvancedTechniques\CMakeFiles\BeautifulSubgrids.dir
   OBJECT_FILE_DIR = AdvancedTechniques\CMakeFiles\BeautifulSubgrids.dir
+  TARGET_COMPILE_PDB = AdvancedTechniques\CMakeFiles\BeautifulSubgrids.dir\
+  TARGET_PDB = AdvancedTechniques\BeautifulSubgrids.pdb
 
 
 # =============================================================================
@@ -4408,9 +4851,10 @@ build AdvancedTechniques/BeautifulSubgrids.exe: CXX_EXECUTABLE_LINKER__Beautiful
   OBJECT_DIR = AdvancedTechniques\CMakeFiles\BeautifulSubgrids.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = AdvancedTechniques\CMakeFiles\BeautifulSubgrids.dir\
   TARGET_FILE = AdvancedTechniques\BeautifulSubgrids.exe
   TARGET_IMPLIB = AdvancedTechniques\libBeautifulSubgrids.dll.a
-  TARGET_PDB = BeautifulSubgrids.exe.dbg
+  TARGET_PDB = AdvancedTechniques\BeautifulSubgrids.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target HammingDistance
@@ -4426,6 +4870,8 @@ build AdvancedTechniques/CMakeFiles/HammingDistance.dir/HammingDistance.cpp.obj:
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = AdvancedTechniques\CMakeFiles\HammingDistance.dir
   OBJECT_FILE_DIR = AdvancedTechniques\CMakeFiles\HammingDistance.dir
+  TARGET_COMPILE_PDB = AdvancedTechniques\CMakeFiles\HammingDistance.dir\
+  TARGET_PDB = AdvancedTechniques\HammingDistance.pdb
 
 
 # =============================================================================
@@ -4441,9 +4887,10 @@ build AdvancedTechniques/HammingDistance.exe: CXX_EXECUTABLE_LINKER__HammingDist
   OBJECT_DIR = AdvancedTechniques\CMakeFiles\HammingDistance.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = AdvancedTechniques\CMakeFiles\HammingDistance.dir\
   TARGET_FILE = AdvancedTechniques\HammingDistance.exe
   TARGET_IMPLIB = AdvancedTechniques\libHammingDistance.dll.a
-  TARGET_PDB = HammingDistance.exe.dbg
+  TARGET_PDB = AdvancedTechniques\HammingDistance.pdb
 
 
 #############################################
@@ -4487,6 +4934,8 @@ build AdditionalProblems/CMakeFiles/StickDivisions.dir/StickDivisions.cpp.obj: C
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = AdditionalProblems\CMakeFiles\StickDivisions.dir
   OBJECT_FILE_DIR = AdditionalProblems\CMakeFiles\StickDivisions.dir
+  TARGET_COMPILE_PDB = AdditionalProblems\CMakeFiles\StickDivisions.dir\
+  TARGET_PDB = AdditionalProblems\StickDivisions.pdb
 
 
 # =============================================================================
@@ -4502,9 +4951,10 @@ build AdditionalProblems/StickDivisions.exe: CXX_EXECUTABLE_LINKER__StickDivisio
   OBJECT_DIR = AdditionalProblems\CMakeFiles\StickDivisions.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = AdditionalProblems\CMakeFiles\StickDivisions.dir\
   TARGET_FILE = AdditionalProblems\StickDivisions.exe
   TARGET_IMPLIB = AdditionalProblems\libStickDivisions.dll.a
-  TARGET_PDB = StickDivisions.exe.dbg
+  TARGET_PDB = AdditionalProblems\StickDivisions.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target ProgrammersAndArtists
@@ -4520,6 +4970,8 @@ build AdditionalProblems/CMakeFiles/ProgrammersAndArtists.dir/ProgrammersAndArti
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = AdditionalProblems\CMakeFiles\ProgrammersAndArtists.dir
   OBJECT_FILE_DIR = AdditionalProblems\CMakeFiles\ProgrammersAndArtists.dir
+  TARGET_COMPILE_PDB = AdditionalProblems\CMakeFiles\ProgrammersAndArtists.dir\
+  TARGET_PDB = AdditionalProblems\ProgrammersAndArtists.pdb
 
 
 # =============================================================================
@@ -4535,9 +4987,10 @@ build AdditionalProblems/ProgrammersAndArtists.exe: CXX_EXECUTABLE_LINKER__Progr
   OBJECT_DIR = AdditionalProblems\CMakeFiles\ProgrammersAndArtists.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = AdditionalProblems\CMakeFiles\ProgrammersAndArtists.dir\
   TARGET_FILE = AdditionalProblems\ProgrammersAndArtists.exe
   TARGET_IMPLIB = AdditionalProblems\libProgrammersAndArtists.dll.a
-  TARGET_PDB = ProgrammersAndArtists.exe.dbg
+  TARGET_PDB = AdditionalProblems\ProgrammersAndArtists.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target SwapGame
@@ -4553,6 +5006,8 @@ build AdditionalProblems/CMakeFiles/SwapGame.dir/SwapGame.cpp.obj: CXX_COMPILER_
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = AdditionalProblems\CMakeFiles\SwapGame.dir
   OBJECT_FILE_DIR = AdditionalProblems\CMakeFiles\SwapGame.dir
+  TARGET_COMPILE_PDB = AdditionalProblems\CMakeFiles\SwapGame.dir\
+  TARGET_PDB = AdditionalProblems\SwapGame.pdb
 
 
 # =============================================================================
@@ -4568,9 +5023,10 @@ build AdditionalProblems/SwapGame.exe: CXX_EXECUTABLE_LINKER__SwapGame_Debug Add
   OBJECT_DIR = AdditionalProblems\CMakeFiles\SwapGame.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = AdditionalProblems\CMakeFiles\SwapGame.dir\
   TARGET_FILE = AdditionalProblems\SwapGame.exe
   TARGET_IMPLIB = AdditionalProblems\libSwapGame.dll.a
-  TARGET_PDB = SwapGame.exe.dbg
+  TARGET_PDB = AdditionalProblems\SwapGame.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target IncreasingSubsequenceII
@@ -4586,6 +5042,8 @@ build AdditionalProblems/CMakeFiles/IncreasingSubsequenceII.dir/IncreasingSubseq
   FLAGS = -O2 -Wall -Wextra -DLOCAL -g -std=gnu++20
   OBJECT_DIR = AdditionalProblems\CMakeFiles\IncreasingSubsequenceII.dir
   OBJECT_FILE_DIR = AdditionalProblems\CMakeFiles\IncreasingSubsequenceII.dir
+  TARGET_COMPILE_PDB = AdditionalProblems\CMakeFiles\IncreasingSubsequenceII.dir\
+  TARGET_PDB = AdditionalProblems\IncreasingSubsequenceII.pdb
 
 
 # =============================================================================
@@ -4601,9 +5059,10 @@ build AdditionalProblems/IncreasingSubsequenceII.exe: CXX_EXECUTABLE_LINKER__Inc
   OBJECT_DIR = AdditionalProblems\CMakeFiles\IncreasingSubsequenceII.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = AdditionalProblems\CMakeFiles\IncreasingSubsequenceII.dir\
   TARGET_FILE = AdditionalProblems\IncreasingSubsequenceII.exe
   TARGET_IMPLIB = AdditionalProblems\libIncreasingSubsequenceII.dll.a
-  TARGET_PDB = IncreasingSubsequenceII.exe.dbg
+  TARGET_PDB = AdditionalProblems\IncreasingSubsequenceII.pdb
 
 
 #############################################
@@ -4785,6 +5244,10 @@ build DivisorAnalysis: phony Mathematics/DivisorAnalysis.exe
 
 build DivisorAnalysis.exe: phony Mathematics/DivisorAnalysis.exe
 
+build DynamicRangeMinimumQueries: phony RangeQueries/DynamicRangeMinimumQueries.exe
+
+build DynamicRangeMinimumQueries.exe: phony RangeQueries/DynamicRangeMinimumQueries.exe
+
 build DynamicRangeSumQueries: phony RangeQueries/DynamicRangeSumQueries.exe
 
 build DynamicRangeSumQueries.exe: phony RangeQueries/DynamicRangeSumQueries.exe
@@ -4860,6 +5323,10 @@ build HammingDistance.exe: phony AdvancedTechniques/HammingDistance.exe
 build HighScore: phony GraphAlgorithms/HighScore.exe
 
 build HighScore.exe: phony GraphAlgorithms/HighScore.exe
+
+build HotelQueries: phony RangeQueries/HotelQueries.exe
+
+build HotelQueries.exe: phony RangeQueries/HotelQueries.exe
 
 build IncreasingArray: phony IntroductoryProblems/IncreasingArray.exe
 
@@ -5209,7 +5676,7 @@ build Mathematics/all: phony Mathematics/CommonDivisors.exe Mathematics/Throwing
 #############################################
 # Folder: C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/RangeQueries
 
-build RangeQueries/all: phony RangeQueries/RangeXorQueries.exe RangeQueries/StaticRangeSumQueries.exe RangeQueries/StaticRangeMinimumQueries.exe RangeQueries/RangeUpdateQueries.exe RangeQueries/DynamicRangeSumQueries.exe
+build RangeQueries/all: phony RangeQueries/RangeXorQueries.exe RangeQueries/StaticRangeSumQueries.exe RangeQueries/StaticRangeMinimumQueries.exe RangeQueries/RangeUpdateQueries.exe RangeQueries/DynamicRangeSumQueries.exe RangeQueries/DynamicRangeMinimumQueries.exe RangeQueries/HotelQueries.exe
 
 # =============================================================================
 
@@ -5239,14 +5706,14 @@ build TreeAlgorithms/all: phony
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../AdditionalProblems/CMakeLists.txt ../AdvancedTechniques/CMakeLists.txt ../CMakeLists.txt ../DynamicProgramming/CMakeLists.txt ../Geometry/CMakeLists.txt ../GraphAlgorithms/CMakeLists.txt ../IntroductoryProblems/CMakeLists.txt ../Mathematics/CMakeLists.txt ../RangeQueries/CMakeLists.txt ../SortingAndSearching/CMakeLists.txt ../StringAlgorithms/CMakeLists.txt ../TreeAlgorithms/CMakeLists.txt C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeRCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../AdditionalProblems/CMakeLists.txt ../AdvancedTechniques/CMakeLists.txt ../CMakeLists.txt ../DynamicProgramming/CMakeLists.txt ../Geometry/CMakeLists.txt ../GraphAlgorithms/CMakeLists.txt ../IntroductoryProblems/CMakeLists.txt ../Mathematics/CMakeLists.txt ../RangeQueries/CMakeLists.txt ../SortingAndSearching/CMakeLists.txt ../StringAlgorithms/CMakeLists.txt ../TreeAlgorithms/CMakeLists.txt C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCCompilerABI.c C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeDetermineCompileFeatures.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystem.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-Determine-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeRCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../AdditionalProblems/CMakeLists.txt ../AdvancedTechniques/CMakeLists.txt ../CMakeLists.txt ../DynamicProgramming/CMakeLists.txt ../Geometry/CMakeLists.txt ../GraphAlgorithms/CMakeLists.txt ../IntroductoryProblems/CMakeLists.txt ../Mathematics/CMakeLists.txt ../RangeQueries/CMakeLists.txt ../SortingAndSearching/CMakeLists.txt ../StringAlgorithms/CMakeLists.txt ../TreeAlgorithms/CMakeLists.txt C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeRCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+build ../AdditionalProblems/CMakeLists.txt ../AdvancedTechniques/CMakeLists.txt ../CMakeLists.txt ../DynamicProgramming/CMakeLists.txt ../Geometry/CMakeLists.txt ../GraphAlgorithms/CMakeLists.txt ../IntroductoryProblems/CMakeLists.txt ../Mathematics/CMakeLists.txt ../RangeQueries/CMakeLists.txt ../SortingAndSearching/CMakeLists.txt ../StringAlgorithms/CMakeLists.txt ../TreeAlgorithms/CMakeLists.txt C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCCompilerABI.c C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeDetermineCompileFeatures.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystem.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-Determine-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeRCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
 
 
 #############################################
