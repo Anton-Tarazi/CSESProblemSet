@@ -39,6 +39,9 @@ calculate the sum, store the difference array in a binary indexed tree. Then upd
 and queries both run in O(log n).
 
 **Forest Queries**
+
+2D prefix sum array. 
+
 **Hotel Queries**
 **List Removals**
 **Salary Queries**

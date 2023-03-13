@@ -15,7 +15,7 @@ int main() {
     int n, x;
     cin >> n;
 
-    unordered_map<int, int> last_index;
+    map<int, int> last_index;
     int max_streak = 0;
     int left = 0;
 

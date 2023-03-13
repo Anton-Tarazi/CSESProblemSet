@@ -14,7 +14,7 @@ int main() {
 
     int n, x, a;
     cin >> n >> x;
-    unordered_map<int, int> seen;
+    map<int, int> seen;
 
     for (int i = 1; i <= n; i++) {
         cin >> a;
