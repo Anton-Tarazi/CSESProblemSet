@@ -143,8 +143,26 @@ Minimum spanning tree. Using Kruskal's algorithm.
 Union find. 
 
 **Flight Routes Check**
+
+Simplified Kosaraju. First run topo sort of reversed graph to find a vertex in the sink SCC of the 
+original graph. Then run dfs from this sink scc. If every vertex is discovered, then the graph
+has one SCC so can travel from any city to any other. If after this some vertices are not discovered,
+then there is more than one SCC- specifically, there is no path from the sink vertex to this one.
+
 **Planets and Kingdoms**
+
+Classic Kosaraju's algorithm. First run topological sort on reversed graph to determine order in which 
+to process planets. Then process planets in increasing reversed topological order, running dfs, to 
+determine/ store which SCC they are in.
+
 **Giant Pizza**
+
+Create a graph where for each clause A or B add edges, ~A -> B, ~B -> A. Perform Kosaraju's algorithm
+on graph and if A and ~A are in the same SCC, then a solution is impossible. Otherwise assign values
+to variables in reverse topological order of SCC (can do this during Kosaraju since it already processes
+SCC's in reverse topological order). 
+
+
 **Coin Collector**
 
 Note that able to collect every coin within a strongly connected component. So use Kosaraju's 
