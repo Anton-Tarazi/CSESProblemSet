@@ -1,1 +1,2 @@
 add_executable(Subordinates Subordinates.cpp)
+add_executable(TreeDiameter TreeDiameter.cpp)

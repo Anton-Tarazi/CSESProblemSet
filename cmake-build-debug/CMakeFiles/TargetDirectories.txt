@@ -119,6 +119,7 @@ C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/RangeQueries/CMake
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/RangeQueries/CMakeFiles/edit_cache.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/RangeQueries/CMakeFiles/rebuild_cache.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/TreeAlgorithms/CMakeFiles/Subordinates.dir
+C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/TreeAlgorithms/CMakeFiles/TreeDiameter.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/TreeAlgorithms/CMakeFiles/edit_cache.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/TreeAlgorithms/CMakeFiles/rebuild_cache.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/Mathematics/CMakeFiles/CommonDivisors.dir
@@ -157,5 +158,6 @@ C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/AdditionalProblems
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/AdditionalProblems/CMakeFiles/ProgrammersAndArtists.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/AdditionalProblems/CMakeFiles/SwapGame.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/AdditionalProblems/CMakeFiles/IncreasingSubsequenceII.dir
+C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/AdditionalProblems/CMakeFiles/StackWeights.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/AdditionalProblems/CMakeFiles/edit_cache.dir
 C:/Users/anton/CLionProjects/CSESProblemSet/cmake-build-debug/AdditionalProblems/CMakeFiles/rebuild_cache.dir

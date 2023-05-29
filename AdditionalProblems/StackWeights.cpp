@@ -12,20 +12,15 @@ int main() {
     freopen("../../output.txt", "w", stdout);
 #endif
 
-    int n, x;
+    int n, coin, stack;
     cin >> n;
 
-    int total = 0;
-    set<int> seen;
+
 
     for (int i = 0; i < n; i++) {
-        cin >> x;
-
-        auto [_, present] = seen.insert(x);
-        if (present) total++;
+        cin >> coin >> stack;
     }
 
-    cout << total << "\n";
 
     return 0;
 }

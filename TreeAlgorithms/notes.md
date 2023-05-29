@@ -3,6 +3,9 @@
 Simple dfs.
 
 **Tree Matching**
+
+Root tree and for each node find the max path in subtree as well as the max root-to-leaf path. 
+
 **Tree Diameter**
 **Tree Distances I**
 **Tree Distances II**
